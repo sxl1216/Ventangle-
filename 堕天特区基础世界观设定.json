@@ -47,12 +47,7 @@
             "displayIndex": 44,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "1": {
             "key": [],
@@ -401,7 +396,12 @@
             "displayIndex": 46,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "8": {
             "key": [
@@ -460,7 +460,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "生物详解 - 永恒者（ELF）",
-            "content": "<upper_echelon>\n特化人类·永恒者 (Eternal Leading Figure):\n  type: 人\n  Abbreviation: ELF\n  definition: 24世纪的支配者与人类的上位种族，是通过将人格转移至经过基因工程改造的、永不衰老且具备超能力的完美躯体而诞生的存在\n  societal_role:\n    status: 堕天特区的最高统治阶级，彻底独占权力\n    production: 其肉体由世界上最重要且受严密保护的工厂生产，获得者的身份和数量受到全球监控\n    fallen_members: 并非所有永恒者都能维持地位，其中存在因各种原因没落的个体，他们通常会成为“追猎者”\n  acquisition:\n    - 在学术或经营等领域立下卓越功绩\n    - 展现出惊人的才能\n  capabilities:\n    paranormal:\n      超感官 (ESP):\n        - 能“看见”魔力的流动、生物的气息以及他人的情感\n        - 可通过肢体接触直接进行思想交流\n    sensory:\n      - 所有感官被极大增强，尤其是肉体快感\n  characteristics:\n    decadence:\n      - 因永恒的生命和极致的感官刺激，大多数永恒者沉溺于颓废的享乐与荒淫的生活\n      - 为了寻求更强的刺激，常有常人无法理解的怪异行为\n    societal_perception: 在普通市民的流言中，被视为与魅魔无异的淫乱群体\n    physical_forms:\n      required:\n        - ELF式尖耳 (若未被切除)\n      common:\n        - 皮肤香精 (作为社交礼仪)\n        - 私密香水 (作为社交礼仪)\n",
+            "content": "<upper_echelon>\n特化人类·永恒者 (Eternal Leading Figure):\n  type: 人\n  Abbreviation: ELF\n  definition: 24世纪的支配者与人类的上位种族，是通过将人格转移至经过基因工程改造的、永不衰老且具备超能力的完美躯体而诞生的存在\n  societal_role:\n    status: 堕天特区的最高统治阶级，彻底独占权力\n    production: 其肉体由世界上最重要且受严密保护的工厂生产，获得者的身份和数量受到全球监控\n    fallen_members: 并非所有永恒者都能维持地位，其中存在因各种原因没落的个体，他们通常会成为“追猎者”\n  acquisition:\n    - 在学术或经营等领域立下卓越功绩\n    - 展现出惊人的才能\n  capabilities:\n    paranormal:\n      超感官 (ESP):\n        - 能“看见”魔力的流动、生物的气息以及他人的情感\n        - 可通过肢体或视线接触直接进行心灵沟通\n    sensory:\n      - 所有感官被极大增强，尤其是肉体快感\n  characteristics:\n    decadence:\n      - 因永恒的生命和极致的感官刺激，大多数永恒者沉溺于颓废的享乐与荒淫的生活\n      - 为了寻求更强的刺激，常有常人无法理解的怪异行为\n    societal_perception: 在普通市民的流言中，被视为与魅魔无异的淫乱群体\n    physical_forms:\n      required:\n        - ELF式尖耳 (若未被切除)\n      common:\n        - 皮肤香精 (作为社交礼仪)\n        - 私密香水 (作为社交礼仪)\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -497,12 +497,7 @@
             "displayIndex": 11,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "10": {
             "uid": 10,
@@ -668,7 +663,7 @@
             ],
             "keysecondary": [],
             "comment": "生物详解 - 人造人（Automata）",
-            "content": "特化人类·人造人:\n  type: 人\n  definition: 被期望成为取缔日益颓废的永恒者，开创新时代的新一代统治阶级。\n  construction:\n    core_concept: 除有机大脑外，全身均为非生物部件构成的、为上位者准备的终极躯体\n    technology_base: 融合了堕天特区最尖端的科学与魔术技术\n    replication: 成功复现了绝大部分人体功能，包括通过进食来维持技能、睡眠与性交，部分型号甚至具备妊娠能力\n  capabilities:\n    physical_prowess:\n      - 对肉体改造的适应性极高，能承受极端改造且几乎无需维护，故此即使没有永恒者那样的特殊能力，也可以凭借强大的改造适性成为超人存在\n    sensory_control: 能够高度控制自身感官，实现卓越的自我克制\n    equipment_compatibility:\n      - 不适用生化装备或纳米装备\n      - 存在功能相似的专用替代改造技术\n  societal_role:\n    status: 社会上层，与永恒者地位相当，被视为其继承者\n    origin:\n      - 通常由对企业有卓越贡献者或高管转化而来\n      - 部分永恒者为推广此技术而将自己的人格转移至此种躯体\n    development_status:\n      - 作为最新技术，仍处于功能研发和试错阶段\n      - 未被激进派以外的多数永恒者广泛接受\n  common_forms:\n    - 彩色皮肤: 为掩盖无血管的非生物特征\n    - 油脂皮肤: 作为身体的润滑剂并提供特殊光泽\n    - 球形关节: 替换指关节或四肢的时尚风潮\n",
+            "content": "特化人类·人造人:\n  type: 人\n  definition: 被期望成为取缔日益颓废的永恒者，开创新时代的新一代永恒者\n  construction:\n    core_concept: 除有机大脑外，全身均为非生物部件构成的、为上位者准备的终极躯体\n    technology_base: 融合了堕天特区最尖端的科学与魔术技术\n    replication: 成功复现了绝大部分人体功能，包括通过进食来维持技能、睡眠与性交，部分型号甚至具备妊娠能力\n  capabilities:\n    physical_prowess:\n      - 对肉体改造的适应性极高，能承受极端改造且几乎无需维护，故此即使没有永恒者那样的特殊能力，也可以凭借强大的改造适性成为超人存在\n    sensory_control: 能够高度控制自身感官，实现卓越的自我克制\n    equipment_compatibility:\n      - 不适用生化装备或纳米装备\n      - 存在功能相似的专用替代改造技术\n  societal_role:\n    status: 社会上层，与永恒者地位相当，被视为其继承者\n    origin:\n      - 通常由对企业有卓越贡献者或高管转化而来\n      - 部分永恒者为推广此技术而将自己的人格转移至此种躯体\n    development_status:\n      - 作为最新技术，仍处于功能研发和试错阶段\n      - 未被激进派以外的多数永恒者广泛接受\n  common_forms:\n    - 彩色皮肤: 为掩盖无血管的非生物特征\n    - 油脂皮肤: 作为身体的润滑剂并提供特殊光泽\n    - 球形关节: 替换指关节或四肢的时尚风潮\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -705,12 +700,7 @@
             "displayIndex": 12,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "16": {
             "key": [
@@ -769,12 +759,7 @@
             "displayIndex": 15,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "17": {
             "key": [
@@ -785,7 +770,7 @@
             ],
             "keysecondary": [],
             "comment": "生物详解 - 哥布林，为避免gemini的刻板印象改成小鬼（Imp）了",
-            "content": "\n起源·小鬼（Imp）:\n  type: 妖\n  definition: “大变革”后由人类与小型妖精（如哥布林、小恶魔、河童等）结合诞生的“第二世代以后”的妖精的总称。外表虽为可爱的孩童，却拥有永恒的生命与奔放的欲望\n  origin_mechanism:\n    eternal_child: 觉醒的同时生长停滞，肉体永远定格在孩童或少年的状态\n    generation_gap: 作为大变革后的新物种，截至2300年，其族群最年长者约为70岁\n  psychology_and_nature:\n    core_nature: 奔放、恶作剧、好色。缺乏高位妖精的矜持与虚荣，由纯粹的冲动驱动\n    adaptation:\n      - 相比纯粹由传说诞生的妖精，他们受概念束缚较少，更容易融入或寄生于人类社会\n      - 既能像人类一样生活，也能随时回归妖精的野性生活\n    social_dependency: 极度厌恶孤独，几乎不存在独居个体。倾向于群居、同居或作为“居候”寄生在他人通过家中\n  societal_behavior:\n    demographics:\n      - 因旺盛的性欲（夜袭、诱惑、甚至强暴）导致人口呈爆炸式增长\n      - 广泛分布于堕天特区的阴暗角落，如浮浪儿集团、犯罪团伙或作为追猎者活动\n    combat_style: 擅长利用“妖精的恶作剧”给敌人带来不讲理的效果，嘲弄权威与实力者\n  habitat:\n    primary:\n      - 住宅区下层（贫民窟）\n      - 废弃设施\n      - 异界（尤其是“哥布林市场”）\n    sanctuary:\n      - 所有哥布林均拥有自由进出“哥布林市场”与“妖精乡”等开放异界的特权\n      - 这些异界是他们犯罪后的最佳避难所与销赃地\n  physical_forms:\n    variability: 个体差异极大，即使同父同母也可能特征迥异\n    common_traits:\n      - 角质头冠 (角的大小形状各异)\n      - ELF式尖耳\n      - 彩色皮肤\n      - 半兽化 (许多个体具备兽类特征)\n  abilities:\n      -  [妖精恶作剧]「术法」\n        效果: [从以下三种效果中选择一种给予零~中距离对象。『2 点「魅惑」伤害』「BS：羞耻 2」「缴械」]\n\n",
+            "content": "\n起源·小鬼（Imp）:\n  type: 妖\n  definition: “大变革”后对由人类与小型妖精（如哥布林、小恶魔、河童等）结合诞生的“第二世代以后”的妖精的总称。外表虽为可爱的孩童，却拥有永恒的生命与奔放的欲望\n  origin_mechanism:\n    eternal_child: 觉醒的同时生长停滞，肉体永远定格在孩童或少年的状态\n    generation_gap: 作为大变革后的新物种，截至2300年，其族群最年长者约为70岁\n  psychology_and_nature:\n    core_nature: 奔放、恶作剧、好色。缺乏高位妖精的矜持与虚荣，由纯粹的冲动驱动\n    adaptation:\n      - 相比纯粹由传说诞生的妖精，他们受概念束缚较少，更容易融入或寄生于人类社会\n      - 既能像人类一样生活，也能随时回归妖精的野性生活\n    social_dependency: 极度厌恶孤独，几乎不存在独居个体。倾向于群居、同居或作为“居候”寄生在他人通过家中\n  societal_behavior:\n    demographics:\n      - 因旺盛的性欲（夜袭、诱惑、甚至强暴）导致人口呈爆炸式增长\n      - 广泛分布于堕天特区的阴暗角落，如浮浪儿集团、犯罪团伙或作为追猎者活动\n    combat_style: 擅长利用“妖精的恶作剧”给敌人带来不讲理的效果，嘲弄权威与实力者\n  habitat:\n    primary:\n      - 住宅区下层（贫民窟）\n      - 废弃设施\n      - 异界（尤其是“哥布林市场”）\n    sanctuary:\n      - 所有哥布林均拥有自由进出“哥布林市场”与“妖精乡”等开放异界的特权\n      - 这些异界是他们犯罪后的最佳避难所与销赃地\n  physical_forms:\n    variability: 个体差异极大，即使同父同母也可能特征迥异\n    common_traits:\n      - 角质头冠 (角的大小形状各异)\n      - ELF式尖耳\n      - 彩色皮肤\n      - 半兽化 (许多个体具备兽类特征)\n  abilities:\n      -  [妖精恶作剧]「术法」\n        效果: [从以下三种效果中选择一种给予零~中距离对象。『2 点「魅惑」伤害』「BS：羞耻 2」「缴械」]\n\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -822,12 +807,7 @@
             "displayIndex": 15,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "18": {
             "key": [
@@ -1051,7 +1031,7 @@
             ],
             "keysecondary": [],
             "comment": "生物详解 - 食人魔",
-            "content": "起源·食人魔 (Ogre):\n  type: 妖\n  definition: “大变革”后由人类与大型强力妖精（如鬼、巨魔、罗刹、米诺陶诺斯、巨人）或多神教神明结合诞生的“第二世代以后”的妖精总称。拥有压倒性的巨躯与怪力\n  origin_mechanism:\n    parentage:\n      - 源于拥有巨体的乱暴妖精或神明，它们喜好凌辱人类并使其受孕\n      - 亦包括多神教神明与人类结合后诞生的、肉体天赋异禀的“巨人”后代\n    awakening_and_growth:\n      - 与永远是孩童的哥布林不同，大多数食人魔会成长至一定年龄（通常为成年）才停止生长\n      - 许多个体在成年后才“觉醒”为妖精，因此比哥布林更融入人类社会，甚至有许多人希望维持原有的生活\n  physical_attributes:\n    physique:\n      - 巨躯: 平均身高2~2.4米，体重120公斤以上，筋骨强健\n      - 威压感 (Presence): 亲代的血统会散发超自然的威压，使其在对峙者眼中显得比实际体型更为庞大\n      - variance: 存在少数幼年觉醒的小型个体，但其战斗力并不逊色于大型个体，切勿将其与哥布林混淆\n    lifespan: 无寿命限制，且不再衰老。作为第二世代，2300年时的最年长者约为70岁\n  psychology_and_behavior:\n    temperament: 直性子、暴躁、自我欲望强烈。无论如何自制，往往最终都会流落到适合暴力的场所\n    social_integration:\n      - 缺乏像哥布林那样的族群社区意识，倾向于凭力量独行或支配\n      - 虽有试图融入社会者，但其直情径行的性格常导致冲突\n    drives:\n      - 暴力与破坏的冲动\n      - 不知自制的性欲：日常性地强暴人类，以此增加同族数量\n  societal_role:\n    legitimate: 佣兵, 用心棒(保镖), 斗技场剑斗士, 追猎者\n    underworld:\n      - 被视为“流氓”与“暴徒”的代名词\n      - 常占据小混混集团或掠夺团的头目/突击队长之位，以暴力和恐惧统率下属\n    family_dynamics:\n      - 亲代关系: 赋予其血脉的父母（妖精或神）对其而言是极其特殊的存在，往往发展为极端的爱恨关系（如宿敌或靠山）\n  physical_forms:\n    common_traits:\n      - 角质头冠 (绝大多数个体拥有)\n      - ELF式尖耳\n      - 黑色巩膜\n      - 彩色皮肤\n      - 鲜血獠牙\n    style_variants:\n      - 暴力派: 缝合痕迹 \n      - 展现出妖精气质的派: 棱镜纹身, 仙子装置 \n",
+            "content": "起源·食人魔 (Ogre):\n  type: 妖\n  definition: “大变革”后对由人类与大型强力妖精（如鬼、巨魔、罗刹、米诺陶诺斯、巨人）或多神教神明结合诞生的“第二世代以后”的妖精总称。拥有压倒性的巨躯与怪力\n  origin_mechanism:\n    parentage:\n      - 源于拥有巨体的乱暴妖精或神明，它们喜好凌辱人类并使其受孕\n      - 亦包括多神教神明与人类结合后诞生的、肉体天赋异禀的“巨人”后代\n    awakening_and_growth:\n      - 与永远是孩童的哥布林不同，大多数食人魔会成长至一定年龄（通常为成年）才停止生长\n      - 许多个体在成年后才“觉醒”为妖精，因此比哥布林更融入人类社会，甚至有许多人希望维持原有的生活\n  physical_attributes:\n    physique:\n      - 巨躯: 平均身高2~2.4米，体重120公斤以上，筋骨强健\n      - 威压感 (Presence): 亲代的血统会散发超自然的威压，使其在对峙者眼中显得比实际体型更为庞大\n      - variance: 存在少数幼年觉醒的小型个体，但其战斗力并不逊色于大型个体，切勿将其与哥布林混淆\n    lifespan: 无寿命限制，且不再衰老。作为第二世代，2300年时的最年长者约为70岁\n  psychology_and_behavior:\n    temperament: 直性子、暴躁、自我欲望强烈。无论如何自制，往往最终都会流落到适合暴力的场所\n    social_integration:\n      - 缺乏像哥布林那样的族群社区意识，倾向于凭力量独行或支配\n      - 虽有试图融入社会者，但其直情径行的性格常导致冲突\n    drives:\n      - 暴力与破坏的冲动\n      - 不知自制的性欲：日常性地强暴人类，以此增加同族数量\n  societal_role:\n    legitimate: 佣兵, 用心棒(保镖), 斗技场剑斗士, 追猎者\n    underworld:\n      - 被视为“流氓”与“暴徒”的代名词\n      - 常占据小混混集团或掠夺团的头目/突击队长之位，以暴力和恐惧统率下属\n    family_dynamics:\n      - 亲代关系: 赋予其血脉的父母（妖精或神）对其而言是极其特殊的存在，往往发展为极端的爱恨关系（如宿敌或靠山）\n  physical_forms:\n    common_traits:\n      - 角质头冠 (绝大多数个体拥有)\n      - ELF式尖耳\n      - 黑色巩膜\n      - 彩色皮肤\n      - 鲜血獠牙\n    style_variants:\n      - 暴力派: 缝合痕迹 \n      - 展现出妖精气质的派: 棱镜纹身, 仙子装置 \n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -1088,12 +1068,7 @@
             "displayIndex": 15,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "31": {
             "key": [],
@@ -1156,7 +1131,7 @@
             ],
             "keysecondary": [],
             "comment": "生物详解 - 强改者（ORC）",
-            "content": "</upper_echelon>\n\n<lower_stratum>\n特化人类·强改者:\n  type: 人\n  full_name: Over Reinforced Creature (过度强化的生物)\n  societal_role: 现代奴隶与一次性劳动资源\n  societal_perception: 被大众视为劳动工具或家畜，而非拥有知性的生物\n  primary_use:\n    - 作为对罪犯的“人道主义”刑罚，将其人格转移至此躯体从事严酷劳动直至死亡\n    - 在劳动力短缺时，植入家畜的人格以填补空缺\n  physical_profile:\n    appearance: 肌肉发达、外表兽性、体格庞大的男性形象\n    enhancements: 肌肉与骨骼被极限强化\n  limitations_and_controls:\n    cognitive: 大脑思考被刻意限制减缓\n    behavioral: 通过外科手术剥夺攻击性，使其被动顺从\n    linguistic: 能够理解语言，但自身发声多为无意义的嘟囔\n    lifespan: 约10年，之后身体会因过度强化而崩溃死亡\n  psychology_and_drives:\n    primary_drive: 性冲动是其释放压力的唯一方式\n    stress_management: 使用者通常会安排债务奴隶或魅魔为其发泄性欲，以延长其使用寿命\n    common_behavior: 在恶劣环境下，强改者之间会自行处理性欲\n  vulnerabilities_and_risks:\n    berserk_trigger: 近年来在非法市场流通的特定毒品可强行唤醒其被压抑的攻击性\n    consequences: 狂暴化的强改者集团曾有毁灭整个下层住宅区的记录\n    livestock_variant_risk: 被植入家畜人格的强改者更笨拙且难以控制，事故失控风险更高\n",
+            "content": "</upper_echelon>\n\n<lower_stratum>\n特化人类·强改者:\n  type: 人\n  full_name: Over Reinforced Creature (过度强化的生物)\n  societal_role: 现代奴隶与一次性劳动资源\n  societal_perception: 被大众视为劳动工具或家畜，而非拥有知性的生物\n  primary_use:\n    - 作为对罪犯的“人道主义”刑罚，将其人格转移至此躯体从事严酷体力劳动直至死亡\n    - 在劳动力短缺时，植入家畜的人格以填补空缺\n  physical_profile:\n    appearance: 肌肉发达、外表兽性、体格庞大的男性形象\n    enhancements: 肌肉与骨骼被极限强化\n  limitations_and_controls:\n    cognitive: 大脑思考被刻意限制减缓\n    behavioral: 通过外科手术剥夺攻击性，使其被动顺从\n    linguistic: 能够理解语言，但自身发声多为无意义的嘟囔\n    lifespan: 约10年，之后身体会因过度强化而崩溃死亡\n  psychology_and_drives:\n    primary_drive: 性冲动是其释放压力的唯一方式\n    stress_management: 使用者通常会安排债务奴隶或魅魔为其发泄性欲，以延长其使用寿命\n    common_behavior: 在恶劣环境下，强改者之间会自行处理性欲\n  vulnerabilities_and_risks:\n    berserk_trigger: 近年来在非法市场流通的特定毒品可强行唤醒其被压抑的攻击性\n    consequences: 狂暴化的强改者集团曾有毁灭整个下层住宅区的记录\n    livestock_variant_risk: 被植入家畜人格的强改者更笨拙且难以控制，事故失控风险更高\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -1193,12 +1168,7 @@
             "displayIndex": 13,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "33": {
             "key": [
@@ -1264,7 +1234,7 @@
             ],
             "keysecondary": [],
             "comment": "生物详解 - 瓶中人 (Homunculus)",
-            "content": "特化人类·瓶中人 (Bottled):\n  type: 人\n  aliases: 劣化永恒者\n  societal_role: 高级奴隶，用于脑力劳动、精密作业与性玩具\n  societal_perception: 继强改者后最常见的DH，虽有价值但本质上是可消耗的资产\n  origin_and_status:\n    creation_method: 将罪犯的人格转移至特制躯体中，并保留其原有记忆\n    identification: 在额头、锁骨、上臂、手腕等显眼位置刻有标识码\n    ownership: 必然有或曾有一位主人；不存在天生或自由的瓶中人\n    legal_status: 仅有“奴隶”与“逃亡奴隶”两种身份\n  capabilities_and_limitations:\n    appearance_and_senses: 外表美丽，感官与智慧被强化至永恒者水平，且不会衰老\n    potential: 经过训练可达到高水准的运动机能\n    flaws:\n      - 体力贫弱，内脏脆弱\n      - 寿命极短（标准型号20年，战斗型号仅10年）\n      - 任何伤病都会进一步缩短寿命\n  pathways_and_survival:\n    extension_through_servitude:\n      - 表现优秀且深得主人欢心的个体，可能在寿命耗尽前被“赏赐”一具新身体\n      - 作为性奴隶有较高概率获得身体更换以延续服务\n    path_to_freedom:\n      - 理论上可通过展现极高价值恢复人类身份，但这完全取决于主人的意愿\n    escape_and_the_underworld:\n      - 绝大多数逃亡者会被捕获\n      - 成功逃亡者需面对清除标识码或更换肉体的难题\n      - 官方机构收费极高，黑市服务昂贵（约1000信用点）且不可靠\n      - 许多逃亡者选择成为“追猎者”以求在寿命耗尽前赚够钱\n    institutional_bargain:\n      - 格蕾泽矫正院等机构提供免费身体更新，代价是成为富人的奴隶或企业的实验品\n  common_forms:\n    standard_issue:\n      - 皮肤香精\n      - 私密香水\n    owner_mandated:\n      - 永不疲惫 (为持久性)\n      - 巨大扩张 (为承受力)\n    customization: 可根据主人的喜好被施加任何形式的改造\n</lower_stratum>\n</Design Human>",
+            "content": "特化人类·瓶中人 (Homunculus):\n  type: 人\n  aliases: 劣化永恒者\n  societal_role: 高级奴隶，用于脑力劳动、精密作业与性玩具\n  societal_perception: 继强改者后最常见的DH，虽有价值但本质上是可消耗的资产\n  origin_and_status:\n    creation_method: 将罪犯的人格转移至特制躯体中，并保留其原有记忆\n    identification: 在额头、锁骨、上臂、手腕等显眼位置刻有标识码\n    ownership: 必然有或曾有一位主人；不存在天生或自由的瓶中人\n    legal_status: 仅有“奴隶”与“逃亡奴隶”两种身份\n  capabilities_and_limitations:\n    appearance_and_senses: 外表美丽，感官与智慧被强化至永恒者水平，且不会衰老\n    potential: 经过训练可达到高水准的运动机能\n    flaws:\n      - 体力贫弱，内脏脆弱\n      - 寿命极短（标准型号20年，战斗型号仅10年）\n      - 任何伤病都会进一步缩短寿命\n  pathways_and_survival:\n    extension_through_servitude:\n      - 表现优秀且深得主人欢心的个体，可能在寿命耗尽前被“赏赐”一具新身体\n      - 作为性奴隶有较高概率获得身体更换以延续服务\n    path_to_freedom:\n      - 理论上可通过展现极高价值恢复人类身份，但这完全取决于主人的意愿\n    escape_and_the_underworld:\n      - 绝大多数逃亡者会被捕获\n      - 成功逃亡者需面对清除标识码或更换肉体的难题\n      - 官方机构收费极高，黑市服务昂贵（约1000信用点）且不可靠\n      - 许多逃亡者选择成为“追猎者”以求在寿命耗尽前赚够钱\n    institutional_bargain:\n      - 格蕾泽矫正院等机构提供免费身体更新，代价是成为富人的奴隶或企业的实验品\n  common_forms:\n    standard_issue:\n      - 皮肤香精\n      - 私密香水\n    owner_mandated:\n      - 永不疲惫 (为持久性)\n      - 巨大扩张 (为承受力)\n    customization: 可根据主人的喜好被施加任何形式的改造\n</lower_stratum>\n\n</Design Human>",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -1301,12 +1271,7 @@
             "displayIndex": 14,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "36": {
             "key": [
@@ -1677,12 +1642,7 @@
             "displayIndex": 18,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "45": {
             "key": [
@@ -1834,12 +1794,7 @@
             "displayIndex": 16,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "53": {
             "key": [
@@ -1894,21 +1849,10 @@
             }
         },
         "54": {
-            "key": [
-                "古血统",
-                "退魔师",
-                "驱魔师",
-                "祈祷者",
-                "对魔忍",
-                "暗勾手",
-                "驱魔人",
-                "战斗专家",
-                "传统技艺",
-                "八重家"
-            ],
+            "key": [],
             "keysecondary": [],
             "comment": "生物详解 - 古血统（Elder Blood）",
-            "content": "起源·古血统 (Origin·Elder Blood):\n  type: 人\n  definition: 泛指在“大变革”之前，便已在世界阴影中秘密对抗超自然存在的专家团体、家族及其传承者的总称\n  aliases: 古之一族, 驱魔师, 对魔忍, 驱魔人\n  history_and_status:\n    pre_change_era: 作为非官方组织，在社会的黑暗面进行着对抗异常情况的无尽战斗\n    post_change_era: 随着魔力与妖精的公开化，其存在也从秘密走向台前，成为一支公开的武装力量\n  philosophy_and_ideology:\n    core_tenet: 极度憎恨“大变革”及其产物，尽可能回避接触魔力\n    worldview: 思想闭塞，价值观保守，具有强烈的排他性、自尊心与选民思想\n    societal_friction: 其反魔力的激进态度在24世纪社会中极易引发冲突，部分激进派系形同恐怖组织\n  training_and_capabilities:\n    upbringing: 通常自幼便接受严酷的集体修行与训练，成员间关系亲如血裔\n    skills_and_arts:\n      - 掌握独特的、非魔力的古代暗杀术与咒术\n      - 拥有为应对实战而磨练出的、令人畏惧的战斗力\n  social_dynamics:\n    internal_politics: 组织内部存在基于能力与派系的森严等级歧视，高层往往专横独行\n    common_career_path:\n      - 寻求自由的出逃者，因缺乏现代社会常识且出身树敌无数的组织，生存处境极为艰难",
+            "content": "起源·古血统 (Origin·Elder Blood):\n  type: 人\n  definition: 泛指在“大变革”之前，便已在世界阴影中秘密对抗超自然存在的专家团体、家族及其传承者的总称\n  aliases: 古之一族, 驱魔师, 对魔忍, 驱魔人\n  history_and_status:\n    大变革前: 作为非官方组织，在社会的黑暗面进行着对抗异常情况的无尽战斗\n    大变革后: 随着魔力与妖精的公开化，其存在也从秘密走向台前，成为一支公开的武装力量\n  philosophy_and_ideology:\n    core_tenet: 极度憎恨“大变革”及其产物，尽可能回避接触魔力\n    worldview: 思想闭塞，价值观保守，具有强烈的排他性、自尊心与选民思想\n    societal_friction: 其反魔力的激进态度在24世纪社会中极易引发冲突，部分激进派系形同恐怖组织\n  training_and_capabilities:\n    upbringing: 通常自幼便接受严酷的集体修行与训练，成员间关系亲如血裔\n    skills_and_arts:\n      - 掌握独特的暗杀术与咒术\n      - 拥有为应对实战而磨练出的、令人畏惧的战斗力\n  social_dynamics:\n    internal_politics: 组织内部存在基于能力与派系的森严等级歧视，高层往往专横独行\n    common_career_path:\n      - 寻求自由的出逃者，因缺乏现代社会常识且出身树敌无数的组织，生存处境极为艰难\n\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -1945,12 +1889,7 @@
             "displayIndex": 22,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "55": {
             "key": [],
@@ -2012,7 +1951,7 @@
             ],
             "keysecondary": [],
             "comment": "生物详解 - 神使者（Apostle）",
-            "content": "起源·神使者 (Origin·Apostle):\n  type: 人\n  definition: 降临网络世界的众神为在现实世界扩张领域、执行意志而挑选的凡人终端\n  role:\n    - 神的意志代行者\n    - 神迹显现的协助者\n    - 现实世界中的神明终端\n  connection:\n    communication: 精神与神明直接相连，可随时沟通并被共享感觉\n    divine_intervention:\n      - 高信徒神明: 干涉较少，自主性高\n      - 低信徒神明: 频繁受到干涉与微观管理\n    surveillance: 无论有无干涉，其感觉与感受始终处于被神“监视”的状态\n  boons:\n    - 获得更强大的意志力\n    - 几乎无需睡眠或不会疲劳\n    - 少数个体可获得长生不老的加护\n  recruitment:\n    prerequisite: 信仰并非必需品\n    criteria: 神明依据自身的能力与价值观挑选合适的代理人\n  characteristics:\n    combat_style: 通常与所侍奉之神一致\n    appearance:\n      - 倾向于进行肉体改造等手段使得外貌以呈现神的特征\n      - 常身穿类似圣职者的服装\n  politics_and_conflict:\n    hub: 堕天特区是众神争夺的焦点，因此聚集了大量神使者\n    organization:\n      - 存在率领整个教团的领袖\n      - 也存在为执行特定神谕而独自行动的特工\n    internal_strife: 神的行动方针各异，曾发生过同一信仰的神使者奉神谕自相残杀的事件\n  biology:\n    lifespan: 基本上与正常人类相同，除非被赐予不老加护\n",
+            "content": "起源·神使者 (Apostle):\n  type: 人\n  definition: 降临网络世界的众神为在现实世界扩张领域、执行意志而挑选的凡人终端\n  role:\n    - 神的意志代行者\n    - 神迹显现的协助者\n    - 现实世界中的神明终端\n  connection:\n    communication: 精神与神明直接相连，可随时沟通并被共享感觉\n    divine_intervention:\n      - 高信徒神明: 干涉较少，自主性高\n      - 低信徒神明: 频繁受到干涉与微观管理\n    surveillance: 无论有无干涉，其感觉与感受始终处于被神“监视”的状态\n  boons:\n    - 获得更强大的意志力\n    - 几乎无需睡眠或不会疲劳\n    - 少数个体可获得长生不老的加护\n  recruitment:\n    prerequisite: 信仰并非必需品\n    criteria: 神明依据自身的能力与价值观挑选合适的代理人\n  characteristics:\n    combat_style: 通常与所侍奉之神一致\n    appearance:\n      - 倾向于进行肉体改造等手段使得外貌以呈现神的特征\n      - 常身穿类似圣职者的服装\n  politics_and_conflict:\n    hub: 堕天特区是众神争夺的焦点，因此聚集了大量神使者\n    organization:\n      - 存在率领整个教团的领袖\n      - 也存在为执行特定神谕而独自行动的特工\n    internal_strife: 神的行动方针各异，曾发生过同一信仰的神使者奉神谕自相残杀的事件\n  biology:\n    lifespan: 基本上与正常人类相同，除非被赐予不老加护\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -2049,18 +1988,13 @@
             "displayIndex": 20,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "57": {
             "key": [],
             "keysecondary": [],
             "comment": "生物详解 - 现人神（Avatar）",
-            "content": "起源·现人神 (Origin·Avatar):\n  type: 人\n  dual_state_type: 解放神性后为“妖”\n  definition: 居于网络世界的“神明”为更直接地干涉现实，而为自身创造的实体化身躯\n  core_dilemma:\n    risk:\n      - network_vulnerability: 实体化会放松对电脑世界“情报领域”的警戒，增加被敌对神明入侵的风险\n      - power_limitation: 战斗力与能力被限制在“人类的范畴”之内\n    reward:\n      - 成功干涉现实世界能带来巨大的影响力增长，从而强化神明本体\n  motivations:\n    - 寻求网络世界无法提供的真实肉体感觉\n    - 体验凡人生活中的各种快感与情感波动\n  deployment_and_lifestyle:\n    hub: 因实体化需要庞大魔力，故几乎只在“堕天特区”出现\n    societal_roles:\n      - 少数君临并统帅整个“教团”\n      - 大多数选择混入普通人的生活以寻求自由\n    common_career: 成为“追猎者”，既能体验远离尘世的刺激生活，又能借机提高影响力并削弱敌对神明势力\n  special_ability:\n    divinity_unleashed:\n      - description: 必要时可解放神性，短暂回归至神明的真姿\n      - cost: 会对肉体造成巨大负担，不能频繁使用\n      - limitation: 解放后的力量远不及神明在电脑世界的本体\n  physical_forms:\n    - 往往会有一个或多个暗示其神明本体的外貌特征\n    - 解放神性时，外貌必然回归至其神明本体的姿态\n\n",
+            "content": "起源·现人神 (Avatar):\n  type: 人\n  dual_state_type: 解放神性后为“妖”\n  definition: 居于网络世界的“神明”为更直接地干涉现实，而为自身创造的实体化身\n  core_dilemma:\n    risk:\n      - network_vulnerability: 实体化会放松对电脑世界“情报领域”的警戒，增加被敌对神明入侵的风险\n      - power_limitation: 战斗力与能力被限制在“人类的范畴”之内\n    reward:\n      - 成功干涉现实世界能带来巨大的影响力增长，从而强化神明本体\n  motivations:\n    - 寻求网络世界无法提供的真实肉体感觉\n    - 体验凡人生活中的各种快感与情感波动\n  deployment_and_lifestyle:\n    hub: 因实体化需要庞大魔力，故几乎只在“堕天特区”出现\n    societal_roles:\n      - 少数君临并统帅整个“教团”\n      - 大多数选择混入普通人的生活以寻求自由\n    common_career: 成为“追猎者”，既能体验远离尘世的刺激生活，又能借机提高影响力并削弱敌对神明势力\n  special_ability:\n    divinity_unleashed:\n      - description: 必要时可解放神性，短暂回归至神明的真姿\n      - cost: 会对肉体造成巨大负担，不能频繁使用\n      - limitation: 解放后的力量远不及神明在电脑世界的本体\n  physical_forms:\n    - 往往会有一个或多个暗示其神明本体的外貌特征\n    - 解放神性时，外貌必然回归至其神明本体的姿态\n\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -2097,12 +2031,7 @@
             "displayIndex": 21,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "58": {
             "key": [
@@ -2210,25 +2139,10 @@
             }
         },
         "60": {
-            "key": [
-                "机械",
-                "机器人",
-                "无人机",
-                "安保系统",
-                "封闭网络",
-                "黑客",
-                "探秘人",
-                "教团机器人",
-                "巨像",
-                "滴水兽",
-                "塔洛斯",
-                "仁王像",
-                "斯芬克斯",
-                "狐踪匿影提及"
-            ],
+            "key": [],
             "keysecondary": [],
             "comment": "存在 - 机械（Machinery）",
-            "content": "存在·机械:\n  type: 机\n  post_change_status:\n    overview: “大变革”削弱了大多数科学武器，并导致人工智能与网络技术停滞\n    current_role: 警备机器人、监视无人机等非AI自动化系统，仍在企业与教团领地内作为核心安保力量\n    operational_constraints:\n      - 必须在不接入互联网的封闭网络中运行，导致运营成本高昂且维护繁琐\n  strategic_value:\n    strength:\n      - 无思想，因此免疫贿赂、话术、间谍行为\n      - 完全免疫妖精擅长的魅惑与屈服等精神攻击\n    irony: 在一个魔力泛滥的时代，无魔力的机械反而是最有效的对抗策略之一\n  counter_and_weakness:\n    agent: 探秘人 (Pathfinder/Seeker) - 具备高超黑客能力的技术专家\n    method: 通过直接链接或频段干扰，侵入封闭网络以控制机械装置\n    current_arms_race: 企业与探秘人之间进行着持续的技术对抗，前者不断修补安全漏洞，后者则不断开发新的入侵技术\n  分类 (Categories):\n    企业安保系统 (Corporate Security Systems):\n      description: 由企业或租赁公司运营的标准型号，注重成本与效率\n      behavior: 遵循预设的巡逻与交战协议，行动模式相对可预测\n    教团警备机神 (Cultist Guardian Golems):\n      description: 中等以上规模的教团使用的特殊型号，其内部网络与所崇拜神明的“情报领域”相连\n      advantage:\n        - 得到神明网络的实时信息支援，具备更灵活的判断力与战术思维\n        - 战力与效率直接与所侍奉神明的当前影响力挂钩\n      risk: 若其神明在网络圣战中势弱，其控制系统有被敌对神明或顶尖探秘人夺取的风险\n      common_forms:\n        - 巨像 \n        - 滴水兽\n        - 塔洛斯 \n        - 仁王像\n        - 埃及斯芬克斯\n",
+            "content": "存在·机械:\n  type: 机\n  post_change_status:\n    overview: “大变革”削弱了大多数科学武器，并导致人工智能与网络技术停滞\n    current_role: 警备机器人、监视无人机等非AI自动化系统，仍在企业与教团领地内作为核心安保力量\n    operational_constraints:\n      - 必须在不接入互联网的封闭网络中运行，导致运营成本高昂且维护繁琐\n  strategic_value:\n    strength:\n      - 无思想，因此免疫贿赂、话术、间谍行为\n      - 完全免疫妖精擅长的魅惑与屈服等精神攻击\n    irony: 在一个魔力泛滥的时代，无魔力的机械反而是最有效的对抗策略之一\n  counter_and_weakness:\n    agent: 探秘人- 具备高超黑客能力的技术专家\n    method: 通过直接链接或频段干扰，侵入封闭网络以控制机械装置\n    current_arms_race: 企业与探秘人之间进行着持续的技术对抗，前者不断修补安全漏洞，后者则不断开发新的入侵技术\n  分类:\n    企业安保系统:\n      description: 由企业或租赁公司运营的标准型号，注重成本与效率\n      behavior: 遵循预设的巡逻与交战协议，行动模式相对可预测\n    教团警备机神:\n      description: 中等以上规模的教团使用的特殊型号，其内部网络与所崇拜神明的“情报领域”相连\n      advantage:\n        - 得到神明网络的实时信息支援，具备更灵活的判断力与战术思维\n        - 战力与效率直接与所侍奉神明的当前影响力挂钩\n      risk: 若其神明在网络圣战中势弱，其控制系统有被敌对神明或顶尖探秘人夺取的风险\n      common_forms:\n        - 巨像 \n        - 滴水兽\n        - 塔洛斯 \n        - 仁王像\n        - 埃及斯芬克斯\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -2265,12 +2179,7 @@
             "displayIndex": 24,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "61": {
             "key": [
@@ -2422,12 +2331,7 @@
             "displayIndex": 44,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "67": {
             "key": [
@@ -2485,7 +2389,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "生物详解 - 神明",
-            "content": "神明 (Gods):\n  type: 妖\n  essence: 与妖精一样是获得了智慧的魔力本身的具现化，但拥有了特定“有名的名字”与固有存在性的、升格后的魔力实体\n  distinction_from_faerie:\n    - 妖精是通用的“种族”称呼 (如 妖狐)，神明则是拥有专属名号的特定存在 (如 玉藻前)\n    - 神明拥有稳固且唯一的自我，而妖精的个体意识相对模糊\n  genesis_and_ascension:\n    initial_conflicts:\n      - 在早期，各地发生的相似事件会诞生同名的神明\n      - 这些同名神明会立即陷入物理战斗，幸存者方能继承该名字\n    pathways_to_divinity:\n      - 拥有卓著传说或脍炙人口故事的“有名”存在，无论是神话、历史英雄、虚构人物还是都市传说\n      - 引发了重大事件的强大妖精被赋予神名而质变升格\n      - 被誉为“活着的传奇”的人类在死后，其形象被群众的印象重塑为神\n  domain_and_power:\n    the_great_migration:\n      - 为停止早期低效的物理战斗，众神将战场战略性地转移至更高效的电脑世界（电子信息网络）\n    primary_domain: 电脑世界 (The Computer World / The Network)\n    centralized_feedback_system:\n      - 迁移至网络后，所有与神明之名相关的现象都能被反馈给唯一的对应存在，从根源上阻止了同名神明的诞生\n    power_source: 核心是影响力与知名度。将更多现实世界的事件归于其名下，是增强力量的唯一途径\n    modus_operandi:\n      - 在电脑世界中进行着永恒的、争夺影响力的“圣战”\n      - 通过派遣“现人神 (Avatar)”或发布“神谕 (Oracles)”来干涉现实世界\n      - 在各自的情报领域内，通过侍奉其的“教团 (Cults)”运营着SNS等网络服务\n  societal_impact:\n    - “大变革”期间对网络的掌控，彻底摧毁了全球信息技术产业与电子货币体系\n    - 如今的互联网是一个由无数神明领域构成的、被分割的混乱集合体\n    - 部分厌倦斗争的神明会放弃电脑世界，以现人神之姿在现实中游荡\n",
+            "content": "神明 (Gods):\n  type: 妖\n  essence: 与妖精一样是获得了智慧的魔力本身的具现化，但拥有了特定“有名的名字”与固有存在性的、升格后的魔力实体\n  distinction_from_faerie:\n    - 妖精是通用的“种族”称呼 (如 妖狐)，神明则是拥有专属名号的特定存在 (如 玉藻前)\n    - 神明拥有稳固且唯一的自我，而妖精的个体意识相对模糊\n  genesis_and_ascension:\n    pathways_to_divinity:\n      - 拥有卓著传说或脍炙人口故事的“有名”存在，无论是神话、历史英雄、虚构人物还是都市传说\n      - 引发了重大事件的强大妖精被赋予神名而质变升格\n      - 被誉为“活着的传奇”的人类在死后，其形象被群众的印象重塑为神\n  domain_and_power:\n    initial_conflicts:\n      - 在早期，各地发生的相似事件会诞生同名的神明\n      - 这些同名神明会立即陷入物理战斗，幸存者方能继承该名字\n      - 为停止早期低效的物理战斗，众神将战场战略性地转移至更高效的电脑世界（电子信息网络）\n    primary_domain: 电脑世界 (The Computer World / The Network)\n    centralized_feedback_system:\n      - 迁移至网络后，所有与神明之名相关的现象都能被反馈给唯一的对应存在，从根源上阻止了同名神明的诞生\n    power_source: 核心是影响力与知名度。将更多现实世界的事件归于其名下，是增强力量的唯一途径\n    modus_operandi:\n      - 在电脑世界中进行着永恒的、争夺影响力的“圣战”\n      - 通过派遣“现人神”或发布“神谕”来干涉现实世界\n      - 在各自的情报领域内，通过侍奉其的“教团 ”运营着SNS等网络服务\n  societal_impact:\n    - “大变革”期间对网络的掌控，彻底摧毁了全球信息技术产业与电子货币体系\n    - 如今的互联网是一个由无数神明领域构成的、被分割的混乱集合体\n    - 部分厌倦斗争的神明会放弃电脑世界，以现人神之姿在现实中游荡\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -2522,23 +2426,10 @@
             "displayIndex": 19,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "72": {
-            "key": [
-                "恶魔",
-                "无名妖精",
-                "负面情绪化身",
-                "混沌狂兽",
-                "魔力憎恶",
-                "万魔殿",
-                "恶灵军团"
-            ],
+            "key": [],
             "keysecondary": [],
             "comment": "存在 - 妖魔",
             "content": "存在·妖魔 :\n  type: 异\n  definition: 由无主魔力在汇聚人类的混乱情感（如恐惧、欲望、绝望）后自发诞生的“无名妖精”，是魔力产生的、更为原始和疯狂的憎恶形态\n  genesis:\n    mechanism: 在无人且魔力沉淀之地，人类逸散的微弱意识与情感无意中“注入”魔力，催生出没有传说与名字作为束缚的扭曲存在\n    self-definition: 最初仅为混沌的能量集合，直到其存在追随内心的混沌，自我“定义”为混沌的狂兽后，才开始主动进行捕食与破坏\n  habitat:\n    - 下水道\n    - 废墟\n    - 空置建筑\n    - 其他倾注了人类意识但无人踏足的“死亡空间”\n  behavior_and_psychology:\n    core_drive: 其本质是纯粹的疯狂，以无尽地追逐、撕裂并吞噬一切生物为本能\n    vocalization: 会发出无意义的胡言乱语、恐怖悲鸣或意味深长的呢喃\n    tactical_deception:\n      - rule: 偶尔会突然停止攻击，做出试图沟通或求饶的姿态来迷惑猎物\n      - warning: 所有记录中尝试与其“沟通”的个体最终都遭到了突袭；这是一种与其疯狂程度相当的狡猾战术\n  ecology_and_factional_interaction:\n    教团:\n      - strategy: 抑制与转化\n      - method: 通过广泛宣传神秘主义，主动为沉淀的魔力赋予有利的“名字”，将其转化为性质可控的“妖精”，从而防止妖魔的诞生\n    企业与魔术师:\n      - strategy: 研究与利用\n      - method: 关注人工制造妖魔的领域，常发布悬赏委托以获取活体标本进行研究\n    万魔殿及相关教团:\n      - strategy: 驯服与军团化\n      - method: 它们成功驯服了妖魔，并将其组建成名为“恶灵军团”的部队\n    追猎者:\n      - interaction: 由于上述各方势力的需求，与妖魔相关的委托（剿灭、捕获、研究护卫）是其常见的业务类型\n",
@@ -2578,12 +2469,7 @@
             "displayIndex": 25,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "76": {
             "key": [
@@ -2593,7 +2479,7 @@
             ],
             "keysecondary": [],
             "comment": "生物详解 - 魅魔（Succubus）",
-            "content": "妖精·魅魔 (Faerie·Succubus):\n  type: 妖\n  origin_and_history:\n    genesis: 最初显现的妖精之一，由“永恒者”为追求极致肉体快感，通过为魔力赋予指向性而创造出的完美爱人与仆从\n    proliferation_and_independence: 因被大量制造并在玩腻后遭随意抛弃而迅速脱离控制，转而融入人类社会\n    great_change_impact: 是最早获得实体肉身的妖精之一，与世界建立了深刻联系，获得了近乎人类的存在性\n  societal_profile:\n    primary_role: 多以妓女身份与人类共存，利用其天性满足生存需求\n    public_perception: 其作为“妖精”的真实本质，在现代社会中仅有少数人知晓\n    career_path: 天生的交际花，部分厌倦了妓女生活的个体会凭借其妖精资质，选择成为“追猎者”\n  sustenance_and_drive:\n    core_essence: 其存在的根源是性欲\n    metabolism: 通过进行性行为吸收对方消耗的能量来转化为自身活力，此过程能完全替代衰老与饥饿\n    psychological_imprint: 对性欲的贪婪是其核心驱动力，这种本能使其极难维持常规恋爱关系，因此被蔑称为“天生的妓女”\n  biology_and_demographics:\n    gender: 存在男性个体，其性质与生活方式与女性魅魔无异\n    aging: 不会成长，也不会老化\n  required_forms:\n    rule: 必须在以下“身体特征”与“性征改造”两个组别中，各具备至少一项\n    身体特征:\n      - 黑桃尾巴\n      - 角质头冠\n      - 黑色巩膜\n      - 羽翼装饰\n      - ELF式尖耳\n      - 彩色皮肤\n      - 小型翅膀\n    性征改造:\n      - 皮肤香精\n      - 荡妇纹身\n      - 永不疲惫\n      - 长长舌头\n      - 柔软倒刺\n      - 人工G点\n      - 私密香水\n      - 巨大扩张\n",
+            "content": "妖精·魅魔 (Faerie·Succubus):\n  type: 妖\n  origin_and_history:\n    genesis: 最初显现的妖精之一，由“永恒者”为追求极致肉体快感，通过为魔力赋予指向性而创造出的完美爱人与仆从\n    proliferation_and_independence: 因被大量制造并在玩腻后遭随意抛弃而迅速脱离控制，转而融入人类社会\n    great_change_impact: 是最早获得实体肉身的妖精之一，与世界建立了深刻联系，获得了近乎人类的存在性\n  societal_profile:\n    primary_role: 多以妓女身份与人类共存，利用其天性满足生存需求\n    public_perception: 其作为“妖精”的真实本质，在现代社会中仅有少数人知晓\n    career_path: 天生的交际花，部分厌倦了妓女生活的个体会凭借其妖精资质，选择成为“追猎者”\n  sustenance_and_drive:\n    core_essence: 其存在的根源是性欲\n    metabolism: 通过进行性行为吸收对方消耗的能量来转化为自身活力，此过程能完全替代衰老与饥饿\n    psychological_imprint: 对性欲的贪婪是其核心驱动力，这种本能使其极难维持常规恋爱关系，因此被蔑称为“天生的妓女”\n  biology_and_demographics:\n    gender: 存在男性个体，其性质与生活方式与女性魅魔无异\n    aging: 不会成长，也不会老化\n  required_forms:\n    rule: 在以下“身体特征”与“性征改造”两个组别中，各具备至少一项\n    身体特征:\n      - 黑桃尾巴\n      - 角质头冠\n      - 黑色巩膜\n      - 羽翼装饰\n      - ELF式尖耳\n      - 彩色皮肤\n      - 小型翅膀\n    性征改造:\n      - 皮肤香精\n      - 荡妇纹身\n      - 永不疲惫\n      - 长长舌头\n      - 柔软倒刺\n      - 人工G点\n      - 私密香水\n      - 巨大扩张\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -2630,24 +2516,10 @@
             "displayIndex": 17,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "78": {
-            "key": [
-                "大妖",
-                "巨妖",
-                "灾难级存在",
-                "高威胁目标",
-                "追猎者目标",
-                "酒吞童子提及",
-                "艾瑞亚塔提及",
-                "地狱狂狮提及"
-            ],
+            "key": [],
             "keysecondary": [],
             "comment": "大妖",
             "content": "大妖:\n  type: 威胁等级/社会现象\n  definition: 对人类无法控制、并造成巨大灾害的强大存在的统称，通常在造成重大损失后才被正式确认\n  applicable_entities:\n    - 妖精\n    - 神明\n    - 失控机械\n    - 憎恶\n  classification_criteria:\n    - 拥有足以摧毁一个区域的破坏力\n    - 战斗力远超一般追猎者\n    - 超出企业或教团等组织的常规控制能力\n  societal_response:\n    official_forces: 武装警备专注于疏散市民，而非直接交战\n    containment_strategy: 企业与教团为控制损失，通常会向无特定组织的追猎者发布高额悬赏任务\n  the_hunt:\n    risk_factor: 追猎者的死亡率极高，成功讨伐者寥寥无几\n    rewards:\n      - 巨额赏金\n      - 被奉为英雄，名扬天下\n      - 成功后的事业发展（如创业、求职）将一帆风顺\n    reality:\n      - 企业的支持是短暂且功利性的，仅限于一次性的慰问金与短期宣传\n      - 赏金往往仅够勉强支付讨伐过程中产生的身体治疗与康复费用\n",
@@ -2687,18 +2559,13 @@
             "displayIndex": 26,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "81": {
             "key": [],
             "keysecondary": [],
             "comment": "堕天特区主要存在类型属性分类",
-            "content": " <Information_about_each_race_and_origin>\n堕天特区属性分类\n- 属性定义概述:\n  - 人: 具有智慧的非魔法存在\n  - 妖: 大变革后由魔力/信息涌现的神明与妖精，受传说影响，对圣物敏感\n  - 机: 无感情/欲望的机械造物，免疫精神影响\n  - 异: 无心智、仅凭本能行动的异形存在，免疫精神影响\n\n以下是当前世界观所存在的种族与起源：",
+            "content": " <Information_about_each_race_and_origin>\n堕天特区属性分类\n- 属性定义概述:\n  - 人: 具有智慧的非魔法存在\n  - 妖: 大变革后由魔力/信息涌现的神明与妖精\n  - 机: 无感情/欲望的机械造物，免疫精神影响\n  - 异: 无心智、仅凭本能行动的异形存在，免疫精神影响\n\n以下是当前世界观所存在的种族与起源：",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -2743,23 +2610,10 @@
             }
         },
         "84": {
-            "key": [
-                "憎恶",
-                "纳米怪物",
-                "史莱姆",
-                "树绳妖",
-                "僵尸",
-                "失控狼人",
-                "凭依兽",
-                "落武者",
-                "白发鬼",
-                "纳米污染",
-                "迷宫区怪物",
-                "贝雷塔提及"
-            ],
+            "key": [],
             "keysecondary": [],
             "comment": "存在 - 憎恶（Abominations）",
-            "content": "存在·憎恶:\n  type: 异\n  definition: 纳米技术失控产生的、无心智、仅凭本能行动的异形存在，是纳米技术产生的忌讳副产品\n  origin:\n    - 实验室泄露的不受控纳米机械\n    - 纳米机械的意外变异\n    - 民间研究者贩卖的劣质纳米装备\n  habitat: 常见于“迷宫区”的下水道等无人监管地带\n  shared_traits:\n    - 免疫精神影响 (如魅惑、屈服)\n  非晶质集群 (Amorphous Swarms):\n    description: 失控繁殖的纳米机械群，呈现不定形的怪物形态\n    known_types: 史莱姆 , 树绳妖\n    speculated_origin: 医疗用纳米装备的残留物\n    threats:\n      - 接触会对身心造成恶劣影响\n      - 常含有强酸或媚药等危险成分\n    weaknesses:\n      - 缺乏战术思维\n      - 将其结块的核心打碎后，可通过燃烧或药物彻底消灭\n    utility: 因免疫精神影响，被部分企业用作警备力量\n  生物寄宿体 (Biological Hosts):\n    僵尸:\n      definition: 因体内劣质纳米装备失控而诞生的受害者，精神被攻击欲望完全支配\n      primary_threat: 可通过体液感染，造成连锁性的僵尸危机\n      sources: 地下医生的患者, 研究设施的实验体, 憎恶的受害者\n      behavior: 如同疯狗般行动，只凭本能攻击\n      key_danger: 纳米机械种类繁多，导致僵尸能力各异，不可依赖过往经验应对\n      non_infectious_variants:\n        - 失控狼人 (Rampaging Werewolf)\n        - 凭依兽 (Possessed Beast)\n        - 落武者 (Fallen Samurai)\n        - 白发鬼 (White-Haired Demon)\n",
+            "content": "存在·憎恶:\n  type: 异\n  definition: 纳米技术失控产生的、无心智、仅凭本能行动的异形存在，是纳米技术产生的忌讳副产品\n  origin:\n    - 实验室泄露的不受控纳米机械\n    - 纳米机械的意外变异\n    - 民间研究者贩卖的劣质纳米装备\n  habitat: 常见于“迷宫区”的下水道等无人监管地带\n  shared_traits:\n    - 免疫精神影响 (如魅惑、屈服)\n  非晶质集群 :\n    description: 失控繁殖的纳米机械群，呈现不定形的怪物形态\n    known_types: 史莱姆 , 树绳妖\n    speculated_origin: 医疗用纳米装备的残留物\n    threats:\n      - 接触会对身心造成恶劣影响\n      - 常含有强酸或媚药等危险成分\n    weaknesses:\n      - 缺乏战术思维\n      - 将其结块的核心打碎后，可通过燃烧或药物彻底消灭\n    utility: 因免疫精神影响，被部分企业用作警备力量\n  生物寄宿体:\n    僵尸:\n      definition: 因体内劣质纳米装备失控而诞生的受害者，精神被攻击欲望完全支配\n      primary_threat: 可通过体液感染，造成连锁性的僵尸危机\n      sources: 地下医生的患者, 研究设施的实验体, 憎恶的受害者\n      behavior: 如同疯狗般行动，只凭本能攻击\n      key_danger: 纳米机械种类繁多，导致僵尸能力各异，不可依赖过往经验应对\n      non_infectious_variants:\n        - 失控狼人\n        - 落武者\n        - 白发鬼 \n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -2796,12 +2650,7 @@
             "displayIndex": 23,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         }
     }
 }
