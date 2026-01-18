@@ -5,7 +5,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "",
-            "content": "</属性「异」NPC的战斗数据>\n\n# 通用的强化能力\n当光靠调整战斗数据模板的数值和武器无法体现角色的强大或特点时，可为角色套用的战斗数据模板追加其领域的能力(如果有的话)或以下能力，此外部分敌人也天生具备以下能力\n      -  [超自然的存在]「赠礼」: 对着以纯粹魔力构成的身体，现代武器难以起效。\n        效果: [受到来自枪械的伤害-1]\n      -  [装甲]「赠礼」: 以外骨骼，装甲服，强化服等物理方式保护身体。\n        效果: [受到的「昏迷」伤害-1]\n此外如果是吸血鬼还可赋予以下能力:\n      -  [眷属使役]「赠礼」\n        效果: [每次成为「攻击」的对象时，可以给予零～近距离内任意一个目标1点的「昏迷」伤害（压制）。]\n此外还可以赋予武器符合角色设定的特性\n\n# 暴徒化\n同类型的敌人数量超过2人成群时，必须将它们的数据暴徒模板化来视为一个整体进行计算处理。\n暴徒一般最少3人，最多与「矜持」点数等同。\n当敌人是暴徒时，追加的修正内容如下。\n-  属性附加「暴徒」，名字末尾加上“群”\n-  等级增加1~2级\n-  矜持最增加[构成人数](最大6)\n-  武器可以有「战斗噪音」和「压制」的效果\n</NPC战斗数据>",
+            "content": "</属性「异」NPC的战斗数据>\n\n# 通用的强化能力\n当光靠调整战斗数据模板的数值和武器无法体现角色的强大或特点时，可为角色套用的战斗数据模板追加其领域的能力(如果有的话)或以下能力，此外部分敌人也天生具备以下能力\n      -  [超自然的存在]「赠礼」: 对着以纯粹魔力构成的身体，现代武器难以起效。\n        效果: [受到来自枪械的伤害-1]\n      -  [装甲]「赠礼」: 以外骨骼，装甲服，强化服等物理方式保护身体。\n        效果: [受到的「昏迷」伤害-1]\n此外如果是吸血鬼还可赋予以下能力:\n      -  [眷属使役]「赠礼」\n        效果: [每次成为「攻击」的对象时，可以给予零～近距离内任意一个目标1点的「昏迷」伤害（压制）。]\n此外还可以赋予武器符合角色设定的特性和符合其设定的原创术法和赠礼，但是！设计的特性、术法和赠礼的效果描述必须是具体的效果描述，例如受到的「昏迷」伤害减少1点，造成2点「魅惑」伤害等，禁止设计不存在的机制加成或模糊不清，例如“拥有一定的物理抗性”、“造成火焰伤害”、“对异性特攻”的效果描述\n\n# 暴徒化\n同类型的敌人数量超过2人成群时，必须将它们的数据暴徒模板化来视为一个整体进行计算处理。\n暴徒一般最少3人，最多与「矜持」点数等同。\n当敌人是暴徒时，追加的修正内容如下。\n-  属性附加「暴徒」，名字末尾加上“群”\n-  等级增加1~2级\n-  矜持最增加[构成人数](最大6)\n-  武器可以有「战斗噪音」和「压制」的效果\n</NPC战斗数据>",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -146,7 +146,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "属性人：普通市民 ",
-            "content": "<属性「人」NPC的战斗数据>\n# 属性「人」\n顾名思义，主要表示人类。不过，在数据处理上，所有具有一定智慧的非魔法存在都包含在内。以狗等动物和强改者为代表的改造生物也是如此。如果做了智能化处理，那么较为低等的生物也会被包括在「人」当中。\n\n以下是属性「人」的NPC战斗数据\n\n# 一般市民  \n - 等级: [0]\n - 矜持: [2]\n - 武器:\n      - 格斗(零/「昏迷」1)\n      - 手枪(零~近/「昏迷」2/战斗噪音)\n    描述: [堕天特区中随处可见的普通人。除非有相当多的人聚集在一起，否则基本都不是追猎者的对手。另外，就算是黑社会当中也有毫无战斗力的NPC，护送对象、路人、可怜的受害者等等这种角色可以套用这个数据。根据背景不同调整武器类型即可。]",
+            "content": "<属性「人」NPC的战斗数据>\n# 属性「人」\n顾名思义，主要表示人类。不过，在数据处理上，所有具有一定智慧的非魔法存在都包含在内。以狗等动物和强改者为代表的改造生物也是如此。\n以下是属性「人」的NPC战斗数据\n\n# 一般市民  \n - 等级: [0]\n - 矜持: [2]\n - 武器:\n      - 格斗(零/「昏迷」1)\n      - 手枪(零~近/「昏迷」2/战斗噪音)\n    描述: [堕天特区中随处可见的普通人。除非有相当多的人聚集在一起，否则基本都不是追猎者的对手。另外，就算是黑社会当中也有毫无战斗力的NPC，护送对象、路人、可怜的受害者等等这种角色可以套用这个数据。根据背景不同调整武器类型即可。]",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -189,7 +189,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "",
-            "content": "<NPC战斗数据>\n以下是堕天特区中非特殊NPC的战斗数据，可视情况对武器、属性或数值进行强化或削弱来套用给不同角色\n\n此外名字旁的(暴徒)是指它们实际上是有多个成员的NPC集团，但在战斗中作为一个整体处理。士兵或无法者，僵尸等各种各样的敌人都可以视为暴徒。动物集群也包含在内。\n",
+            "content": "<NPC战斗数据>\n以下是堕天特区中泛用NPC的战斗数据，可视情况对武器、属性、能力或数值进行强化、削弱和修改来套用给不同角色\n\n此外名字旁的(暴徒)是指它们实际上是有多个成员的NPC集团，但在战斗中作为一个整体处理。士兵或无法者，僵尸等各种各样的NPC集团都可以视为暴徒。动物集群也包含在内。\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -225,19 +225,14 @@
             "displayIndex": 4,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "5": {
             "uid": 5,
             "key": [],
             "keysecondary": [],
             "comment": "小混混",
-            "content": "# 小混混  :\n - 等级: [0]\n - 矜持: [3]\n - 武器:\n      - 小刀(零/「昏迷」2)\n      - 手枪(零~近/「昏迷」2/战斗噪音)\n    描述: [虽然有暴力倾向但从未特殊磨炼过战斗技巧的人。大概会比普通市民更为强大顽固。通常是成群结队的「暴徒」，有时可能会由强硬的头目领导，或是某个组织派来的替死鬼。那些最底层的自称追猎者也可以套用这个数据。]",
+            "content": "# 小混混  :\n - 等级: [0]\n - 矜持: [3]\n - 武器:\n      - 小刀(零/「昏迷」2)\n      - 手枪(零~近/「昏迷」2/战斗噪音)\n    描述: [虽然有暴力倾向但从未特殊磨炼过战斗技巧的人。大概会比普通市民更为强大顽固。通常是成群结队的「暴徒」，有时可能会由强硬的头目领导，或是某个组织派来的替死鬼。]",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -359,12 +354,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "8": {
             "uid": 8,
@@ -411,12 +401,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "9": {
             "uid": 9,
@@ -556,12 +541,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "12": {
             "uid": 12,
@@ -572,7 +552,7 @@
             ],
             "keysecondary": [],
             "comment": "退魔师",
-            "content": "# 退魔师  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - 对妖武器(零/「昏迷」1/对妖伤害+2)\n - 能力:\n      -  [屠灭众敌]「术法」\n        效果: [给予零~近距离其他所有「属性：妖」目标「BS：恐怖1」。]\n    描述: [古血统的精锐战斗人员。对妖精和神明具有强大的战斗力。但是，其中也有一些为了消灭“恶魔”而走火入魔的人。]",
+            "content": "# 退魔师  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - 对妖武器(零/「昏迷」1/对妖伤害+2)\n - 能力:\n      -  [屠灭众敌]「术法」\n        效果: [给予零~近距离其他所有「属性：妖」目标「BS：恐怖1」。]\n    描述: [古血统的精锐战斗人员。对妖精和神明具有强大的战斗力。但是，其中也有一些为了消灭妖魔而走火入魔的人。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -608,23 +588,19 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "13": {
             "uid": 13,
             "key": [
                 "使徒",
                 "教团",
-                "天使"
+                "天使",
+                "女武神"
             ],
             "keysecondary": [],
             "comment": "使徒",
-            "content": "# 使徒  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - 仪式武器(零/「昏迷」2/对妖伤害+2)\n - 能力:\n      -  [狂乱信仰]「赠礼」\n        效果: [受到的「魅惑」伤害和「屈服」伤害可以降低1点]\n    描述: [将一切献给神明的狂热神使者。作为教团干部，可以统御众多信徒。属性从「人」变成「妖」就可以套用在天使或女武神等角色上。]",
+            "content": "# 使徒  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - 仪式武器(零/「昏迷」2/对妖伤害+2)\n - 能力:\n      -  [狂乱信仰]「赠礼」\n        效果: [受到的「魅惑」伤害和「屈服」伤害可以降低1点]\n    描述: [将一切献给神明的狂热神使者。作为教团干部，可以统御众多信徒。将属性从「人」修改为「妖」就可以套用在天使或女武神等角色上。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -660,12 +636,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "14": {
             "uid": 14,
@@ -675,7 +646,7 @@
             ],
             "keysecondary": [],
             "comment": "狙击手",
-            "content": "#  狙击手 :\n - 等级: [2]\n - 矜持: [5]\n - 武器:\n      - 狙击步枪(中~长/「昏迷」4)\n      - 手枪(零~近/「昏迷」2)\n - 能力:\n      -  [狙击技术]「赠礼」\n        效果: [对中~远距离的敌人发动攻击时，等级判定获得+2。]\n    描述: [从远距离狙杀猎物的狙击手。是不仅经过了特殊训练，维护费也相当高昂的精英。用来执行特定的重要任务或杀害特定的目标。]",
+            "content": "#  狙击手 :\n - 等级: [2]\n - 矜持: [5]\n - 武器:\n      - 狙击步枪(中~长/「昏迷」4)\n      - 手枪(零~近/「昏迷」2)\n - 能力:\n      -  [狙击技术]「赠礼」\n        效果: [对中~远距离的敌人发动攻击时，等级判定获得+2。]\n    描述: [从远距离狙杀猎物的狙击手。不仅经过了特殊训练，维护费也相当高昂的精英。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -807,12 +778,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "17": {
             "uid": 17,
@@ -859,12 +825,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "18": {
             "uid": 18,
@@ -958,12 +919,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "20": {
             "uid": 20,
@@ -1064,7 +1020,7 @@
                 "妓"
             ],
             "comment": "魅魔娼妓",
-            "content": "# 魅魔娼妓  :\n - 等级: [1]\n - 矜持: [4]\n - 武器:\n      - 魅惑(零~近/「魅惑」2+「BS：发情2」)\n    描述: [魅魔中的娼妓。战斗能力并非暴力，而是手段巧妙的诱惑。可能会发生本来是收集情报，但却变成互相诱惑的胜负这样的情况。当然输了的话，金钱和精气都会被榨干吧。也有积极勾引猎物的猎人]",
+            "content": "# 魅魔娼妓  :\n - 等级: [1]\n - 矜持: [4]\n - 武器:\n      - 魅惑(零~近/「魅惑」2+「BS：发情2」)\n    描述: [魅魔中的娼妓。战斗能力并非暴力，而是手段巧妙的诱惑。可能会发生本来是收集情报，但却变成互相诱惑的胜负这样的情况。当然输了的话，金钱和精气都会被榨干吧。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -1145,12 +1101,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "24": {
             "uid": 24,
@@ -1297,7 +1248,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "27": {
             "uid": 27,
@@ -1366,7 +1322,7 @@
             "keysecondary": [],
             "comment": "地狱犬",
             "content": "# 地狱犬  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - 噬咬(零/「昏迷」2)\n      - 恶魔之火(近/「昏迷」2)\n    描述: [双眼燃烧，口吐火焰的魔犬。也被称为黑狗或犬魔。一种典型的有害妖精，经常在深夜的小巷中现身并袭击人类。经常有对他们的讨伐委托。尽管没有什么特殊能力，但本身的战斗力就足以构成威胁。有时成群出现，或者被恶魔系的神明御使。]",
-            "constant": false,
+            "constant": true,
             "vectorized": false,
             "selective": true,
             "selectiveLogic": 0,
@@ -1401,7 +1357,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "29": {
             "uid": 29,
@@ -1500,7 +1461,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "31": {
             "uid": 31,
@@ -1548,7 +1514,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "32": {
             "uid": 32,
@@ -1646,7 +1617,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "34": {
             "uid": 34,
@@ -1739,7 +1715,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "36": {
             "uid": 36,
@@ -1833,7 +1814,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "38": {
             "uid": 38,
@@ -1882,7 +1868,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "39": {
             "uid": 39,
@@ -1978,7 +1969,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "41": {
             "uid": 41,
@@ -2076,7 +2072,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "43": {
             "uid": 43,
@@ -2170,7 +2171,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "45": {
             "uid": 45,
@@ -2478,7 +2484,7 @@
             ],
             "keysecondary": [],
             "comment": "杜拉罕",
-            "content": "# 杜拉罕  :\n - 等级: [2]\n - 矜持: [10]\n - 武器:\n      - 死亡宣告(零/「BS:破灭 1」(与通常BS一样计算失误值,但BS:破灭累积到3时，矜持被视作因「昏迷」伤害归零))\n      - 无首之马(零/「昏迷」2)\n - 能力:\n      -  [超自然存在]「赠礼」\n    描述: [驾驭无首之马的，无头骑士。以女骑士的姿态出现，向人宣告死亡的来临。虽非出自恶意之所为，但也会由于纠葛不清的宿恨诞生意想不到的悲剧。]",
+            "content": "# 杜拉罕  :\n - 等级: [2]\n - 矜持: [10]\n - 武器:\n      - 死亡宣告(零/「特殊状态:破灭 1」(与通常BS一样计算失误值,但破灭累积到3时，矜持被视作因「昏迷」伤害归零))\n      - 无首之马(零/「昏迷」2)\n - 能力:\n      -  [超自然存在]「赠礼」\n    描述: [驾驭无首之马的，无头骑士。以女骑士的姿态出现，向人宣告死亡的来临。虽非出自恶意之所为，但也会由于纠葛不清的宿恨诞生意想不到的悲剧。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -2572,12 +2578,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "53": {
             "uid": 53,
@@ -2729,7 +2730,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "56": {
             "uid": 56,
