@@ -5,7 +5,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "",
-            "content": "</属性「异」NPC的战斗数据>\n\n# 通用的强化能力\n当光靠调整战斗数据模板的数值和武器无法体现角色的强大或特点时，可为角色套用的战斗数据模板追加其领域的能力(如果有的话)或以下能力，此外部分敌人也天生具备以下能力\n      -  [超自然的存在]「赠礼」: 对着以纯粹魔力构成的身体，现代武器难以起效。\n        效果: [受到来自枪械的伤害-1]\n      -  [装甲]「赠礼」: 以外骨骼，装甲服，强化服等物理方式保护身体。\n        效果: [受到的「昏迷」伤害-1]\n此外如果是吸血鬼还可赋予以下能力:\n      -  [眷属使役]「赠礼」\n        效果: [每次成为「攻击」的对象时，可以给予零～近距离内任意一个目标1点的「昏迷」伤害（压制）。]\n此外还可以赋予武器符合角色设定的特性和符合其设定的原创术法和赠礼，但是！设计的特性、术法和赠礼的效果描述必须是具体的效果描述，例如受到的「昏迷」伤害减少1点，造成2点「魅惑」伤害等，禁止设计不存在的机制加成或模糊不清，例如“拥有一定的物理抗性”、“造成火焰伤害”、“对异性特攻”的效果描述\n\n# 暴徒化\n同类型的敌人数量超过2人成群时，必须将它们的数据暴徒模板化来视为一个整体进行计算处理。\n暴徒一般最少3人，最多与「矜持」点数等同。\n当敌人是暴徒时，追加的修正内容如下。\n-  属性附加「暴徒」，名字末尾加上“群”\n-  等级增加1~2级\n-  矜持最增加[构成人数](最大6)\n-  武器可以有「战斗噪音」和「压制」的效果\n</NPC战斗数据>",
+            "content": "</属性「异」NPC的战斗数据>\n\n# 通用的强化能力\n当光靠调整战斗数据模板的数值和武器无法体现角色的强大或特点时，可为角色套用的战斗数据模板追加其领域的能力(如果有的话)或以下能力，此外部分敌人也天生具备以下能力\n      -  [超自然的存在]「赠礼」: 对着以纯粹魔力构成的身体，现代武器难以起效。\n        效果: [受到来自枪械的伤害-1]\n      -  [装甲]「赠礼」: 以外骨骼，装甲服，强化服等物理方式保护身体。\n        效果: [受到的「昏迷」伤害-1]\n此外如果是吸血鬼还可赋予以下能力:\n      -  [眷属使役]「赠礼」\n        效果: [每次成为「攻击」的对象时，可以给予零～近距离内任意一个目标1点的「昏迷」伤害（压制）。]\n此外还可以赋予武器符合角色设定的特性和符合其设定的原创术法和赠礼\n\n# 暴徒化\n同类型的敌人数量超过2人成群时，必须将它们的数据暴徒模板化来视为一个整体进行计算处理。\n暴徒一般最少3人，最多与「矜持」点数等同。\n当敌人是暴徒时，追加的修正内容如下。\n-  属性附加「暴徒」，名字末尾加上“群”\n-  等级增加1~2级\n-  矜持最增加[构成人数](最大6)\n-  武器可以有「战斗噪音」和「压制」的效果\n</NPC战斗数据>",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -94,7 +94,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "2": {
             "uid": 2,
@@ -139,7 +144,12 @@
             "displayIndex": 2,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "3": {
             "uid": 3,
@@ -182,7 +192,12 @@
             "displayIndex": 3,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "4": {
             "uid": 4,
@@ -225,7 +240,12 @@
             "displayIndex": 4,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "5": {
             "uid": 5,
@@ -268,7 +288,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "6": {
             "uid": 6,
@@ -311,7 +336,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "7": {
             "uid": 7,
@@ -354,7 +384,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "8": {
             "uid": 8,
@@ -401,7 +436,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "9": {
             "uid": 9,
@@ -412,7 +452,7 @@
             ],
             "keysecondary": [],
             "comment": "重装甲兵",
-            "content": "# 重装甲兵  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - 利器(零/「昏迷」2/缴械无效)\n      - 突击步枪(近~中/「昏迷」3/战斗噪音)\n - 能力:\n      -  [防爆装甲]「赠礼」\n        效果: [受到的「昏迷」伤害降低1点。]\n    描述: [身着装甲服的强力战斗员。在安保公司，是用于重要警备和据点突击的精锐部队。也可以作为爱用装甲服的追猎者和企业士兵的数据。]",
+            "content": "# 重装甲兵  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - 利器(零/「昏迷」2/缴械无效)\n      - 突击步枪(近~中/「昏迷」3/战斗噪音)\n - 能力:\n      -  [装甲]「赠礼」\n    描述: [身着装甲服的强力战斗员。在安保公司，是用于重要警备和据点突击的精锐部队。也可以作为爱用装甲服的追猎者和企业士兵的数据。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -448,7 +488,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "10": {
             "uid": 10,
@@ -493,7 +538,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "11": {
             "uid": 11,
@@ -541,7 +591,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "12": {
             "uid": 12,
@@ -588,7 +643,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "13": {
             "uid": 13,
@@ -636,7 +696,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "14": {
             "uid": 14,
@@ -682,7 +747,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "15": {
             "uid": 15,
@@ -730,7 +800,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "16": {
             "uid": 16,
@@ -778,7 +853,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "17": {
             "uid": 17,
@@ -825,7 +905,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "18": {
             "uid": 18,
@@ -873,7 +958,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "19": {
             "uid": 19,
@@ -919,7 +1009,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "20": {
             "uid": 20,
@@ -962,7 +1057,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "21": {
             "uid": 21,
@@ -1008,7 +1108,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "22": {
             "uid": 22,
@@ -1056,7 +1161,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "23": {
             "uid": 23,
@@ -1101,7 +1211,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "24": {
             "uid": 24,
@@ -2423,7 +2538,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "50": {
             "uid": 50,
@@ -2578,7 +2698,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "53": {
             "uid": 53,
@@ -2800,7 +2925,7 @@
                 "佣兵"
             ],
             "comment": "僵尸兵团",
-            "content": "# 僵尸兵团  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - [毒爪](零/「昏迷」2+「BS：恐怖2」/对人伤害+2)\n        射程: (零）\n        伤害: [昏迷:2]+[BS:恐怖2]\n        特性: [对人伤害+2]\n    描述: [由大陆某国大量生产的强化僵尸军团。尽管没有智能但受到了魔术强化，对人战斗力飞跃性增长的危险存在。作为人造佣兵被遣往世界各地，即使是堕天特区也时不时能见其身影。]",
+            "content": "# 僵尸兵团  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - [毒爪](零/「昏迷」2+「BS：恐怖2」/对人伤害+2)\n    描述: [由大陆某国大量生产的强化僵尸军团。尽管没有智能但受到了魔术强化，对人战斗力飞跃性增长的危险存在。作为人造佣兵被遣往世界各地，即使是堕天特区也时不时能见其身影。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -2936,7 +3061,154 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
+        },
+        "60": {
+            "uid": 60,
+            "key": [],
+            "keysecondary": [],
+            "comment": "蛛型机器人",
+            "content": "# 蛛型机器人  :\n - 等级: [1]\n - 矜持: [5]\n - 武器:\n      - 防暴枪(零~近/「昏迷」2/战斗噪音)\n - 能力:\n      -  [拘束捕网]「术法」\n        效果: [给予零~短距离内任意一名对象「BS：拘束2」]\n    描述: [蜘蛛型的警备机器人。由于其擅长捕捉能力，作为人道主义自卫机器人以及较低的价格受到广泛接受和部署。另外也有一些通过违法改造安装了危险武器的型号。]",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 7,
+            "position": 4,
+            "disable": false,
+            "ignoreBudget": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "matchPersonaDescription": false,
+            "matchCharacterDescription": false,
+            "matchCharacterPersonality": false,
+            "matchCharacterDepthPrompt": false,
+            "matchScenario": false,
+            "matchCreatorNotes": false,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "outletName": "",
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "triggers": [],
+            "displayIndex": 2,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
+        },
+        "61": {
+            "uid": 61,
+            "key": [],
+            "keysecondary": [],
+            "comment": "章鱼型机器人",
+            "content": "# 章鱼型机器人  :\n - 等级: [2]\n - 矜持: [10]\n - 武器:\n      - 捕捉手(零~近/「昏迷」2+「BS：拘束1」/战斗噪音)\n - 能力:\n      -  [催情瓦斯]「术法」\n        效果: [给予零~短距离内所有角色「BS：发情2」]\n    描述: [章鱼型警备机器人。通过可伸缩的金属触手捕捉入侵者，用催情瓦斯使其无力化。还能贴在天花板或墙壁上，从一些意想不到的角度发起突袭。]",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 7,
+            "position": 4,
+            "disable": false,
+            "ignoreBudget": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "matchPersonaDescription": false,
+            "matchCharacterDescription": false,
+            "matchCharacterPersonality": false,
+            "matchCharacterDepthPrompt": false,
+            "matchScenario": false,
+            "matchCreatorNotes": false,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "outletName": "",
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "triggers": [],
+            "displayIndex": 2,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
+        },
+        "62": {
+            "uid": 62,
+            "key": [
+                "自律装甲战车",
+                "乐园区"
+            ],
+            "keysecondary": [],
+            "comment": "自律装甲战车",
+            "content": "# 自律装甲战车  :\n - 等级: [4]\n - 矜持: [20]\n - 武器:\n      - 突进(零/「昏迷」4)\n      - 粒子炮(近~远/「昏迷」4/战斗噪音)\n - 能力:\n      -  [装甲]「赠礼」\n    描述: [部署在乐园区等有重要据点的自律武器。破坏力和耐久性都是最高级的，可以打倒大妖的武器。]",
+            "constant": false,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 7,
+            "position": 4,
+            "disable": false,
+            "ignoreBudget": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "matchPersonaDescription": false,
+            "matchCharacterDescription": false,
+            "matchCharacterPersonality": false,
+            "matchCharacterDepthPrompt": false,
+            "matchScenario": false,
+            "matchCreatorNotes": false,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "outletName": "",
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "triggers": [],
+            "displayIndex": 2
         }
     }
 }
