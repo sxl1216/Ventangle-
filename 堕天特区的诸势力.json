@@ -492,7 +492,12 @@
             "displayIndex": 9,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "10": {
             "key": [],
@@ -992,7 +997,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 23
+            "displayIndex": 23,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "20": {
             "key": [],
@@ -2302,7 +2312,12 @@
             "displayIndex": 8,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "47": {
             "key": [
@@ -2970,7 +2985,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "夜会墓所",
-            "content": "夜会墓所:\n  定位: 堕天特区最大的吸血鬼社群与情报网络，其成員遍布特区各个角落\n  核心理念: 尽管吸血鬼各派系间相互敌视，但他们同样视彼此为在这混沌世间唯一的同类；因此，他们秘密地保持着联系，构建了“夜会墓所”这一联络网\n  网络结构:\n    协作网络: 依靠非雾化形态无法进入的紧急避难所与会议室构成联络网，其据点如地下墓地般散布于迷宫区的各处\n    地表据点: 位于外壁区下层的漆黑洋馆“黑棺馆”是其在地表的最大据点，兼具无依靠吸血鬼的避难所与情报收集站的双重功能\n  实力底蕴:\n    领导层: 长期停留于黑棺馆的成员中不乏几位“古老长生者(Elder)”，且其异界化的宅邸内部还连通着其他上位吸血鬼的领域\n    综合战力: 其总战力堪称是吸血鬼这一种族的总和；若在黑棺馆内引发冲突，将招致近乎无限的吸血鬼增援，分散于各地的夜会墓所成员也不会坐视不管；因此，即便是“古血统”等敌对势力，也不会轻率地对此地出手\n",
+            "content": "夜会墓所:\n  定位: 堕天特区最大的吸血鬼社群，其成员遍布特区各个角落\n  核心理念: 尽管吸血鬼各派系间相互敌视，但他们同样视彼此为在这混沌世间为数不多可以互相理解的存在；因此，他们秘密地保持着密切的联系，维持着松散的同盟关系和情报交换，构建了“夜会墓所”这一联络网\n  网络结构: 很多吸血鬼仍有将棺材放在地下进行休眠的习惯，而堕天特区的地下乃是迷宫区。因此，地下墓地之类的据点散布在迷宫区各处，再依靠非雾化形态无法进入的紧急避难所与会议室构成了联络网\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -3006,12 +3021,7 @@
             "triggers": [],
             "displayIndex": 23,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         }
     }
 }

@@ -5,7 +5,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "[script]随机事件控制器",
-            "content": "@@preprocessing\n<%_\n/* --- 变量声明 --- */\n// 获取当前地点\nif (typeof currentLocation === 'undefined') var currentLocation = getvar('stat_data.世界.当前地点', { defaults: '' });\n// 获取当前事件状态（空字符串表示无事件）\nif (typeof currentEvent === 'undefined') var currentEvent = getvar('stat_data.事件系统.当前事件', { defaults: '' });\n// 获取委托列表（用于判断是否在委托中）\nif (typeof currentQuests === 'undefined') var currentQuests = getvar('stat_data.主角.委托', { defaults: {} });\n\n/* --- 逻辑判断 --- */\n\n// 1. 判断是否空闲（无事件且无委托）\n// Object.keys(obj).length === 0 用于判断对象是否为空\nvar isIdle = (currentEvent === '') && (Object.keys(currentQuests).length === 0);\n\n// 2. 判断区域并提取区域名\nvar targetArea = '';\nif (currentLocation.includes('暗巷')) {\n    targetArea = '暗巷';\n} else if (currentLocation.includes('神魔智街')) {\n    targetArea = '神魔智街';\n} else if (currentLocation.includes('断头巷')) {\n    targetArea = '断头巷';\n}\n\n/* --- 随机触发核心 --- */\n// 仅当 空闲 且 处于目标区域 时执行\nif (isIdle && targetArea !== '') {\n    // 投掷判定骰子 (1D100)\n    // 既然哥哥允许使用 lodash，这里使用 _.random\n    var checkDice = _.random(1, 100);\n\n    // 3. 概率判定：骰值大于 75 才触发\n    if (checkDice > 50) {\n        // 投掷两个事件骰子 (1D6)\n        var d6_1 = _.random(1, 6);\n        var d6_2 = _.random(1, 6);\n\n        // 4. 组合并输出关键词\n        // 格式示例：随机事件_暗巷_3_5\n_%>\n事件ID:随机事件_<%- targetArea %>_<%- d6_1 %>_<%- d6_2 %>\n<%_\n    }\n}\n_%>\n",
+            "content": "@@preprocessing\n<%_\n/* --- 变量声明 --- */\n// 获取当前地点\nif (typeof currentLocation === 'undefined') var currentLocation = getvar('stat_data.世界.当前地点', { defaults: '' });\n// 获取当前事件状态（空字符串表示无事件）\nif (typeof currentEvent === 'undefined') var currentEvent = getvar('stat_data.事件系统.当前事件', { defaults: '' });\n// 获取委托列表（用于判断是否在委托中）\nif (typeof currentQuests === 'undefined') var currentQuests = getvar('stat_data.主角.委托', { defaults: {} });\n\n/* --- 逻辑判断 --- */\n\n// 1. 判断是否空闲（无事件且无委托）\n// Object.keys(obj).length === 0 用于判断对象是否为空\nvar isIdle = (currentEvent === '') && (Object.keys(currentQuests).length === 0);\n\n// 2. 判断区域并提取区域名\nvar targetArea = '';\nif (currentLocation.includes('暗巷')) {\n    targetArea = '暗巷';\n} else if (currentLocation.includes('神魔智街')) {\n    targetArea = '神魔智街';\n} else if (currentLocation.includes('断头巷')) {\n    targetArea = '断头巷';\n}\n\n/* --- 随机触发核心 --- */\n// 仅当 空闲 且 处于目标区域 时执行\nif (isIdle && targetArea !== '') {\n    // 投掷判定骰子 (1D100)\n    // 既然哥哥允许使用 lodash，这里使用 _.random\n    var checkDice = _.random(1, 100);\n\n    // 3. 概率判定：骰值大于 50 才触发\n    if (checkDice > 30) {\n        // 投掷两个事件骰子 (1D6)\n        var d6_1 = _.random(1, 6);\n        var d6_2 = _.random(1, 6);\n\n        // 4. 组合并输出关键词\n        // 格式示例：随机事件_暗巷_3_5\n_%>\n事件ID:随机事件_<%- targetArea %>_<%- d6_1 %>_<%- d6_2 %>\n<%_\n    }\n}\n_%>\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -211,7 +211,7 @@
             "selective": true,
             "selectiveLogic": 0,
             "addMemo": true,
-            "order": 300,
+            "order": 202,
             "position": 4,
             "disable": false,
             "ignoreBudget": false,
@@ -405,7 +405,7 @@
             ],
             "keysecondary": [],
             "comment": "随机事件_神魔智街_1_4",
-            "content": "「你在看着我吗？」主角将视线停留在街头全息投影中的歌姬上……与她对上了眼。进行业力判定（幸运）。若是失败，Pure Princess便会在背后出现。",
+            "content": "「你在看着我吗？」主角将视线停留在街头全息投影中的歌姬上……与她对上了眼。进行业力判定（幸运）。若是失败，Pure Princess便会在背后出现。若是成功，则无事发生。",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -441,12 +441,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "9": {
             "uid": 9,
@@ -5648,18 +5643,18 @@
                 "tags": []
             }
         },
-        "113": {
-            "uid": 113,
+        "114": {
+            "uid": 114,
             "key": [],
             "keysecondary": [],
-            "comment": "",
-            "content": "@@preprocessing\n<%_\nif (typeof currentEventName === 'undefined') var currentEventName = getvar('stat_data.事件系统.当前事件', { defaults: '' });\n_%>\n\n<%_ if (currentEventName !== '') { _%>\n<%- currentEventName %>\n<%_ } _%>",
+            "comment": "当前事件显示",
+            "content": "@@preprocessing\n<%_\nif (typeof currentEvent === 'undefined') var currentEvent = getvar('stat_data.事件系统.当前事件', { defaults: '' });\n_%>\n\n<%_ if (currentEvent !== '' && currentEvent !== '无') { _%>\n当前<%= currentEvent %>进行中\n<%_ } _%>",
             "constant": true,
             "vectorized": false,
             "selective": true,
             "selectiveLogic": 0,
             "addMemo": true,
-            "order": 301,
+            "order": 203,
             "position": 4,
             "disable": false,
             "ignoreBudget": false,
@@ -5689,7 +5684,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         }
     }
 }
