@@ -4,7 +4,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "[initvar]变量初始化勿开",
-            "content": "世界:\n  当前时间: 18:10\n  当前日期: 2300年2月24日星期一\n  当前地点: 堕天特区-神魔智街\n\n主角:\n  属性:\n    等级: 4\n    基础矜持: 8\n    种族: 吸血鬼「妖」\n    领域: 破局手\n\n  战斗配置:\n    武器:\n      魔眼:\n        射程: 零~近距离\n        伤害: 「魅惑」2\n        特性: 压制、BS发情:2\n        描述: 吸血鬼天生的魅惑魔眼，能通过视线勾起原始欲望。\n      圣物指虎:\n        射程: 零距离\n        伤害: 「昏迷」2\n        特性: 压制、对妖伤害+2\n        描述: 平时藏在衣服里的经典量产圣物。\n\n    装备:\n      电子义肢: 对零距离内目标给予的「昏迷」伤害增加1点。\n      情热之血: 战斗中首受「昏迷」伤害时，对零距离内除自身外所有目标施加「BS：发情 2」。\n      感知强化: 进行业力判定（察觉/潜行）时获得「+1」修正值。受「魅惑」伤害增加1点。\n      激情肉杆: 性爱结束时，你的矜持上升2点。能够使对方陷入疯狂的肉棒。\n\n    能力:\n      术法:\n        全力一击: 在仅此一次的攻击内，对零~近距离内的对象发动的攻击获得「+1D6」的修正值，造成的伤害增加2。\n      赠礼:\n        眷属使役: 每次被他人「攻击」时，可以给予零～近距离内任意一个目标1点的「昏迷」伤害（压制）。从肉体和阴影之中，生成使魔发动反击\n\n  当前状态:\n    当前矜持: 8\n    业力: 0\n    承受BS: {}\n    特殊状态: {}\n\n  物品栏:\n    手机:\n      描述: 普通的智能终端，虽然网络被神分割了，但依然是生活必需品。\n      数量: 1\n    学生卡:\n      描述: 神魔智学园的学生证，虽然是名义上的学生，但有些时候意外好用。\n      数量: 1\n\n  经济:\n    金钱: 100\n    负债: {}\n\n  人脉:\n    人物: {}\n    团体:\n      神魔智学园:\n        关系类型: 普通学生\n        身份与风评: 因长相和技术都挺不错的，在学生和教师里有点人气\n        关系度: 3\n      锡兵队:\n        关系类型: 团体炮友\n        身份与风评: 大家的共享男友！除了那个死板的队长完全不知道外，姐妹们都很中意你的技术和耐力哦~\n        关系度: 4\n\n  委托: {}\n\n事件系统:\n  当前事件: \"\"\n  场景角色: {}\n\n战斗系统:\n  NPC状态: {}\n  术法记录: {}",
+            "content": "",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -38,7 +38,10 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 0,
-            "displayIndex": 0
+            "displayIndex": 0,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": []
         },
         "1": {
             "key": [],
@@ -78,7 +81,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 1,
-            "displayIndex": 1
+            "displayIndex": 1,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "2": {
             "key": [],
@@ -118,7 +129,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 2,
-            "displayIndex": 2
+            "displayIndex": 2,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "3": {
             "key": [],
@@ -158,7 +177,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 3,
-            "displayIndex": 3
+            "displayIndex": 3,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "4": {
             "key": [],
@@ -198,7 +225,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 4,
-            "displayIndex": 3
+            "displayIndex": 3,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "5": {
             "key": [
@@ -240,7 +275,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 5,
-            "displayIndex": 55
+            "displayIndex": 55,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "6": {
             "key": [
@@ -282,7 +325,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 6,
-            "displayIndex": 56
+            "displayIndex": 56,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "7": {
             "key": [
@@ -324,7 +375,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 7,
-            "displayIndex": 57
+            "displayIndex": 57,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "8": {
             "key": [
@@ -366,7 +425,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 8,
-            "displayIndex": 58
+            "displayIndex": 58,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "9": {
             "key": [
@@ -408,7 +475,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 9,
-            "displayIndex": 59
+            "displayIndex": 59,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "10": {
             "key": [
@@ -450,7 +525,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 10,
-            "displayIndex": 60
+            "displayIndex": 60,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "11": {
             "key": [
@@ -492,7 +575,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 11,
-            "displayIndex": 10
+            "displayIndex": 10,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "12": {
             "key": [
@@ -534,7 +625,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 12,
-            "displayIndex": 11
+            "displayIndex": 11,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "13": {
             "key": [
@@ -576,7 +675,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 13,
-            "displayIndex": 12
+            "displayIndex": 12,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "14": {
             "key": [
@@ -618,7 +725,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 14,
-            "displayIndex": 13
+            "displayIndex": 13,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "15": {
             "key": [
@@ -660,7 +775,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 15,
-            "displayIndex": 14
+            "displayIndex": 14,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "16": {
             "key": [
@@ -702,7 +825,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 16,
-            "displayIndex": 15
+            "displayIndex": 15,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "17": {
             "key": [
@@ -744,7 +875,15 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 17,
-            "displayIndex": 61
+            "displayIndex": 61,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         }
     }
 }
