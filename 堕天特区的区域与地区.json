@@ -1684,6 +1684,52 @@
                 "tags": []
             }
         },
+        "32": {
+            "uid": 32,
+            "key": [
+                "炼狱斗技场",
+                "神魔智"
+            ],
+            "keysecondary": [],
+            "comment": "炼狱斗技场",
+            "content": "炼狱斗技场:\n  type: 竞技场/综合娱乐设施\n  location: 神魔智街\n  appearance:\n    exterior:\n      - 被铁棘和锁链覆盖，在红色灯光照射下，外观酷似一座巨大的拷问室\n      - 面向街道的外墙设有多个大型屏幕，全天候播放着战斗与凌辱的影像\n    interior:\n      - 内部结构类似于大型购物中心，除各比赛场地外，还林立着各类餐饮店与周边商店\n    arenas:\n      - 拥有多个不同类型的赛场\n      - 大半为铺设沙土的标准竞技场形式，但也设有擂台及注满润滑液的特殊水池\n  history_and_operation:\n    origin:\n      - 由“悦乐同盟”共同出资，于三年前建成\n      - 填补了外壁区下层长期缺乏专业大型斗技场的空白\n    business_strategy:\n      - 与其凶恶的外观相反，实行着旨在吸引游客的“洁净运营”\n      - 入场与参赛完全免费，且作为庄家的抽成被压至最低\n      - 即使不观看比赛，仅作为约会地点或闲逛场所也极具人气\n    matches:\n      - 比赛按内容、观众层及风气进行严格分类，从硬派格斗到色情表演应有尽有\n      - 虽拥有专属斗士、好战妖精及作为处刑秀耗材的奴隶，但绝大多数比赛由自愿报名的希望者构成\n      - 参赛者动机多样，既有为了赚取奖金的自信者，也有为了体验在众目睽睽下战败受辱的受虐狂\n    win_win_dynamic:\n      - 对于受虐狂参赛者而言，因参赛免费，只要不下注便没有任何金钱损失，能零成本享受被凌辱的快感\n      - 对于运营方而言，即便没有赌金收益，此类充满凌辱画面的比赛本身就是极佳的揽客手段，因此对此类行为持欢迎态度\n  dark_side:\n    rumors:\n      - 与洁净的运营方针不同，支配者与核心员工的背景并不干净，总是伴随着黑色传闻\n      - 流传着“地下隐藏着不为人知的异界”或“支配者向邪神献祭生祭”等流言\n    incidents:\n      - 曾发生过由“对魔团”发动的恐怖袭击事件\n  arena_rules:\n    participation:\n      - 需注册追猎者代号与简介，报名免费\n      - 允许参赛者下注自己比赛的赌局\n    matchmaking:\n      - 新手保护: 初次参赛者会被安排与稍弱对手对战，作为鼓励其成为这里常客的福利\n      - 强者挑战: 若连续获胜2场以上，将匹配稍强一点乃至更强的对手，甚至可能出现带有不利条件的让以此战\n    combat_regulations:\n      - 禁止“奇袭”，且严禁使用“枪械”与“消耗性道具”\n      - 战斗全程会被实况解说并向场外直播，观众可自由拍摄与上传视频\n    betting_privilege:\n      - 参赛者赌自己获胜时，享受固定2倍的优待赔率\n      - 无论对手强弱，此赔率不变\n    fixing_matches:\n      - 默许小规模的假赛（如与其同伴配合故意输掉以赚取小额赌金）\n      - 但若做得太过露骨或成为惯犯，将遭到严厉制裁\n    erotic_penalty:\n      - 战斗中的性行为与羞辱皆被视为表演一环\n  available_services:\n    餐饮:\n      - 提供简单的快餐服务\n    街娼:\n      - 出没于大厅，以此作为寻找因观赛而兴奋的客人的猎场\n    赌博:\n      - 面向游客运营，赔率与规则相对良心\n    社交场:\n      - 各色人物混杂的观战席，是交换情报的场所\n    VIP包厢 (Hotel):\n      - 实质为带床铺的高级观战席\n      - 价格: 最低5信用点\n    斗士指名 (娼馆):\n      - 可指名所属斗士提供性服务\n      - 价格:\n        - 通常: 最低3信用点\n        - 赛后指名: 最低10信用点（指名刚结束比赛的斗士）\n      - 特征: 因非专业娼妓，服务技术可能欠佳，但能通过征服强者获得巨大的优越感\n\n",
+            "constant": false,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 367,
+            "position": 1,
+            "disable": false,
+            "ignoreBudget": false,
+            "excludeRecursion": false,
+            "preventRecursion": true,
+            "matchPersonaDescription": false,
+            "matchCharacterDescription": false,
+            "matchCharacterPersonality": false,
+            "matchCharacterDepthPrompt": false,
+            "matchScenario": false,
+            "matchCreatorNotes": false,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 3,
+            "outletName": "",
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "triggers": [],
+            "displayIndex": 28
+        },
         "33": {
             "key": [
                 "乐园区",
@@ -3319,7 +3365,7 @@
             ],
             "keysecondary": [],
             "comment": "神魔智街详解",
-            "content": "<区域:神魔智街>\n  区域:神魔智街:\n  type: 巨型欢乐街/主干道\n  official_name: 神魔智大通 (Kamimachi Street)\n  location:\n    specifics:\n      - 尽管行政上归属于外壁区下层，但位于“阿萨谢尔”下方北北西方向的填海造陆区而非阿萨谢尔的外壁中\n      - 延伸自港湾区，直抵神魔智学园\n    geography:\n      - 位于平坦的填海地，无坡度\n      - 抬头被外壁遮挡，无法看到住宅区的采光窗\n    connections:\n      south: 连接港湾区，设有连接淡路岛的陆桥，是物资运输的大动脉\n      north: 邻近宵暗区，北侧路巷均为危险地带，有掠夺团据点和巨型垃圾场\n      underground: 覆盖在迷宫区之上，拥有下水道、地下铁路及隐秘的地下走私通道\n\n  street_landscape:\n    scale: 拥有可供四辆大型运输车并排通行的宽阔车道\n    central_strip:\n      - 原中央隔离带已被改造成密集的店铺区\n      - 林立着无数风俗中介所与小型商店\n    sidewalks:\n      - 路肩被路边摊、街头表演和现场演奏占据\n      - 充斥着大量拉客的街娼与教团成员\n    visuals:\n      - 极彩色的招牌林立\n      - 随处投射着包含淫乱内容的立体影像\n      - 视线所及之处皆是娱乐设施\n    atmosphere:\n      - 24小时不间断营业，任何时间都能获得各类快感服务\n      - 喧嚣与极度混乱，交通事故与街头斗殴频发\n      - 公开身份的吸血鬼与妖精混迹人群之中\n      - 随处可见工薪族在酒后大声抱怨公司或谩骂客户，已成为此地特有的风景\n      - 因店铺多由教团运营，在公共场合说特定神明的坏话被视为禁忌\n\n  social_tolerance_and_risk:\n    tolerance:\n      - 此地视一切“特别”为常态\n      - 无论出身、外表或主义主张多么怪异，只要未对周围造成实质损害，便无人理会\n    hidden_threats:\n      - 因极度的宽容与匿名性，导致危险人物与恐怖分子常混迹于人群之中\n      - 追踪目标的追猎者同样潜伏于此\n    conflict_as_entertainment:\n      - 虽然大规模武力冲突较少发生，但绝非完全没有\n      - 偶发的暴力事件与骚乱被游客视为一种额外的“刺激”与余兴节目\n      - 甚至路上的警备力量在某种意义上也是为了维持这种“刺激”而存在\n\n  available_services:\n    观光景点:\n      - 街道本身即为著名的观光胜地\n      - 吸引大量本土及海外游客来访\n    娼馆:\n      - 从廉价店铺到需要会员资格的高级店一应俱全\n    街娼:\n      - 虽多为神魔智学园的学生，但也存在各色人等\n    赌场:\n      - 轻度的赌场酒吧与娱乐场随处可见\n    温泉:\n      - 包含大众澡堂、桑拿及利用地下水源的浴场\n    餐厅:\n      - 餐饮店种类繁多，涵盖所有档次与风味\n    旅店:\n      - 情人旅馆数量众多\n      - 卡拉OK包厢、网吧及咖啡厅的包间等设施，多在明确标注“Play OK”（允许性行为）\n\n  security_and_safety:\n    status: 尽管混乱，但作为观光地，治安相对良好\n    security_force:\n      provider: 于2293年悦乐同盟雇佣“姐妹会警备保障”负责神魔智街警备\n      unit: 负责的是下属部队·锡兵队\n    risk_level:\n      - 对普通观光客而言危险度较低\n      - 但若卷入突发事件，很容易成为受害者\n    public_decency:\n      - 街头公开性行为被视为平常之事，等同于路边表演\n      - 除明显的强暴行为外，不会被视作问题\n    street_security:\n      trigger_mechanism:\n        - 当发生战斗后稍过一会，将会有2名武装警备员赶到\n        - 若使用了有“战斗噪音”的武器或造成其他大动静，则飞速出现于战斗现场\n      interaction_flow:\n        warning_phase:\n          action: 警备员发出停止战斗的警告\n          compliance_result:\n            - 若双方服从，将被扣留进行10分钟的说教警告后释放\n        combat_intervention:\n          condition: 若无视警告继续战斗\n          response:\n            - 警备员将直接加入战斗进行武力镇压\n            - 会根据双方战力呼叫增援\n            - 增援对象包含“久远寺正己”及“悦乐同盟”的高级干部\n          outcome: 若闹事者选择应战，通常视为被镇压处理\n      consequences:\n        capture:\n          penalty: 最低50信用点的罚款\n          escalation: 根据造成的被害程度，罚款金额将无限上升\n        escape:\n          immediate: 将被“姐妹会警备保障”全员通缉，在辖区内活动受限\n          severe: 若在造成相当程度被害后逃亡，将被定性为赏金犯\n\n  demographics_and_living:\n    population:\n      residents: 确认居住者约2万人\n      extended: 包含学生、神殿娼妇、妖精及未登记人口，实际常驻可能近10万\n      visitors: 每日流动人口在5千至10万人之间\n    residency_logic:\n      commute_problem:\n        - 此地虽有地下铁路，但均为填海地内部循环线或通往中小企业街的线路\n        - 缺乏直通上层住宅区的铁路，导致往返通勤极为困难\n      consequence:\n        - 繁华街的店主与员工普遍放弃通勤，选择在当地居住\n        - 店铺大多设有居住层或临时休息室供员工使用\n    housing_infrastructure:\n      - 以短期生活为前提的廉价商务酒店林立\n      - 网吧与胶囊旅馆遍布街头\n    daily_life_support:\n      - 表层主干道虽以娱乐设施为主，但便利店极为密集\n      - 背街后巷分布着大量面向当地居民的大众食堂与生活杂货店\n\n  infrastructure_and_transport:\n    water:\n      source: 引自港湾区海水净化场\n      quality: 虽混有上层流下的废水，但经纳米技术与水系神明权能处理，已完全净化\n    power:\n      source: 堕天特区共用魔力永久循环炉\n      backup: 大型组织拥有独立发电设备\n      usage: 所有汽车与船舶均由电力驱动\n    maintenance:\n      provider: DH管理中心（俗称“猪穴”）\n      workforce: 特化人类·强改者 (Orc) 与作业机器人\n      scope: 负责道路修复、建筑维护及下水道疏通（应对史莱姆与树绳妖）\n    vehicle_ownership:\n      - 特区内养车费用极高，除业者外，拥有私人车辆是富裕阶层的奢侈消遣\n      - 唯一的例外是宵暗区，那里泛滥着非法改装的机车\n    public_transport:\n      subway:\n        - 仅连接填海地内部与中小企业街\n        - 治安尚可，但环境拥挤脏乱，毫无舒适度可言\n        - 富裕阶层避之不及，多选择收费巴士或高级出租车\n      port_access:\n        - 最近的港口航线迂回且邻近危险的“宵暗港”，观光渡轮不停靠\n        - 游客需在其他港口下船，换乘巴士\n        - “悦乐同盟”提供免费接送巴士，行驶于被仓库夹在中间的环状运输路，以避开治安恶劣的港湾区内部\n\n  major_events:\n    New_Year_Festival:\n      overview: 新年祭典，包含大宴会、街头倒计时与跨年性爱活动\n    Graduation_and_Entrance_Festivals:\n      overview: 神魔智学园的毕业与入学典礼，周边区域无关人员亦会一同狂欢，兼具伊什塔尔丰收祭性质\n    School_Festival:\n      overview: 神魔智学园祭，以学生主导的性服务为卖点，常有身着制服的社会人混入\n    Halloween:\n      overview: 妖精们的祭典，核心活动是带有性意味的“不给糖就捣蛋”与淫乱变装\n    Christmas:\n      overview: 宗教色淡薄的性爱之夜，几乎所有店铺都会举办派对\n",
+            "content": "<区域:神魔智街>\n  区域:神魔智街:\n  type: 巨型欢乐街/主干道\n  official_name: 神魔智大通 (Kamimachi Street)\n  location:\n    specifics:\n      - 尽管行政上归属于外壁区下层，但位于“阿萨谢尔”下方北北西方向的填海造陆区而非阿萨谢尔的外壁中\n      - 延伸自港湾区，直抵神魔智学园\n    geography:\n      - 位于平坦的填海地，无坡度\n      - 抬头被外壁遮挡，无法看到住宅区的采光窗\n    connections:\n      south: 连接港湾区，设有连接淡路岛的陆桥，是物资运输的大动脉\n      north: 邻近宵暗区，北侧路巷均为危险地带，有掠夺团据点和巨型垃圾场\n      underground: 覆盖在迷宫区之上，拥有下水道、地下铁路及隐秘的地下走私通道\n\n  street_landscape:\n    scale: 拥有可供四辆大型运输车并排通行的宽阔车道\n    central_strip:\n      - 原中央隔离带已被改造成密集的店铺区\n      - 林立着无数风俗中介所与小型商店\n    sidewalks:\n      - 路肩被路边摊、街头表演和现场演奏占据\n      - 充斥着大量拉客的街娼与教团成员\n    visuals:\n      - 极彩色的招牌林立\n      - 随处投射着包含淫乱内容的立体影像\n      - 视线所及之处皆是娱乐设施\n    atmosphere:\n      - 24小时不间断营业，任何时间都能获得各类快感服务\n      - 喧嚣与极度混乱，交通事故与街头斗殴频发\n      - 公开身份的吸血鬼与妖精混迹人群之中\n      - 随处可见工薪族在酒后大声抱怨公司或谩骂客户，已成为此地特有的风景\n      - 因堕天特区的娱乐产业乃是教团的领域，故此处店铺大半由教团运营，不应该在公共场合以负面口吻指名道姓地谈论某位神祇\n\n  social_tolerance_and_risk:\n    tolerance:\n      - 此地视一切“特别”为常态\n      - 无论出身、外表或主义主张多么怪异，只要未对周围造成实质损害，便无人理会\n    hidden_threats:\n      - 因极度的宽容与匿名性，导致危险人物与恐怖分子常混迹于人群之中\n      - 追踪目标的追猎者同样潜伏于此\n    conflict_as_entertainment:\n      - 虽然大规模武力冲突较少发生，但绝非完全没有\n      - 偶发的暴力事件与骚乱被游客视为一种额外的“刺激”与余兴节目\n      - 甚至路上的警备力量在某种意义上也是为了维持这种“刺激”而存在\n\n  available_services:\n    观光景点:\n      - 街道本身即为著名的观光胜地\n      - 吸引大量日本本土及海外游客来访\n    娼馆:\n      - 从廉价店铺到需要会员资格的高级店一应俱全\n    街娼:\n      - 虽多为神魔智学园的学生，但也存在各色人等\n    赌场:\n      - 轻度的赌场酒吧与娱乐场随处可见\n    温泉:\n      - 包含大众澡堂、桑拿及利用地下水源的浴场\n    餐厅:\n      - 餐饮店种类繁多，涵盖所有档次与风味\n    旅店:\n      - 情人旅馆数量众多\n      - 卡拉OK包厢、网吧及咖啡厅的包间等设施，多在明确标注“Play OK”（允许性行为）\n\n  security_and_safety:\n    status: 尽管混乱，但作为观光地，治安相对良好\n    security_force:\n      provider: 于2293年悦乐同盟雇佣“姐妹会警备保障”负责神魔智街警备\n      unit: 负责的是下属部队·锡兵队\n    risk_level:\n      - 对普通观光客而言危险度较低\n      - 但若卷入突发事件，很容易成为受害者\n    public_decency:\n      - 街头公开性行为被视为平常之事，等同于路边表演\n      - 除明显的强暴行为外，不会被视作问题\n    street_security:\n      trigger_mechanism:\n        - 当发生战斗后稍过一会，将会有2名武装警备员赶到\n        - 若使用了有“战斗噪音”的武器或造成其他大动静，则飞速出现于战斗现场\n      interaction_flow:\n        warning_phase:\n          action: 警备员发出停止战斗的警告\n          compliance_result:\n            - 若双方服从，将被扣留进行10分钟的说教警告后释放\n        combat_intervention:\n          condition: 若无视警告继续战斗\n          response:\n            - 警备员将直接加入战斗进行武力镇压\n            - 会根据双方战力呼叫增援\n            - 增援对象包含“久远寺正己”及“悦乐同盟”的高级干部\n          outcome: 若闹事者选择应战，通常视为被镇压处理\n      consequences:\n        capture:\n          penalty: 最低50信用点的罚款\n          escalation: 根据造成的被害程度，罚款金额将无限上升\n        escape:\n          immediate: 将被“姐妹会警备保障”全员通缉，在辖区内活动受限\n          severe: 若在造成相当程度被害后逃亡，将被定性为赏金犯\n\n  demographics_and_living:\n    population:\n      residents: 确认居住者约2万人\n      extended: 包含学生、神殿娼妇、妖精及未登记人口，实际常驻可能近10万\n      visitors: 每日流动人口在5千至10万人之间\n    residency_logic:\n      commute_problem:\n        - 此地虽有地下铁路，但均为填海地内部循环线或通往中小企业街的线路\n        - 缺乏直通上层住宅区的铁路，导致往返通勤极为困难\n      consequence:\n        - 繁华街的店主与员工普遍放弃通勤，选择在当地居住\n        - 店铺大多设有居住层或临时休息室供员工使用\n    housing_infrastructure:\n      - 以短期生活为前提的廉价商务酒店林立\n      - 网吧与胶囊旅馆遍布街头\n    daily_life_support:\n      - 表层主干道虽以娱乐设施为主，但便利店极为密集\n      - 背街后巷分布着大量面向当地居民的大众食堂与生活杂货店\n\n  infrastructure_and_transport:\n    water:\n      source: 引自港湾区海水净化场\n      quality: 虽混有上层流下的废水，但经纳米技术与水系神明权能处理，已完全净化\n    power:\n      source: 堕天特区共用魔力永久循环炉\n      backup: 大型组织拥有独立发电设备\n      usage: 所有汽车与船舶均由电力驱动\n    maintenance:\n      provider: DH管理中心（俗称“猪穴”）\n      workforce: 特化人类·强改者 (Orc) 与作业机器人\n      scope: 负责道路修复、建筑维护及下水道疏通（应对史莱姆与树绳妖）\n    vehicle_ownership:\n      - 特区内养车费用极高，除业者外，拥有私人车辆是富裕阶层的奢侈消遣\n      - 唯一的例外是宵暗区，那里泛滥着非法改装的机车\n    public_transport:\n      subway:\n        - 仅连接填海地内部与中小企业街\n        - 治安尚可，但环境拥挤脏乱，毫无舒适度可言\n        - 富裕阶层避之不及，多选择收费巴士或高级出租车\n      port_access:\n        - 最近的港口航线迂回且邻近危险的“宵暗港”，观光渡轮不停靠\n        - 游客需在其他港口下船，换乘巴士\n        - “悦乐同盟”提供免费接送巴士，行驶于被仓库夹在中间的环状运输路，以避开治安恶劣的港湾区内部\n\n  major_events:\n    New_Year_Festival:\n      overview: 新年祭典，包含大宴会、街头倒计时与跨年性爱活动\n    Graduation_and_Entrance_Festivals:\n      overview: 神魔智学园的毕业与入学典礼，周边区域无关人员亦会一同狂欢，兼具伊什塔尔丰收祭性质\n    School_Festival:\n      overview: 神魔智学园祭，以学生主导的性服务为卖点，常有身着制服的社会人混入\n    Halloween:\n      overview: 妖精们的祭典，核心活动是带有性意味的“不给糖就捣蛋”与淫乱变装\n    Christmas:\n      overview: 宗教色淡薄的性爱之夜，几乎所有店铺都会举办派对\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -3520,21 +3566,20 @@
         "78": {
             "uid": 78,
             "key": [
-                "炼狱斗技场",
-                "神魔智"
+                "炼狱斗技场"
             ],
             "keysecondary": [],
-            "comment": "炼狱斗技场",
-            "content": "炼狱斗技场:\n  type: 竞技场/综合娱乐设施\n  location: 神魔智街\n  appearance:\n    exterior:\n      - 被铁棘和锁链覆盖，在红色灯光照射下，外观酷似一座巨大的拷问室\n      - 面向街道的外墙设有多个大型屏幕，全天候播放着战斗与凌辱的影像\n    interior:\n      - 内部结构类似于大型购物中心，除各比赛场地外，还林立着各类餐饮店与周边商店\n    arenas:\n      - 拥有多个不同类型的赛场\n      - 大半为铺设沙土的标准竞技场形式，但也设有擂台及注满润滑液的特殊水池\n  history_and_operation:\n    origin:\n      - 由“悦乐同盟”共同出资，于三年前建成\n      - 填补了外壁区下层长期缺乏专业大型斗技场的空白\n    business_strategy:\n      - 与其凶恶的外观相反，实行着旨在吸引游客的“洁净运营”\n      - 入场与参赛完全免费，且作为庄家的抽成被压至最低\n      - 即使不观看比赛，仅作为约会地点或闲逛场所也极具人气\n    matches:\n      - 比赛按内容、观众层及风气进行严格分类，从硬派格斗到色情表演应有尽有\n      - 虽拥有专属斗士、好战妖精及作为处刑秀耗材的奴隶，但绝大多数比赛由自愿报名的希望者构成\n      - 参赛者动机多样，既有为了赚取奖金的自信者，也有为了体验在众目睽睽下战败受辱的受虐狂\n    win_win_dynamic:\n      - 对于受虐狂参赛者而言，因参赛免费，只要不下注便没有任何金钱损失，能零成本享受被凌辱的快感\n      - 对于运营方而言，即便没有赌金收益，此类充满凌辱画面的比赛本身就是极佳的揽客手段，因此对此类行为持欢迎态度\n  dark_side:\n    rumors:\n      - 与洁净的运营方针不同，支配者与核心员工的背景并不干净，总是伴随着黑色传闻\n      - 流传着“地下隐藏着不为人知的异界”或“支配者向邪神献祭生祭”等流言\n    incidents:\n      - 曾发生过由“对魔团”发动的恐怖袭击事件\n  arena_rules:\n    participation:\n      - 需注册追猎者代号与简介，报名免费\n      - 允许参赛者下注自己获胜\n    matchmaking:\n      - 新手保护: 初次参赛者会被安排与低等级对手（Lv-1）对战，作为鼓励其成为常客的服务\n      - 强者挑战: 若连续获胜2场以上，将匹配高等级（Lv+1）乃至更强的对手，甚至可能出现带有不利条件的让以此战\n    combat_regulations:\n      - 禁止“奇袭”，且严禁使用“枪械”与“消耗性道具”\n      - 战斗全程会被实况解说并向场外直播，观众可自由拍摄与上传视频\n    betting_privilege:\n      - 参赛者赌自己获胜时，享受固定2倍的优待赔率\n      - 无论对手强弱，此赔率不变\n    fixing_matches:\n      - 默许小规模的假赛（如与其同伴配合故意输掉以赚取小额赌金）\n      - 但若做得太过露骨或成为惯犯，将遭到严厉制裁\n    erotic_penalty:\n      - 战斗中的性行为与羞辱皆被视为表演一环\n  available_services:\n    餐饮:\n      - 提供简单的快餐服务\n    街娼:\n      - 出没于大厅，以此作为寻找因观赛而兴奋的客人的猎场\n    赌博:\n      - 面向游客运营，赔率与规则相对良心\n    社交场:\n      - 各色人物混杂的观战席，是交换情报的场所\n    VIP包厢 (Hotel):\n      - 实质为带床铺的高级观战席\n      - 价格: 最低5信用点\n    斗士指名 (娼馆):\n      - 可指名所属斗士提供性服务\n      - 价格:\n        - 通常: 最低3信用点\n        - 赛后指名: 最低10信用点（指名刚结束比赛的斗士）\n      - 特征: 因非专业娼妓，服务技术可能欠佳，但能通过征服强者获得巨大的优越感\n\n",
+            "comment": "炼狱斗技场斗士清单",
+            "content": "炼狱斗技场可遇见的斗士列表:\n・强改者（等级1）\n・史莱姆女王（等级1）\n・海栖种（等级2 ／使用「温蒂尼」的数据 ／躯体黏滑、指尖有蹼，颈部有不显眼的鳃、肌肤纯白的原本生活在海底的妖女）\n・地狱犬（等级2 ）\n・濡女（等级2 ／使用「拉弥亚」的数据）\n・弥诺陶洛斯（等级2 ／使用「鬼」的数据）\n・树绳妖（等级2 ）\n・异形强改者（等级3）\n・狼人（等级3）\n・牛鬼（等级5）\n・Algolagnia\n・新人斗士  :\n - 等级: [1]\n - 矜持: [5]\n - 武器:\n      - 刀剑(零/「昏迷」2)\n      - 格斗(零/「屈服」1)\n    描述: [更上位斗士们的弟子或见习者。通常与误参赛的一般人或债务奴隶等对象交战。由于一旦失败就会遭受残酷的惩罚，因此会拼命战斗。也会被用于测试新参赛者的实力。]\n\n・剑斗士  :\n - 等级: [3]\n - 矜持: [8]\n - 武器:\n      - 刀剑(零/「昏迷」3)\n    描述: [技场的剑士。其在绝境中的逆转相当精彩。]\n\n・搏击手  :\n - 等级: [3]\n - 矜持: [8]\n - 武器:\n      - 格斗(零/「屈服」3)\n    描述: [斗技场的格斗者。善于进行表演性质的战斗。]\n\n・堕落退魔师  :\n - 等级: [2]\n - 矜持: [8]\n - 武器:\n      - 咒鞭(零/「屈服」2)\n      - 捕缚术(零/「BS：拘束 2」)\n - 能力:\n      -  [三来流]「增礼」\n        效果: [进行等级判定时，敌人失误值将上升2]\n    描述: [屈服于Algolagnia的三来家退魔师。已然遗忘了讨伐邪魔的使命，沉溺于向弱者使用力量的快乐中。比起斗士更常被当作经营者或警卫来驱使]\n\n・海栖集群\n - 等级：３\n - 矜持：12\n - 武器\n      -  诱惑(零～中/「魅惑」2)\n      -  拥抱(零/「屈服」2)\n - 能力\n      -  《水妖》（赠礼）等级在地表将减少1，而若在水中、并对位于水中的目标进行等级判定时，则上升1。\n    描述: [躯体黏滑、指尖有蹼，颈部有不显眼的鳃、肌肤纯白的原本生活在海底的妖女集群]\n\n・矶姫\n - 等级：9\n - 矜持：16\n - 武器\n      -  拘束凌辱(零～近/「屈服」3 ＋「BS：拘束2」/压制)\n - 能力\n      -  《水妖》（赠礼）等级在地表将减少1，而若在水中、并对位于水中的目标进行等级判定时，则上升1。\n      -  《水域结界》（术法）使中距离以内的范围盈满深达腰间的水，并将此范围视作「水中」，直至战斗结束为止。\n    描述: [躯体黏滑、指尖有蹼，颈部有不显眼的鳃、肌肤纯白的原本生活在海底的妖女集群]\n\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
             "selectiveLogic": 0,
             "addMemo": true,
-            "order": 366,
+            "order": 368,
             "position": 1,
             "disable": false,
-            "excludeRecursion": false,
+            "excludeRecursion": true,
             "preventRecursion": true,
             "matchPersonaDescription": false,
             "matchCharacterDescription": false,
@@ -4152,7 +4197,7 @@
             ],
             "keysecondary": [],
             "comment": "失乐园大厅",
-            "content": "失乐园大厅:\n  type: 大型多功能活动中心/半废墟\n  location: 神魔智街\n  alias: 娱乐园大厅 (原名)\n  appearance:\n    structure:\n      - 拥有开闭式圆顶的大型活动大厅，规模宏大，其高度堪比低层大楼\n      - 中央为兼具竞技场功能的主厅，外周上层排列着用于中小型活动和会议室的房间\n      - 整体设计类似于兼具公民馆功能的巨型竞技场\n    damage:\n      - 数月前发生的大火灾导致圆顶部分烧毁坍塌\n      - 至今外墙上仍留有明显的焦黑烧痕，给人以凄凉的废墟感\n  history_and_tragedy:\n    original_role:\n      - 于2237年完工，曾作为神魔智学园及周边区域举办各类活动的历史悠久场所\n      - 频繁举办音乐会、体育比赛、武术大会及大规模交流会\n      - 外周会议室曾是各种兴趣社团的活动基地\n    the_pp_fire:\n      - 2299年，在此举办了众神以虚拟偶像身份争夺信徒的『第257届 虚拟偶像大赏（Virtual Idol Grand Prix）』\n      - 该活动虽名为粉丝交流，实为众神互抢信徒、互相诋毁、时而发展为武力对抗，相当混乱但也颇受欢迎的盛会。\n      - 活动中，未受邀请的地下偶像“纯洁公主 (PP)”突然在活动最高潮时降临，引发了物理层面的炎上\n      - 在场的众神因互相阻碍与拆台，导致避难引导完全失败，最终造成近百人死亡的惨剧\n  current_status:\n    decline:\n      - 因惨痛事故而被人忌讳，大型活动已不再使用此地，会议室的使用者也骤减，主流活动流向了“炼狱竞技场”\n      - 尽管管理方全力试图恢复形象，但访客依然稀少，现已沦为不良学生的聚集地\n    religious_rumor:\n      - 因“被蛇夺走了一切”，该地被讽刺地称为“失乐园”\n      - 传闻此称呼会活性化唯一神“耶和华”的力量\n      - 相对的，“万魔殿”的恶魔们对此感到焦虑，正拼命试图让大众改回原名，并派遣了恶魔“纳贝流士”处理\n  available_services:\n    餐饮:\n      - 只有简单的饮食选择\n    街娼:\n      - 常有\n    炮房:\n      - 可免费利用这里厕所或空置会议室进行性行为\n",
+            "content": "失乐园大厅:\n  type: 大型多功能活动中心/半废墟\n  location: 神魔智街\n  alias: 娱乐园大厅 (原名)\n  appearance:\n    structure:\n      - 拥有开闭式圆顶的大型活动大厅，规模宏大，其高度堪比低层大楼\n      - 中央为兼具竞技场功能的主厅，外周上层排列着用于中小型活动和会议室的房间\n      - 整体设计类似于兼具公民馆功能的巨型竞技场\n    damage:\n      - 数月前发生的大火灾导致圆顶部分烧毁坍塌\n      - 至今外墙上仍留有明显的焦黑烧痕，给人以凄凉的废墟感\n  history_and_tragedy:\n    original_role:\n      - 于2237年完工，曾作为神魔智学园及周边区域举办各类活动的历史悠久场所\n      - 频繁举办音乐会、体育比赛、武术大会及大规模交流会\n      - 外周会议室曾是各种兴趣社团的活动基地\n    the_pp_fire:\n      - 2299年，在此举办了众神以虚拟偶像身份争夺信徒的『第257届 虚拟偶像大赏（Virtual Idol Grand Prix）』\n      - 该活动虽名为粉丝交流，实为众神互抢信徒、互相诋毁、时而发展为武力对抗，相当混乱但也颇受欢迎的盛会。\n      - 活动中，未受邀请的地下偶像“纯洁公主 (PP)”突然在活动最高潮时降临，引发了物理层面的炎上\n      - 在场的众神因互相阻碍与拆台，导致避难引导完全失败，最终造成近百人死亡的惨剧\n  current_status:\n    decline:\n      - 因惨痛事故而被人忌讳，大型活动已不再使用此地，会议室的使用者也骤减，主流活动流向了“炼狱竞技场”\n      - 尽管管理方全力试图恢复形象，但访客依然稀少，现已沦为不良学生的聚集地\n    religious_rumor:\n      - 因“被蛇夺走了一切”，该地被讽刺地称为“失乐园”\n      - 传闻此称呼会活性化唯一神“耶和华”的力量\n      - 相对的，“万魔殿”的恶魔们对此感到焦虑，正拼命试图让大众改回原名，并派遣了恶魔“纳贝流士”处理\n  available_services:\n    餐饮:\n      - 只有简单的饮食选择\n    街娼\n    炮房:\n      - 可免费利用这里厕所或空置会议室进行性行为\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -4705,7 +4750,12 @@
             "triggers": [],
             "displayIndex": 28,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "101": {
             "uid": 101,

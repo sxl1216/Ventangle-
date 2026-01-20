@@ -185,7 +185,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "4": {
             "uid": 4,
@@ -228,7 +233,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "5": {
             "uid": 5,
@@ -287,7 +297,7 @@
             ],
             "keysecondary": [],
             "comment": "街娼_3",
-            "content": "- 不良警备员: 好色的武装警备员，会被要求去路旁的小巷子里做，所以不可使用【旅馆】。若发生“突发事件”被不特定多数人发现，主角会被视为施暴者，并被处以10信用点的罚款",
+            "content": "- 警备员: 此地的好色警备员，会被要求去路旁的小巷子里做，所以不可使用【旅馆】。若发生“突发事件”被不特定多数人发现，主角会被视为施暴者，并被处以10信用点的罚款",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -323,12 +333,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "7": {
             "uid": 7,
@@ -523,12 +528,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "11": {
             "uid": 11,
