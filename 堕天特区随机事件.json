@@ -41,7 +41,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "1": {
             "uid": 1,
@@ -186,7 +191,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "4": {
             "uid": 4,
@@ -331,12 +341,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "7": {
             "uid": 7,
@@ -381,12 +386,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "8": {
             "uid": 8,
@@ -395,7 +395,7 @@
             ],
             "keysecondary": [],
             "comment": "随机事件_神魔智街_1_4",
-            "content": "「你在看着我吗？」主角将视线停留在街头全息投影中的歌姬上……与她对上了眼。进行业力判定（幸运）。若是失败，Pure Princess便会在背后出现。若是成功，则无事发生。",
+            "content": "随机事件_神魔智街_1_4_KIYOHIME\n阶段1_幸运检定:\n    自动检定: 主角立刻进行业力判定(幸运)\n    结果分支:\n      - 成功: 无事发生，事件结束\n      - 失败: 眼前的显示屏内容便会陡然变化，开始进行Pure Princess的突发直播，进入阶段2_再次检定\n\n阶段2_再次检定\n    自动检定: 主角再次立刻进行业力判定(幸运)\n    结果分支:\n      - 成功: 看着直播的主角隐约感到不安，但事件就此结束\n      - 失败: Pure Princess便会在眼前现身，并自动将主角视为安珍，并加入主角的人脉中\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -1081,12 +1081,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "22": {
             "uid": 22,
@@ -1095,7 +1090,7 @@
             ],
             "keysecondary": [],
             "comment": "随机事件_神魔智街_3_6？",
-            "content": "「今日限定品项！请一定要来试试看！」餐厅正在揽客。若主角将携入，便可在【餐厅】（5-1 ～5-6）中，支付1信用点度过2小时。",
+            "content": "「今日限定品项！请一定要来试试看！」餐厅正在揽客",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -1131,12 +1126,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "23": {
             "uid": 23,
@@ -1231,12 +1221,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "25": {
             "uid": 25,

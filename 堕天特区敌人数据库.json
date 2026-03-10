@@ -1057,7 +1057,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "21": {
             "uid": 21,
@@ -3021,7 +3026,7 @@
                 "传奇"
             ],
             "comment": "活传奇",
-            "content": "#  活传奇 :\n - 等级: [7]\n - 矜持: [10]\n - 武器:\n      - 利器(零/「昏迷」3/伤害减轻无效)\n      - 气势(零~近/「魅惑」2+「BS：恐怖1」/压制、缴械无效)\n - 能力:\n      -  [历战之躯]「赠礼」\n        效果: [进行等级判定时获得+3修正]\n    描述: [活着的传说。现代的英雄。处于全盛时期。这个数据仅是剑士，可更改武器类别来套用于不同的角色。]",
+            "content": "#  活传奇 :\n - 等级: [7]\n - 矜持: [10]\n - 武器:\n      - 利器(零/「昏迷」3/伤害减轻无效)\n      - 气势(零~近/「魅惑」2+「BS：恐怖1」/压制)\n - 能力:\n      -  [历战之躯]「赠礼」\n        效果: [进行等级判定时获得+3修正]\n    描述: [活着的传说。现代的英雄。处于全盛时期。这个数据仅是剑士，可更改武器类别来套用于不同的角色。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -3057,12 +3062,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "60": {
             "uid": 60,
