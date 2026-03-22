@@ -596,7 +596,7 @@
             ],
             "keysecondary": [],
             "comment": "武器详解 - 载具与坐骑",
-            "content": "  载具:\n    包含: 摩托、卡车、巴士、小轿车、浮游踏板等常见载具\n    伤害: 「昏迷」2\n    特性: 「压制」「战斗噪音」\n    常见载具列表:   \n      - 摩托: 最普遍轻便，个人持有常见，赛事流行。\n      - 卡车: 主要用于运输，中上层常见。\n      - 巴士: 用于人员运输，保有一定数量。\n      - 小轿车: 数量不多，有出租车、公务车等，乐园区偶有兴趣者乘坐。\n      - 浮游踏板: 违法危险的飞行冲浪板，利用反重力飞行，受不法分子欢迎。\n      - 在本土或大陆，载具常作为与枪并列的武器，用于护卫、袭击等，机车突击亦不容小觑。\n\n  坐骑:\n    包含: 魔兽和灵兽等可骑乘的兽类\n    伤害: 「昏迷」2\n    特性: 「压制」「战斗噪音」\n    背景描述:   在“大变革”后大量出现的、拥有高智能的魔兽和灵兽，被许多人（尤其上层、乐园区居民、教团相关者）认为优于机械载具。其通过信任建立和训练，可成为强大的战斗伙伴。神明、妖精及其随从常使用坐骑。\n",
+            "content": "  载具:\n    包含: 摩托、卡车、巴士、小轿车、浮游踏板等常见载具\n    伤害: 「昏迷」2\n    特性: 「压制」「战斗噪音」\n\n  坐骑:\n    包含: 魔兽和灵兽等可骑乘的兽类\n    伤害: 「昏迷」2\n    特性: 「压制」「战斗噪音」\n    背景描述:   在“大变革”后大量出现的、拥有高智能的魔兽和灵兽，被许多人（尤其上层、乐园区居民、教团相关者）认为优于机械载具。其通过信任建立和训练，可成为强大的战斗伙伴。神明、妖精及其随从常使用坐骑。\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -632,12 +632,7 @@
             "triggers": [],
             "displayIndex": 30,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "25": {
             "uid": 25,
@@ -680,7 +675,12 @@
             "displayIndex": 34,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "27": {
             "uid": 27,
@@ -771,7 +771,12 @@
             "displayIndex": 35,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         }
     }
 }

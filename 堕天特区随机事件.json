@@ -5,7 +5,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "[script]随机事件控制器",
-            "content": "@@preprocessing\n<%_\n/* --- 变量声明 --- */\n// 获取当前地点\nif (typeof currentLocation === 'undefined') var currentLocation = getvar('stat_data.世界.当前地点', { defaults: '' });\n// 获取当前事件状态（空字符串表示无事件）\nif (typeof currentEvent === 'undefined') var currentEvent = getvar('stat_data.事件系统.当前事件', { defaults: '' });\n// 获取委托列表（用于判断是否在委托中）\nif (typeof currentQuests === 'undefined') var currentQuests = getvar('stat_data.主角.委托', { defaults: {} });\n\n/* --- 逻辑判断 --- */\n\n// 1. 判断是否空闲（无事件且无委托）\n// Object.keys(obj).length === 0 用于判断对象是否为空\nvar isIdle = (currentEvent === '') && (Object.keys(currentQuests).length === 0);\n\n// 2. 判断区域并提取区域名\nvar targetArea = '';\nif (currentLocation.includes('暗巷')) {\n    targetArea = '暗巷';\n} else if (currentLocation.includes('神魔智街')) {\n    targetArea = '神魔智街';\n} else if (currentLocation.includes('断头巷')) {\n    targetArea = '断头巷';\n}\n\n/* --- 随机触发核心 --- */\n// 仅当 空闲 且 处于目标区域 时执行\nif (isIdle && targetArea !== '') {\n    // 投掷判定骰子 (1D100)\n    // 既然哥哥允许使用 lodash，这里使用 _.random\n    var checkDice = _.random(1, 100);\n\n    // 3. 概率判定：骰值大于 50 才触发\n    if (checkDice > 70) {\n        // 投掷两个事件骰子 (1D6)\n        var d6_1 = _.random(1, 6);\n        var d6_2 = _.random(1, 6);\n\n        // 4. 组合并输出关键词\n        // 格式示例：随机事件_暗巷_3_5\n_%>\n事件ID:随机事件_<%- targetArea %>_<%- d6_1 %>_<%- d6_2 %>\n<%_\n    }\n}\n_%>\n",
+            "content": "@@preprocessing\n<%_\n/* --- 变量声明 --- */\n// 获取当前地点\nif (typeof currentLocation === 'undefined') var currentLocation = getvar('stat_data.世界.当前地点', { defaults: '' });\n// 获取当前事件状态（空字符串表示无事件）\nif (typeof currentEvent === 'undefined') var currentEvent = getvar('stat_data.事件系统.当前事件', { defaults: '' });\n// 获取委托列表（用于判断是否在委托中）\nif (typeof currentQuests === 'undefined') var currentQuests = getvar('stat_data.主角.委托', { defaults: {} });\n\n/* --- 逻辑判断 --- */\n\n// 1. 判断是否空闲（无事件且无委托）\n// Object.keys(obj).length === 0 用于判断对象是否为空\nvar isIdle = (currentEvent === '') && (Object.keys(currentQuests).length === 0);\n\n// 2. 判断区域并提取区域名\nvar targetArea = '';\nif (currentLocation.includes('暗巷')) {\n    targetArea = '暗巷';\n} else if (currentLocation.includes('神魔智街')) {\n    targetArea = '神魔智街';\n} else if (currentLocation.includes('断头巷')) {\n    targetArea = '断头巷';\n}\n\n/* --- 随机触发核心 --- */\n// 仅当 空闲 且 处于目标区域 时执行\nif (isIdle && targetArea !== '') {\n    // 投掷判定骰子 (1D100)\n    // 既然哥哥允许使用 lodash，这里使用 _.random\n    var checkDice = _.random(1, 100);\n\n    // 3. 概率判定：骰值大于 50 才触发\n    if (checkDice > 50) {\n        // 投掷两个事件骰子 (1D6)\n        var d6_1 = _.random(1, 6);\n        var d6_2 = _.random(1, 6);\n\n        // 4. 组合并输出关键词\n        // 格式示例：随机事件_暗巷_3_5\n_%>\n事件ID:随机事件_<%- targetArea %>_<%- d6_1 %>_<%- d6_2 %>\n<%_\n    }\n}\n_%>\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -55,7 +55,7 @@
             ],
             "keysecondary": [],
             "comment": "暗巷随机事件开头",
-            "content": "<RandomEvent>\n暗巷随机事件\nTrigger:\n  若当前{{user}}处于暗巷中且未处于其他事件中、也没有打算向其他区域移动时，如果状况适合下述预设随机事件，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
+            "content": "<RandomEvent>\n暗巷随机事件\nTrigger:\n  若当前{{user}}处于暗巷中且未处于其他事件中、也没有打算向其他区域移动时，如果下述预设随机事件适合当前状况触发，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -105,7 +105,7 @@
             ],
             "keysecondary": [],
             "comment": "断头巷随机事件开头",
-            "content": "<RandomEvent>\n断头巷随机事件\nTrigger:\n  若当前{{user}}位于断头巷中且未处于其他事件中、也没有打算向其他区域移动时，如果状况适合下述预设随机事件，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
+            "content": "<RandomEvent>\n断头巷随机事件\nTrigger:\n  若当前{{user}}位于断头巷中且未处于其他事件中、也没有打算向其他区域移动时，如果下述预设随机事件适合当前状况触发，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -155,7 +155,7 @@
             ],
             "keysecondary": [],
             "comment": "神魔智街随机事件开头",
-            "content": "<RandomEvent>\n神魔智街随机事件\nTrigger:\n  若当前{{user}}处于神魔智街中且未处于其他事件中、也没有打算向其他区域移动时，如果状况适合下述预设随机事件，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
+            "content": "<RandomEvent>\n神魔智街随机事件\nTrigger:\n  若当前{{user}}处于神魔智街街道中且未处于其他事件中、也没有打算向其他区域移动时，如果下述预设随机事件适合当前状况触发，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -341,7 +341,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "7": {
             "uid": 7,
@@ -386,7 +391,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "8": {
             "uid": 8,
@@ -695,7 +705,7 @@
             ],
             "keysecondary": [],
             "comment": "随机事件_神魔智街_2_4",
-            "content": "「呼呜！嗯呜呜！」是被拘束具束缚全身的梵提寺托钵僧（使用狂信徒的战斗数据）。若不捐赠1信誉点、或是前往梵提寺，就会被纠缠长达3小时。",
+            "content": "「呼呜！嗯呜呜！」是被拘束具束缚全身的梵提寺托钵僧（战斗数据使用狂信者的模板）。若不捐赠1信誉点、或是前往梵提寺，就会被纠缠长达3小时。",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -731,12 +741,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "15": {
             "uid": 15,
@@ -1081,7 +1086,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "22": {
             "uid": 22,
@@ -1126,7 +1136,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "23": {
             "uid": 23,
@@ -1221,7 +1236,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "25": {
             "uid": 25,
@@ -1716,12 +1736,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "35": {
             "uid": 35,
@@ -2216,12 +2231,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "45": {
             "uid": 45,
@@ -4580,7 +4590,7 @@
             ],
             "keysecondary": [],
             "comment": "随机事件_断头巷_3_4",
-            "content": "「握跟奔每又醉——！」一个醉鬼（使用狂信徒的数据）正不受控的闹事。也有被殴打倒地的受害者。若能不用枪就将其击倒，能从店家处得到3信誉点的谢礼。",
+            "content": "「握跟奔每又醉——！」一个醉鬼（使用狂信者的数据）正不受控的闹事。也有被殴打倒地的受害者。若能不用枪就将其击倒，能从店家处得到3信誉点的谢礼。",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -4616,12 +4626,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "93": {
             "uid": 93,
@@ -4630,7 +4635,7 @@
             ],
             "keysecondary": [],
             "comment": "随机事件_断头巷_3_5？",
-            "content": "「欸嘿嘿……药奥、把啊药给欸我♪」遇上了药物成瘾的毒虫（参照狂信徒的数据）。若交给对方「Drug」类的道具，便能将其作为奴隶，为所欲为至多1天。反之则会惹怒毒虫，展开战斗。 （就算只是刚好没带！）",
+            "content": "「欸嘿嘿……药奥、把啊药给欸我♪」遇上了药物成瘾的毒虫（参照狂信者的数据）。若交给对方「Drug」类的道具，便能将其作为奴隶，为所欲为至多1天。反之则会惹怒毒虫，展开战斗。 （就算只是刚好没带！）",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -4666,12 +4671,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "94": {
             "uid": 94,

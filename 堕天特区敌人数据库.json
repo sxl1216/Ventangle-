@@ -1692,11 +1692,12 @@
             "key": [
                 "莉莉姆",
                 "大浴场",
-                "莉莉丝"
+                "莉莉丝",
+                "高位魅魔"
             ],
             "keysecondary": [],
-            "comment": "莉莉姆",
-            "content": "#  莉莉姆 :\n - 等级: [5]\n - 矜持: [12]\n - 武器:\n      - 诱惑(零~近/「魅惑」2+「BS：发情1」)\n - 能力:\n      -  [斗争淫乐]「赠礼」\n        效果: [自身受到的「昏迷」伤害降低2点，但受到的「魅惑」伤害与「屈服」伤害增加1点。]\n    描述: [莉莉丝等，受到淫荡神明加护的魅魔。极端颓废加身，能使大部分物理攻击无效化。]",
+            "comment": "高位魅魔",
+            "content": "#  高位魅魔:\n - 等级: [5]\n - 矜持: [12]\n - 武器:\n      - 诱惑(零~近/「魅惑」2+「BS：发情1」)\n - 能力:\n      -  [斗争淫乐]「赠礼」\n        效果: [自身受到的「昏迷」伤害降低2点，但受到的「魅惑」伤害与「屈服」伤害增加1点。]\n    描述: [莉莉丝、莉莉姆等，受到淫荡神明加护的高位魅魔。极端颓废加身，能使大部分物理攻击无效化。]",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -1732,12 +1733,7 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "34": {
             "uid": 34,
@@ -3062,7 +3058,12 @@
             "triggers": [],
             "displayIndex": 2,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "60": {
             "uid": 60,

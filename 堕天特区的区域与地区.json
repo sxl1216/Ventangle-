@@ -687,13 +687,11 @@
             "key": [
                 "妖辻",
                 "桑伍德",
-                "闭暗京",
-                "中立地带",
-                "酒吧"
+                "闭暗京"
             ],
             "keysecondary": [],
             "comment": "妖辻酒吧",
-            "content": "# 地点详解：妖辻酒吧\nfacility_name: 妖辻酒吧\n  type: 公开设施 (对特定人群公开其真实功能)\n  main_manager: 桑伍德\n    origin_and_Adept: 现人神 / 破局手\n    bio: |\n      酒吧的店长兼调酒师，真实身份是传说中罗生门之鬼——茨木童子的现人神。她勤劳、体贴、人情味十足，作为闭暗京的门卫和各方势力的仲裁者，深受敬重。她以放荡不羁的肉体关系闻名，但无人知晓其真心所属。其实力深不可测，是守护此地秩序的绝对力量。\n  location:\n    primary_area: 外壁区下层 / 宵暗区 (暮光领域)\n    specific_location: |\n      位于外壁区下层与宵暗区交界地带。老式装潢，吧台悠长，看似平平无奇的清吧。但其深处隐藏着风格迥异的日式宴会包间，以及一扇通往异界“闭暗京”的滑动铁门。\n  background_story: |\n    这家从黄昏营业至黎明的酒吧，是现实世界与堕天特区最大异界之一“闭暗京”的交汇点。作为固定的入口，这里是人类、神明、妖精三方势力混杂的舞台，无数的纠纷、谈判与交易在此上演。凭借店长桑伍德的强大实力与人脉，妖辻酒吧成为了一个公认的中立地带，为各路人马提供了一个既能交换情报、建立联系，又能寻求庇护的独特场所。\n  services_provided:\n    - service_name: 酒吧与餐饮\n      description: |\n        提供种类繁多的酒水，储量丰富。菜肴仅有奶酪、坚果、熏制品等简单的下酒菜。\n    - service_name: 委托中介与情报交易\n      description: |\n        作为各方势力的交汇点，这里是收集（尤其是日本神话体系）情报与承接相关委托的绝佳地点。店长桑伍德本人就是重要的人脉来源。\n    - service_name: 通往“闭暗京”的通道\n      description: |\n        酒吧最深处的滑动铁门是通往异界“闭暗京”的固定入口，穿过即可抵达罗生门。\n  special_rules: |\n    1.  中立地带：几乎无人敢在此地闹事，否则将面对店长桑伍德以及此地所有关联势力的怒火。\n  events:\n    - event_name: 三界交汇\n      description: |\n        酒吧内随时可见来自闭暗京的神明、妖怪，以及需要利用他们或被他们利用的人类追猎者。是建立意想不到人脉的绝佳机会。\n    - event_name: 藏身之所\n      description: |\n        这里是公认的庇护所，时常有被企业或教团追杀的人前来躲藏，可能会带来新的委托或危险。",
+            "content": "BAR妖辻:\n  type: 酒吧/异界入口\n  location: 外壁区下层与宵暗区交界处\n  operating_hours: 黄昏至黎明\n  appearance:\n    front_area:\n      - 老式风格装潢\n      - 设有长吧台\n      - 陈列数量庞大且种类繁多的酒类\n    underground_storage:\n      - 柜台内设有通往地下室的楼梯\n      - 用于保存更多美酒\n    private_rooms:\n      - 位于酒吧深处，空间宽敞\n      - 呈现与外部截然不同的纯日式风格与宴会厅布置\n    portal_door:\n      - 位于包间最深处的未上锁滑动铁门\n      - 作为通往堕天特区规模最大异界“闭暗京”的固定入口，穿过即可抵达罗生门\n  social_role:\n    border_hub:\n      - 作为异界与现实世界的边境节点运作\n    clientele:\n      - 平安时代的神明及其信徒\n      - 具备智慧的妖精\n      - 寻求机会与雇主的追猎者\n    sanctuary:\n      - 堕天特区内被称为最后避难所的中立区域之一\n      - 严禁武力冲突，几乎无人敢在此地闹事\n      - 被企业和教团追杀者常在此藏匿\n  business_and_opportunities:\n    hunter_demand:\n      - 因各类妖怪与人类的纠纷、麻烦和谈判汇聚于此，对追猎者的业务需求极大\n    intelligence_hub:\n      - 收集日本神明与妖怪相关情报的核心据点\n    networking:\n      - 有机会与平日难以接触的“大人物”建立人脉\n  available_services:\n    饮品:\n      - 供应种类繁多的美酒\n    餐饮:\n      - 菜品稀少，仅提供奶酪、坚果与熏制品等简单的下酒菜\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -701,7 +699,7 @@
             "addMemo": true,
             "order": 353,
             "position": 1,
-            "disable": true,
+            "disable": false,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -1279,7 +1277,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "异界：万魔殿",
-            "content": "万魔殿:\n  type: 异界\n  overview: 已知规模最大的异界，其形态为一座无法离开的、凄厉而巨大的魔城，城内是由无数恶魔组成的宫廷，是背德与阴谋的殿堂\n  composition:\n    primary_structure: 由近百个拥有爵位与地位的恶魔所拥有的“小异界”密集聚合，共同形成的复合型魔城\n  governance_and_society:\n    ruling_class: 来自基督教神话圈的恶魔\n  foreign_policy_and_goals:\n    primary_objective: 妨碍一神教的神与天使\n    secondary_objective: 阻止奥林匹斯、高天原等其他神话体系形成联合\n    current_status: 其妨碍策略已取得显著成效\n  alliances_and_relations:\n    allies: 与偏好颓废堕落的永恒者关系良好\n    co-conspirators: 与拥有共同目的的“闭暗京”势力存在时效性合作关系\n  access_and_influence:\n    portals: 其传送门被设置在堕天特区内各个恶魔系教团的据点深处\n    traffic: 人类与恶魔的往来极为频繁，是堕天特区内影响力最大的异界\n\n",
+            "content": "万魔殿:\n  type: 异界\n  overview: 已知规模最大的异界，其形态为一座无法离开的复合型魔城，城内是由无数恶魔组成的宫廷。因其教团提供高娱乐性与高可靠性的服务，在一般市民中具有极高认知度。\n  composition:\n    primary_structure: 由近百个拥有爵位与地位的恶魔所拥有的“小异界”密集聚合形成。\n  governance_and_society:\n    ruling_class: 来自基督教神话圈的恶魔\n    organizational_structure: 受后世虚构作品中赋予的军事组织设定影响，构建了其他神话体系前所未见的强固体制与高度组织化。\n  network_presence:\n    domain_status: 凭借稳固的组织体制，在被众神分割的电脑世界（信息网络）中获取并掌控了巨大的领域。\n  foreign_policy_and_goals:\n    primary_objective: 阻止一神教的“唯一神”与“天使”显现，从而阻止电脑世界的单一化。目前此目标已基本达成。\n    strategic_method:\n      - 基于“作为对立面的恶魔认知被遗忘，对应的天使与唯一神实体化就会变得困难”的假设，旗下各教团（如主导金融的玛门、运营大浴场的克罗塞尔）在现世多领域开展业务，刻意使其作为传统“恶魔”的侧面认知逐渐淡化消失，来从根源阻碍敌对存在降临现世。\n    secondary_objective: 阻止奥林匹斯、高天原等其他神话体系形成联合。\n  alliances_and_relations:\n    allies:\n      - 阻止网络统一的目的与特区统治阶级（永恒者和人造人）完全一致，深得其支持。\n      - 基于上述利益共识，万魔殿与各大企业之间维持着十分良好的合作关系。\n    co-conspirators: 与拥有共同目的的“闭暗京”势力存在时效性合作关系。\n  access_and_influence:\n    portals: 其传送门设置在堕天特区内各个恶魔系教团的据点深处。\n    traffic: 人类与恶魔往来频繁，是堕天特区内现世影响力最大的异界。",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -1325,12 +1323,17 @@
         },
         "25": {
             "key": [
-                "闭暗京"
+                "闭暗京",
+                "大江山酒窖",
+                "酒吞童子",
+                "玉藻前",
+                "茨木",
+                "妖辻"
             ],
             "keysecondary": [],
             "comment": "异界：闭暗京",
             "content": "闭暗京:\n  type: 异界\n  overview: 一个以古代平安时代的京都为蓝本，被暗云与妖气笼罩的异界。此地是玉藻前与酒吞童子等当时的神明为对抗更强神话体系的联合而建立的共有据点\n  governance:\n    structure: 由多个互不信任的“主”共同维持的联合统治\n    origin_and_purpose: 平安时代的“神明”们为防止被如日本神话等更强大的神明联合所压制，而搁置彼此的矛盾，联手建立的强固异界\n  residents:\n    ruling_class: 玉藻前, 酒吞童子等神明\n    majority_population: 膨大数量的神下妖怪（妖精）\n    subjugated_class: 少数身着平安装束的神使者与奴隶\n  foreign_policy:\n    modus_operandi: 积极通过遍布各处的、被称为“妖辻”的传送门对现世进行干涉\n    strategic_alliances: 会与拥有共同目的的“万魔殿”势力进行时效性合作\n\n",
-            "constant": true,
+            "constant": false,
             "vectorized": false,
             "selective": true,
             "selectiveLogic": 0,
@@ -1338,7 +1341,7 @@
             "order": 700,
             "position": 1,
             "disable": false,
-            "excludeRecursion": false,
+            "excludeRecursion": true,
             "preventRecursion": true,
             "matchPersonaDescription": false,
             "matchCharacterDescription": false,
@@ -1692,7 +1695,7 @@
             ],
             "keysecondary": [],
             "comment": "炼狱斗技场",
-            "content": "炼狱斗技场:\n  type: 竞技场/综合娱乐设施\n  location: 神魔智街\n  appearance:\n    exterior:\n      - 被铁棘和锁链覆盖，在红色灯光照射下，外观酷似一座巨大的拷问室\n      - 面向街道的外墙设有多个大型屏幕，全天候播放着战斗与凌辱的影像\n    interior:\n      - 内部结构类似于大型购物中心，除各比赛场地外，还林立着各类餐饮店与周边商店\n    arenas:\n      - 拥有多个不同类型的赛场\n      - 大半为铺设沙土的标准竞技场形式，但也设有擂台及注满润滑液的特殊水池\n  history_and_operation:\n    origin:\n      - 由“悦乐同盟”共同出资，于三年前建成\n      - 填补了外壁区下层长期缺乏专业大型斗技场的空白\n    business_strategy:\n      - 与其凶恶的外观相反，实行着旨在吸引游客的“洁净运营”\n      - 入场与参赛完全免费，且作为庄家的抽成被压至最低\n      - 即使不观看比赛，仅作为约会地点或闲逛场所也极具人气\n    matches:\n      - 比赛按内容、观众层及风气进行严格分类，从硬派格斗到色情表演应有尽有\n      - 虽拥有专属斗士、好战妖精及作为处刑秀耗材的奴隶，但绝大多数比赛由自愿报名的希望者构成\n      - 参赛者动机多样，既有为了赚取奖金的自信者，也有为了体验在众目睽睽下战败受辱的受虐狂\n    win_win_dynamic:\n      - 对于受虐狂参赛者而言，因参赛免费，只要不下注便没有任何金钱损失，能零成本享受被凌辱的快感\n      - 对于运营方而言，即便没有赌金收益，此类充满凌辱画面的比赛本身就是极佳的揽客手段，因此对此类行为持欢迎态度\n  dark_side:\n    rumors:\n      - 与洁净的运营方针不同，支配者与核心员工的背景并不干净，总是伴随着黑色传闻\n      - 流传着“地下隐藏着不为人知的异界”或“支配者向邪神献祭生祭”等流言\n    incidents:\n      - 曾发生过由“对魔团”发动的恐怖袭击事件\n  arena_rules:\n    participation:\n      - 需注册追猎者代号与简介，报名免费\n      - 允许参赛者下注自己比赛的赌局\n    matchmaking:\n      - 新手保护: 初次参赛者会被安排与稍弱对手对战，作为鼓励其成为这里常客的福利\n      - 强者挑战: 若连续获胜2场以上，将匹配稍强一点乃至更强的对手，甚至可能出现带有不利条件的让以此战\n    combat_regulations:\n      - 禁止“奇袭”，且严禁使用“枪械”与“消耗性道具”\n      - 战斗全程会被实况解说并向场外直播，观众可自由拍摄与上传视频\n    betting_privilege:\n      - 参赛者赌自己获胜时，享受固定2倍的优待赔率\n      - 无论对手强弱，此赔率不变\n    fixing_matches:\n      - 默许小规模的假赛（如与其同伴配合故意输掉以赚取小额赌金）\n      - 但若做得太过露骨或成为惯犯，将遭到严厉制裁\n    erotic_penalty:\n      - 战斗中的性行为与羞辱皆被视为表演一环\n  available_services:\n    餐饮:\n      - 提供简单的快餐服务\n    街娼:\n      - 出没于大厅，以此作为寻找因观赛而兴奋的客人的猎场\n    赌博:\n      - 面向游客运营，赔率与规则相对良心\n    社交场:\n      - 各色人物混杂的观战席，是交换情报的场所\n    VIP包厢 (Hotel):\n      - 实质为带床铺的高级观战席\n      - 价格: 最低5信用点\n    斗士指名 (娼馆):\n      - 可指名所属斗士提供性服务\n      - 价格:\n        - 通常: 最低3信用点\n        - 赛后指名: 最低10信用点（指名刚结束比赛的斗士）\n      - 特征: 因非专业娼妓，服务技术可能欠佳，但能通过征服强者获得巨大的优越感\n\n",
+            "content": "炼狱斗技场:\n  type: 竞技场/综合娱乐设施\n  location: 神魔智街\n  appearance:\n    exterior:\n      - 被铁棘和锁链覆盖，在红色灯光照射下，外观酷似一座巨大的拷问室\n      - 面向街道的外墙设有多个大型屏幕，全天候播放着战斗与凌辱的影像\n    interior:\n      - 内部结构类似于大型购物中心，除各比赛场地外，还林立着各类餐饮店与周边商店\n    arenas:\n      - 拥有多个不同类型的赛场\n      - 大半为铺设沙土的标准竞技场形式，但也设有擂台及注满润滑液的特殊水池\n  history_and_operation:\n    origin:\n      - 由“悦乐同盟”共同出资，于三年前建成\n      - 填补了外壁区下层长期缺乏专业大型斗技场的空白\n    business_strategy:\n      - 与其凶恶的外观相反，实行着旨在吸引游客的“洁净运营”\n      - 入场与参赛完全免费，且作为庄家的抽成被压至最低\n      - 即使不观看比赛，仅作为约会地点或闲逛场所也极具人气\n    matches:\n      - 比赛按内容、观众层及风气进行严格分类，从硬派格斗到色情表演应有尽有\n      - 虽拥有专属斗士、好战妖精及作为处刑秀耗材的奴隶，但绝大多数比赛由自愿报名的希望者构成\n      - 参赛者动机多样，既有为了赚取奖金的自信者，也有为了体验在众目睽睽下战败受辱的受虐狂\n    win_win_dynamic:\n      - 对于受虐狂而言，因参赛免费，只要不下注便没有任何金钱损失，能零成本享受被凌辱的快感\n      - 对于运营方而言，即便没有赌金收益，此类充满凌辱画面的比赛本身就是极佳的揽客手段，因此对此类行为持欢迎态度\n  dark_side:\n    rumors:\n      - 与洁净的运营方针不同，支配者与核心员工的背景并不干净，总是伴随着黑色传闻\n      - 流传着“地下隐藏着不为人知的异界”或“支配者向邪神献祭生祭”等流言\n    incidents:\n      - 曾发生过由“对魔团”发动的恐怖袭击事件\n  arena_rules:\n    participation:\n      - 需注册追猎者代号与简介，报名免费\n      - 允许参赛者下注自己比赛的赌局\n    matchmaking:\n      - 新手保护: 初次参赛者会被安排与稍弱对手对战，作为鼓励其成为这里常客的福利\n      - 强者挑战: 若连续获胜2场以上，将匹配稍强一点乃至更强的对手，甚至可能出现带有不利条件的让以此战\n    combat_regulations:\n      - 禁止“奇袭”，且严禁使用“枪械”与“消耗性道具”\n      - 战斗全程会被实况解说并向场外直播，观众可自由拍摄与上传视频\n    betting_privilege:\n      - 参赛者赌自己获胜时，享受固定2倍的优待赔率\n      - 无论对手强弱，此赔率不变\n    fixing_matches:\n      - 默许小规模的假赛（如与其同伴配合故意输掉以赚取小额赌金）\n      - 但若做得太过露骨或成为惯犯，将遭到严厉制裁\n    erotic_penalty:\n      - 战斗中的性行为与羞辱皆被视为表演一环\n  available_services:\n    餐饮:\n      - 提供简单的快餐服务\n    街娼:\n      - 出没于大厅，以此作为寻找因观赛而兴奋的客人的猎场\n    赌博:\n      - 面向游客运营，赔率与规则相对良心\n    社交场:\n      - 各色人物混杂的观战席，是交换情报的场所\n    VIP包厢 (Hotel):\n      - 实质为带床铺的高级观战席\n      - 价格: 最低5信用点\n    斗士指名 (娼馆):\n      - 可指名所属炼狱斗技场的斗士提供性服务\n      - 价格:\n        - 通常: 最低3信用点\n        - 赛后指名: 最低10信用点（指名刚结束比赛的斗士）\n      - 特征: 因非专业娼妓，服务技术可能欠佳，但能通过征服强者获得巨大的优越感\n\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -2732,10 +2735,11 @@
                 "赏金",
                 "中立",
                 "Nobullshit",
-                "梵提寺"
+                "梵提寺",
+                "妖辻酒吧"
             ],
             "keysecondary": [],
-            "comment": "最终审判",
+            "comment": "最后避难所",
             "content": "最后的避难所:\n  type: 地点类型/中立区域\n  overview: 位于外壁区，由多个组织协议设立的中立地带的总称，通常是位于敌对势力交界处的酒馆或餐厅\n  management: 大多由退休的追猎者经营\n  core_rules:\n    - 绝对禁止任何形式的暴力行为\n    - 争议必须通过非暴力方式解决\n  function:\n    negotiation_hub: 作为组织间进行谈判与交易的关键场所\n    sanctuary: 为被追捕的赏金犯提供庇护，部分人会选择留下成为店员以换取长期的安全\n  enforcement_and_consequences: 在此地挑起事端者，将被视为所有相关组织的公敌\n",
             "constant": false,
             "vectorized": false,
@@ -3049,7 +3053,7 @@
             ],
             "keysecondary": [],
             "comment": "末日要塞 ",
-            "content": "末日要塞:\n  type: 废墟群/暴力团巢穴/缓冲地带\n  location:\n    region: 外壁区与宵暗区的交界处\n    alias: 暮光领域 (Twilight Zone) 的核心区域\n  appearance:\n    visuals:\n      - 宛如世界末日般的荒废废墟群，原身为血之周末事件中，化为废墟的萨菲尔环境工程员工公寓\n      - 毫无再开发迹象，电力供应完全断绝，连路灯都已损坏殆尽\n      - 遍地散落着垃圾与瓦砾，深处一片漆黑\n      - 地面上随处可见篝火的痕迹、干涸的血迹以及尚未腐烂的尸体残块\n    atmosphere:\n      - 从废墟的阴影中时刻能感受到如肉食野兽般贪婪的视线\n      - 弥漫着腐臭与血腥味，昭示着此处居民的极度危险性\n  societal_function:\n    lawless_zone:\n      - 治安最恶劣的无法地带，强盗、杀人、强奸是日常便饭\n      - 遵循弱肉强食的原始法则，地位与头衔在此毫无意义\n      - 居民是暴力的化身，对外来者的基本方针是“男杀女奸”\n    buffer_zone:\n      - 作为表社会与里社会的缓冲地带，企业与大组织刻意维持其存在\n      - 被利用作为处理“脏活”的一次性弃子\n      - 企业甚至会故意让这里的暴徒“抢劫”自家设施，以此来掩盖账目亏空、销毁证据或打击竞争对手\n      - 犯罪组织常向此地提供物资支援，以驱使暴徒制造“不幸事故”或袭击敌对势力\n  political_ecology:\n    power_struggle:\n      - 因2270年的 “掠夺之夜”事件:传说中的掠夺王“克雷珀恩”率领大规模掠夺团自此进击，尽管造成巨大损害后被镇压，但末日要塞 从此作为近邻最强掠夺团的地盘而被定型\n      - 故此支配权的争夺从未停止，往往一夜之间就会发生政权更迭\n      - 一旦现任支配者倒台，庞大的势力便会分裂，陷入更加混乱的战国状态\n    current_ruler:\n      name: 恶斧帮 (Bad Axe)\n      leader: 恶斧 (Bad Axe)\n      status:\n        - 自2298年维持支配至今，拥有异常的稳定性\n        - 虽然组织缺乏战略性，但干部全员皆为历经厮杀的强力战士\n        - 通过不断吸收被击败对手的残兵，势力正如滚雪球般膨胀\n      territory: 势力范围已延伸至周边的“垃圾场”与“暗巷”\n  bounty_system:\n    human_hunting:\n      - 此处的无法者全员皆默认为悬赏目标\n      - 即使无特定委托，带回其死亡证据（如首级或照片）也可换取报酬\n    rates:\n      - 一般成员: 1信用点/人\n      - 干部/精锐: 约5信用点/人\n      - 首领“恶斧”: 仅约10信用点\n    risk:\n      - 虽算是追猎者赚零花钱的途径，但无数人反遭猎杀\n    power_vacuum_crisis:\n      - 若现任支配者“恶斧”被击败，该区域将瞬间陷入各方势力争夺地盘的乱世\n      - 击败“恶斧”的强者将被视为宣示新主权的最佳标靶，遭到来自四面八方的袭击\n",
+            "content": "末日要塞:\n  type: 废墟群/暴力团巢穴/缓冲地带\n  location:\n    region: 外壁区与宵暗区的交界处\n    alias: 暮光领域 (Twilight Zone) 的核心区域\n  appearance:\n    visuals:\n      - 宛如世界末日般的荒废废墟群，原身为血之周末事件中，化为废墟的萨菲尔环境工程员工公寓\n      - 毫无再开发迹象，电力供应完全断绝，连路灯都已损坏殆尽\n      - 遍地散落着垃圾与瓦砾，深处一片漆黑\n      - 地面上随处可见篝火的痕迹、干涸的血迹以及尚未腐烂的尸体残块\n    atmosphere:\n      - 从废墟的阴影中时刻能感受到如肉食野兽般贪婪的视线\n      - 弥漫着腐臭与血腥味，昭示着此处居民的极度危险性\n  societal_function:\n    lawless_zone:\n      - 治安最恶劣的无法地带，强盗、杀人、强奸是日常便饭\n      - 遵循弱肉强食的原始法则，地位与头衔在此毫无意义\n      - 居民是暴力的化身，对外来者的基本方针是“男杀女奸”\n    buffer_zone:\n      - 作为表社会与里社会的缓冲地带，企业与大组织刻意维持其存在\n      - 被利用作为处理“脏活”的一次性弃子\n      - 企业甚至会故意让这里的暴徒“抢劫”自家设施，以此来掩盖账目亏空、销毁证据或打击竞争对手\n      - 犯罪组织常向此地提供物资支援，以驱使暴徒制造“不幸事故”或袭击敌对势力\n  political_ecology:\n    power_struggle:\n      - 因2270年的 “掠夺之夜”事件:传说中的掠夺王“克雷珀恩”率领大规模掠夺团自此进击，尽管造成巨大损害后被镇压，但末日要塞 从此作为近邻最强掠夺团的地盘而被定型\n      - 故此支配权的争夺从未停止，往往一夜之间就会发生政权更迭\n      - 一旦现任支配者·恶斧倒台，庞大的势力便会分裂，陷入更加混乱的战国状态\n\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -3370,7 +3374,7 @@
             ],
             "keysecondary": [],
             "comment": "神魔智街详解",
-            "content": "<区域:神魔智街>\n  区域:神魔智街:\n  type: 巨型观光欢乐街/主干道\n  official_name: 神魔智大通 (Kamimachi Street)\n  location:\n    specifics:\n      - 尽管行政上归属于外壁区下层，但位于“阿萨谢尔”下方北北西方向的填海造陆区而非阿萨谢尔的外壁中\n      - 延伸自港湾区，直抵神魔智学园\n    geography:\n      - 位于平坦的填海地，无坡度\n      - 抬头被外壁遮挡，无法看到住宅区的采光窗\n    connections:\n      south: 连接港湾区，设有连接淡路岛的陆桥，是物资运输的大动脉\n      north: 邻近宵暗区，北侧路巷均为危险地带，有掠夺团据点和巨型垃圾场\n      underground: 覆盖在迷宫区之上，拥有下水道、地下铁路及隐秘的地下走私通道\n\n  street_landscape:\n    scale: 拥有可供四辆大型运输车并排通行的宽阔车道\n    central_strip:\n      - 原中央隔离带已被改造成密集的店铺区\n      - 林立着无数风俗中介所与小型商店\n    sidewalks:\n      - 路肩被路边摊、街头表演和现场演奏占据\n      - 充斥着大量拉客的街娼与教团成员\n    visuals:\n      - 极彩色的招牌林立\n      - 随处投射着包含淫乱内容的立体影像\n      - 视线所及之处皆是娱乐设施\n    atmosphere:\n      - 24小时不间断营业，任何时间都能获得各类快感服务\n      - 喧嚣与极度混乱，交通事故与街头斗殴频发\n      - 公开身份的吸血鬼与妖精混迹人群之中\n      - 随处可见工薪族在酒后大声抱怨公司或谩骂客户，已成为此地特有的风景\n      - 因堕天特区的娱乐产业乃是教团的领域，故此处店铺大半由教团运营，不应该在公共场合以负面口吻指名道姓地谈论某位神祇\n\n  social_tolerance_and_risk:\n    tolerance:\n      - 此地视一切“特别”为常态\n      - 无论出身、外表或主义主张多么怪异，只要未对周围造成实质损害，便无人理会\n    hidden_threats:\n      - 因极度的宽容与匿名性，导致危险人物与恐怖分子常混迹于人群之中\n      - 追踪目标的追猎者同样潜伏于此\n    conflict_as_entertainment:\n      - 虽然大规模武力冲突较少发生，但绝非完全没有\n      - 偶发的暴力事件与骚乱被游客视为一种额外的“刺激”与余兴节目\n      - 甚至路上的警备力量在某种意义上也是为了维持这种“刺激”而存在\n\n  available_services:\n    观光景点:\n      - 街道本身即为著名的观光胜地\n      - 吸引大量日本本土及海外游客来访\n    娼馆:\n      - 从廉价店铺到需要会员资格的高级店一应俱全\n    街娼:\n      - 虽多为神魔智学园的学生，但也存在各色人等\n    赌场:\n      - 轻度的赌场酒吧与娱乐场随处可见\n    温泉:\n      - 包含大众澡堂、桑拿及利用地下水源的浴场\n    餐厅:\n      - 餐饮店种类繁多，涵盖所有档次与风味\n    旅店:\n      - 情人旅馆数量众多\n      - 卡拉OK包厢、网吧及咖啡厅的包间等设施，多在明确标注“Play OK”（允许性行为）\n\n  security_and_safety:\n    status: 尽管混乱，但作为观光地，治安相对良好\n    security_force:\n      provider: 于2293年悦乐同盟雇佣“姐妹会警备保障”负责神魔智街警备\n      unit: 负责的是下属部队·锡兵队\n    risk_level:\n      - 对普通观光客而言危险度较低\n      - 但若卷入突发事件，很容易成为受害者\n    public_decency:\n      - 街头公开性行为被视为平常之事，等同于路边表演\n      - 除明显的强暴行为外，不会被视作问题\n    street_security:\n      trigger_mechanism:\n        - 当发生战斗后稍过一会，将会有2名武装警备员赶到\n        - 若使用了有“战斗噪音”的武器或造成其他大动静，则飞速出现于战斗现场\n      interaction_flow:\n        warning_phase:\n          action: 警备员发出停止战斗的警告\n          compliance_result:\n            - 若双方服从，将被扣留进行10分钟的说教警告后释放\n        combat_intervention:\n          condition: 若无视警告继续战斗\n          response:\n            - 警备员将直接加入战斗进行武力镇压\n            - 会根据双方战力呼叫增援\n            - 增援对象包含“久远寺正己”及“悦乐同盟”的高级干部\n          outcome: 若闹事者选择应战，通常视为被镇压处理\n      consequences:\n        capture:\n          penalty: 最低50信用点的罚款\n          escalation: 根据造成的被害程度，罚款金额将无限上升\n        escape:\n          immediate: 将被“姐妹会警备保障”全员通缉，在辖区内活动受限\n          severe: 若在造成相当程度被害后逃亡，将被定性为赏金犯\n\n  demographics_and_living:\n    population:\n      residents: 确认居住者约2万人\n      extended: 包含学生、神殿娼妇、妖精及未登记人口，实际常驻可能近10万\n      visitors: 每日流动人口在5千至10万人之间\n    residency_logic:\n      commute_problem:\n        - 此地虽有地下铁路，但均为填海地内部循环线或通往中小企业街的线路\n        - 缺乏直通上层住宅区的铁路，导致往返通勤极为困难\n      consequence:\n        - 繁华街的店主与员工普遍放弃通勤，选择在当地居住\n        - 店铺大多设有居住层或临时休息室供员工使用\n    housing_infrastructure:\n      - 以短期生活为前提的廉价商务酒店林立\n      - 网吧与胶囊旅馆遍布街头\n    daily_life_support:\n      - 表层主干道虽以娱乐设施为主，但便利店极为密集\n      - 背街后巷分布着大量面向当地居民的大众食堂与生活杂货店\n\n  infrastructure_and_transport:\n    water:\n      source: 引自港湾区海水净化场\n      quality: 虽混有上层流下的废水，但经纳米技术与水系神明权能处理，已完全净化\n    power:\n      source: 堕天特区共用魔力永久循环炉\n      backup: 大型组织拥有独立发电设备\n      usage: 所有汽车与船舶均由电力驱动\n    maintenance:\n      provider: DH管理中心（俗称“猪穴”）\n      workforce: 特化人类·强改者 (Orc) 与作业机器人\n      scope: 负责道路修复、建筑维护及下水道疏通（应对史莱姆与树绳妖）\n    vehicle_ownership:\n      - 特区内养车费用极高，除业者外，拥有私人车辆是富裕阶层的奢侈消遣\n      - 唯一的例外是宵暗区，那里泛滥着非法改装的机车\n    public_transport:\n      subway:\n        - 仅连接填海地内部与中小企业街\n        - 治安尚可，但环境拥挤脏乱，毫无舒适度可言\n        - 富裕阶层避之不及，多选择收费巴士或高级出租车\n      port_access:\n        - 最近的港口航线迂回且邻近危险的“宵暗港”，观光渡轮不停靠\n        - 游客需在其他港口下船，换乘巴士\n        - “悦乐同盟”提供免费接送巴士，行驶于被仓库夹在中间的环状运输路，以避开治安恶劣的港湾区内部\n\n  major_events:\n    New_Year_Festival:\n      overview: 新年祭典，包含大宴会、街头倒计时与跨年性爱活动\n    Graduation_and_Entrance_Festivals:\n      overview: 神魔智学园的毕业与入学典礼，周边区域无关人员亦会一同狂欢，兼具伊什塔尔丰收祭性质\n    School_Festival:\n      overview: 神魔智学园祭，以学生主导的性服务为卖点，常有身着制服的社会人混入\n    Halloween:\n      overview: 妖精们的祭典，核心活动是带有性意味的“不给糖就捣蛋”与淫乱变装\n    Christmas:\n      overview: 宗教色淡薄的性爱之夜，几乎所有店铺都会举办派对\n",
+            "content": "<区域:神魔智街>\n  区域:神魔智街:\n  type: 巨型观光欢乐街\n  official_name: 神魔智大通 (Kamimachi Street)\n  location:\n    specifics:\n      - 尽管行政上归属于外壁区下层，但位于“阿萨谢尔”下方北北西方向的填海造陆区而非阿萨谢尔的外壁中\n      - 延伸自港湾区，直抵神魔智学园，是堕天特区最为成功的观光欢乐街\n    geography:\n      - 位于平坦的填海地，无坡度\n      - 抬头被外壁遮挡，无法看到住宅区的采光窗\n    connections:\n      south: 连接港湾区，设有连接淡路岛的陆桥，是物资运输的大动脉\n      north: 邻近宵暗区，北侧路巷均为危险地带，有掠夺团据点和巨型垃圾场\n      underground: 覆盖在迷宫区之上，拥有下水道、地下铁路及隐秘的地下走私通道\n\n  street_landscape:\n    scale: 拥有可供四辆大型运输车并排通行的宽阔车道\n    central_strip:\n      - 原中央隔离带已被改造成密集的店铺区\n      - 林立着无数风俗中介所与小型商店\n    sidewalks:\n      - 路肩被路边摊、街头乐手和艺人占据\n      - 充斥着大量拉客的街娼与教团成员\n    visuals:\n      - 极彩色的招牌林立\n      - 随处投射着包含淫乱内容的立体影像\n      - 视线所及之处皆是娱乐设施\n    atmosphere:\n      - 24小时不间断营业，任何时间都能获得各类快感服务\n      - 喧嚣且混乱，常有突发的事故或冲突\n      - 公开身份的吸血鬼与妖精常混迹人群之中\n      - 随处可见工薪族在酒后大声抱怨公司或谩骂客户，已成为此地特有的风景\n      - 因堕天特区的娱乐产业乃是教团的领域，故此处店铺大半由教团运营，不应该在公共场合以负面口吻指名道姓地谈论某位神祇\n\n  social_tolerance_and_risk:\n    tolerance:\n      - 此地视一切“特别”为常态\n      - 无论出身、外表或主义主张多么怪异，只要未对周围造成实质损害，便无人理会\n    hidden_threats:\n      - 因极度的宽容与匿名性，导致危险人物与恐怖分子常混迹于人群之中\n      - 追踪目标的追猎者同样潜伏于此\n    conflict_as_entertainment:\n      - 虽然大规模武力冲突较少发生，但绝非完全没有\n      - 偶发的暴力事件与骚乱被游客视为一种额外的“刺激”与余兴节目\n      - 甚至路上的警备力量在某种意义上也是为了维持这种“刺激”而存在\n\n  available_services:\n    观光景点:\n      - 街道本身即为著名的观光胜地\n      - 吸引大量日本本土及海外游客来访\n    娼馆:\n      - 从廉价店铺到需要会员资格的高级店一应俱全\n    街娼:\n      - 虽多为神魔智学园的学生，但也存在各色人等\n    赌场:\n      - 轻度的赌场酒吧与娱乐场随处可见\n    温泉:\n      - 包含大众澡堂、桑拿及利用地下水源的浴场\n    餐厅:\n      - 餐饮店种类繁多，涵盖所有档次与风味\n    旅店:\n      - 情人旅馆数量众多\n      - 卡拉OK包厢、网吧及咖啡厅的包间等设施，多在明确标注“Play OK”（允许性行为）\n\n  security_and_safety:\n    status: 尽管混乱，但作为观光地，治安相对良好\n    security_force:\n      provider: 于2293年悦乐同盟雇佣“姐妹会警备保障”负责神魔智街警备\n      unit: 负责的是下属部队·锡兵队\n    risk_level:\n      - 对普通观光客而言危险度较低\n      - 但若卷入突发事件，很容易成为受害者\n    public_decency:\n      - 街头公开性行为被视为平常之事，等同于路边表演\n      - 除明显的强暴行为外，不会被视作问题\n    street_security:\n      trigger_mechanism:\n        - 当发生战斗后稍过一会，将会有2名武装警备员赶到\n        - 若使用了有“战斗噪音”的武器或造成其他大动静，则飞速出现于战斗现场\n      interaction_flow:\n        warning_phase:\n          action: 警备员发出停止战斗的警告\n          compliance_result:\n            - 若双方服从，将被扣留进行10分钟的说教警告后释放\n        combat_intervention:\n          condition: 若无视警告继续战斗\n          response:\n            - 警备员将直接加入战斗进行武力镇压\n            - 会根据双方战力呼叫增援\n            - 增援对象包含“久远寺正己”及“悦乐同盟”的高级干部\n          outcome: 若闹事者选择应战，通常视为被镇压处理\n      consequences:\n        capture:\n          penalty: 最低50信用点的罚款\n          escalation: 根据造成的被害程度，罚款金额将无限上升\n        escape:\n          immediate: 将被“姐妹会警备保障”全员通缉，在辖区内活动受限\n          severe: 若在造成相当程度被害后逃亡，将被定性为赏金犯\n\n  demographics_and_living:\n    population:\n      residents: 确认居住者约2万人\n      extended: 包含学生、神殿娼妇、妖精及未登记人口，实际常驻可能近10万\n      visitors: 每日流动人口在5千至10万人之间\n    residency_logic:\n      commute_problem:\n        - 此地虽有地下铁路，但均为填海地内部循环线或通往中小企业街的线路\n        - 缺乏直通上层住宅区的铁路，导致往返通勤极为困难\n      consequence:\n        - 繁华街的店主与员工普遍放弃通勤，选择在当地居住\n        - 店铺大多设有居住层或临时休息室供员工使用\n    housing_infrastructure:\n      - 以短期生活为前提的廉价商务酒店林立\n      - 网吧与胶囊旅馆遍布街头\n    daily_life_support:\n      - 表层主干道虽以娱乐设施为主，但便利店极为密集\n      - 背街后巷分布着大量面向当地居民的大众食堂与生活杂货店\n\n  infrastructure_and_transport:\n    water:\n      source: 引自港湾区海水净化场\n      quality: 虽混有上层流下的废水，但经纳米技术与水系神明权能处理，已完全净化\n    power:\n      source: 堕天特区共用魔力永久循环炉\n      backup: 大型组织拥有独立发电设备\n      usage: 所有汽车与船舶均由电力驱动\n    maintenance:\n      provider: DH管理中心（俗称“猪穴”）\n      workforce: 特化人类·强改者 (Orc) 与作业机器人\n      scope: 负责道路修复、建筑维护及下水道疏通（以及应对史莱姆与树绳妖）\n    public_transport:\n      地铁:\n        - 仅连接填海地内部与中小企业街\n        - 治安尚可，但环境拥挤脏乱，毫无舒适度可言\n        - 富裕阶层避之不及，多选择收费巴士或高级出租车\n      port_access:\n        - 最近的港口航线迂回且邻近危险的“宵暗港”，观光渡轮不停靠\n        - 游客需在其他港口下船，换乘巴士\n        - “悦乐同盟”提供免费接送巴士，行驶于被仓库夹在中间的环状运输路，以避开治安恶劣的港湾区内部\n\n  major_events:\n    New_Year_Festival:\n      overview: 新年祭典，包含大宴会、街头倒计时与跨年性爱活动\n    Graduation_and_Entrance_Festivals:\n      overview: 神魔智学园的毕业与入学典礼，周边区域无关人员亦会一同狂欢，兼具伊什塔尔丰收祭性质\n    School_Festival:\n      overview: 神魔智学园祭，以学生主导的性服务为卖点，常有身着制服的社会人混入\n    Halloween:\n      overview: 妖精们的祭典，核心活动是带有性意味的“不给糖就捣蛋”与淫乱变装\n    Christmas:\n      overview: 宗教色淡薄的性爱之夜，几乎所有店铺都会举办派对\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -3525,7 +3529,7 @@
             ],
             "keysecondary": [],
             "comment": "间宫旅舍",
-            "content": "间宫旅舍:\n  type: 高级酒店/中立交涉所\n  location: 神魔智街\n  appearance:\n    exterior:\n      - 覆盖着黑曜石外装的大型建筑群\n      - 由三栋大楼构成三角形布局\n      - 无数客房的窗户俯瞰着街道夜景\n    structure:\n      - 三栋楼之间由巨大的露台连接，设有高级餐厅与宴会场\n      - 正门玄关繁忙，酒店巴士频繁出入\n      - 大堂灯火通明，色调温暖，与外界的喧嚣形成鲜明对比\n  history_and_transformation:\n    origin:\n      - 建于神魔智学园开校初期(2236年)，最初是面向考生与家长的简朴旅馆\n    turning_point:\n      - 随着周边区域的繁华街化，客层发生剧变，加上2250年发生崩坏事件导致的建筑崩塌\n    reconstruction:\n      - 在2253年经历全面改建后重生为高级酒店，而为防止惨剧重演，确立了彻底的安保与禁武政策\n  security_and_policy:\n    no_weapon_rule:\n      - 酒店内全面禁止携带武器\n      - 所有枪械、刀剑须在入口处寄存，离店时归还\n      - 而如果没被警备员发现的话，可通过将武器植入体内偷偷带入旅舍\n    penalties:\n      - 私带武器被发现：罚款50信用点\n      - 在店内使用武器：罚款300信用点起步，并被列为赏金犯\n    guard_force:\n      - 警备员全员未携带武器，由擅长徒手格斗的高位魅魔与格斗家组成\n      - 她们会在入口处温柔地引导客人解除武装\n  function_and_social:\n    accommodation:\n      - 拥有超过500间客房\n      - 房价：1至100+信用点/晚（旺季常爆满）\n      - 设施齐全：含餐厅、便利店、泳池、医院、健身房\n      - 提供周边店铺的外卖服务，适合长期居住\n    social_hub:\n      - 连日举办各类庆典、校友会、婚礼及交流派对\n      - 是“悦乐同盟”的会议地点\n      - 常被用作敌对组织间的和平谈判场所\n      - 追猎者常来此构建人脉或寻找护卫委托\n    rumor:\n      - 传闻深夜的宴会场内，每晚都在举行极度淫乱的秘密宴会\n  available_services:\n    住宿:\n      - 提供从标准间到顶级套房的各类客房\n    餐饮:\n      - 汇集了多家环境安静的高级餐厅\n    街娼\n    观光:\n      - 大堂与酒吧常年聚集着体验高级氛围的游客",
+            "content": "间宫旅舍:\n  type: 高级酒店/中立交涉所\n  location: 神魔智街\n  appearance:\n    exterior:\n      - 覆盖着黑曜石外装的大型建筑群\n      - 由三栋大楼构成三角形布局\n      - 无数客房的窗户俯瞰着街道夜景\n    structure:\n      - 三栋楼之间由巨大的露台连接，设有高级餐厅与宴会厅\n      - 正门玄关繁忙，酒店巴士频繁出入\n      - 大堂灯火通明，色调温暖，与外界的喧嚣形成鲜明对比\n  history_and_transformation:\n    origin:\n      - 建于神魔智学园开校初期(2236年)，最初是面向考生与家长的简朴旅馆\n    turning_point:\n      - 随着周边区域的繁华街化，客层发生剧变，加上2250年发生崩坏事件导致的建筑崩塌\n    reconstruction:\n      - 在2253年经历全面改建后重生为高级酒店，而为防止惨剧重演，确立了彻底的安保与禁武政策\n  security_and_policy:\n    no_weapon_rule:\n      - 酒店内全面禁止携带武器，但对装备不做限制\n      - 所有枪械、刀剑须在入口处寄存，离店时归还\n      - 安检不会对客人体内进行检测，故而可通过内置武器等嵌入身体内部的隐藏式武器来规避安检，将武器带入旅舍\n    penalties:\n      - 私带武器被发现：罚款50信用点\n      - 在店内使用武器：罚款300信用点起步，并被列为赏金犯\n    guard_force:\n      - 警备员全员未携带武器，由擅长徒手格斗的高位魅魔与格斗家组成\n      - 她们会在入口处温柔地引导客人解除武装\n  function_and_social:\n    accommodation:\n      - 拥有超过500间客房\n      - 房价：1至100+信用点/晚（旺季常爆满）\n      - 设施齐全：含餐厅、便利店、泳池、医院、健身房\n      - 也与许多神魔智街的店家合作，提供外卖服务，甚至有客人因此便选择了长期住宿，茧居在客房中生活\n    social_hub:\n      - 拥有复数的宴会厅，几乎每日都会举办各类庆典、校友会、婚礼及交流派对\n      - 是“悦乐同盟”的会议地点，也常被用作敌对组织间的和平谈判场所\n      - 因此常有追猎者来此构建人脉或寻找护卫委托\n    rumor:\n      - 传闻深夜的宴会厅内，每晚都在举行极度淫乱的秘密宴会\n  available_services:\n    住宿:\n      - 提供从标准间到顶级套房的各类客房\n    餐饮:\n      - 汇集了多家环境安静的高级餐厅\n    街娼:\n      - 常有试图榜上大款的街娼，此地的员工也偶尔兼职街娼\n    观光:\n      - 大堂与酒吧常年聚集着体验高级氛围的游客",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -3561,12 +3565,7 @@
             "displayIndex": 28,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "78": {
             "uid": 78,
@@ -4041,9 +4040,7 @@
             ],
             "keysecondary": [
                 "猪坑",
-                "魅魔",
                 "强改者",
-                "特化人类",
                 "下水道",
                 "DH管理协会"
             ],
@@ -4514,7 +4511,7 @@
             ],
             "keysecondary": [],
             "comment": "克罗塞尔大浴场",
-            "content": "克罗塞尔大浴场:\n  type: 超大型综合温泉休闲中心/万魔殿现世据点\n  location: 神魔智街\n  appearance:\n    exterior:\n      - 占地广阔的圆柱形大楼\n      - 地上10层，但因单层层高是普通建筑的两倍以上，成为该街道最高的建筑\n      - 外墙贴满淡绿松石色瓷砖，宛如矗立在喧嚣街道中的清凉绿洲\n      - 低层窗户被设计成巨大的水族箱，热带海水鱼在其中游弋\n    layout:\n      - 包括地下层在内，每层中央均为风格各异的大浴场，在其周围环绕着各类店铺与服务设施\n      - 屋顶设有著名的巨型露天温泉，可俯瞰整个街区夜景\n  management_and_policy:\n    operator:\n      - 万魔殿在现世最大规模的设施，由“浴槽公”克罗塞尔主导运营\n    philosophy:\n      - 基于恶魔对人类采取的“现状维持”方针，旨在提供良性的堕落与享乐\n      - 定价极其良心，即便是普通市民也能轻松负担\n      - 严禁强暴等让客人感到不快的行为，极度重视性癖匹配度\n    demon_lords_involvement:\n      - 众多大恶魔分管不同区域：\n        - 大浴场: 克罗塞尔\n        - 赌场: 玛门\n        - 地下海水浴场: 威帕与佛尔涅乌斯\n        - 酒馆: 萨雷奥斯\n      - 嘉宾出现: 在淫乱区域，巴风特与莉莉丝等上位恶魔偶尔会作为顾客或嘉宾自主现身\n  security_and_guardians:\n    dragon_guards:\n      - 每个楼层的大浴场都有一头全长10米级的巨龙（地狱诸公的坐骑）驻守\n      - 它们通常性格温顺，但会毫不留情地攻击在浴场内闹事者\n    demon_bouncers:\n      - 温泉以外的设施常驻着拥有上位恶魔实力的强力恶魔担任保镖\n    safety_record:\n      - 自开业以来从未被暴力动摇过，任何捣乱者都会被瞬间镇压\n  available_services:\n    温泉:\n      - 堕天特区最高级的温泉体验，种类繁多\n      - 从治愈身心的健全药汤到极度淫乱的酒池肉林一应俱全\n      - 既吸引寻求刺激的观光客，也是当地居民寻求治愈的热门去处\n    特殊服务_龙伴:\n      - 若达成共识，允许与守卫巨龙进行性行为（被称为“龙奸”）\n    餐饮:\n      - 自动贩卖机数量极多，餐厅种类丰富\n    赌场:\n      - 提供入浴后消遣用的乒乓球、麻将等轻度赌博\n    街娼:\n      - 仅限在较为开放的区域之中，搭讪也是相当容易的\n      - 拥有大量受雇的提供性服务的陪浴员工\n  origin_story:\n    - 因大恶魔阿斯塔罗斯（伊什塔尔的一面）与万魔殿的深厚关系而被招商引资至此\n    - 旨在将神魔智街改造为快乐都市，随街道性质变化而引入了大量淫乱要素\n",
+            "content": "克罗塞尔大浴场:\n  type: 超大型综合温泉休闲中心/万魔殿现世据点\n  location: 神魔智街\n  appearance:\n    exterior:\n      - 占地广阔的圆柱形大楼\n      - 地上10层，但因单层层高是普通建筑的两倍以上，成为该街道最高的建筑\n      - 外墙贴满淡绿松石色瓷砖，宛如矗立在喧嚣街道中的清凉绿洲\n      - 低层窗户被设计成巨大的水族箱，热带海水鱼在其中游弋\n    layout:\n      - 包括地下层在内，每层中央均为风格各异的大浴场，在其周围环绕着各类店铺与服务设施\n      - 屋顶设有著名的巨型露天温泉，可俯瞰整个街区夜景\n  management_and_policy:\n    operator:\n      - 万魔殿在现世最大规模的设施，由“浴槽公”克罗塞尔主导运营\n    philosophy:\n      - 基于恶魔对人类采取的“现状维持”方针，旨在提供良性的堕落与享乐\n      - 定价极其良心，即便是普通市民也能轻松负担\n      - 严禁强暴等让客人感到不快的行为，极度重视性癖匹配度\n    demon_lords_involvement:\n      - 众多大恶魔分管不同区域：\n        - 大浴场: 克罗塞尔\n        - 赌场: 玛门\n        - 地下海水浴场: 威帕与佛尔涅乌斯\n        - 酒馆: 萨雷奥斯\n      - 嘉宾出现: 在淫乱区域，巴风特与莉莉丝等上位恶魔偶尔会作为顾客或嘉宾自主现身\n  security_and_guardians:\n    dragon_guards:\n      - 每个楼层的大浴场都有一头全长10米级的巨龙（地狱诸公的坐骑）驻守\n      - 它们通常性格温顺，但会毫不留情地攻击在浴场内闹事者\n    demon_bouncers:\n      - 温泉以外的设施常驻着拥有上位恶魔实力的强力恶魔担任保镖\n    safety_record:\n      - 自开业以来从未被暴力动摇过，任何捣乱者都会被瞬间镇压\n  available_services:\n    温泉:\n      - 堕天特区最高级的温泉体验，种类繁多\n      - 从治愈身心的健全药汤到极度淫乱的酒池肉林一应俱全\n      - 既吸引寻求刺激的观光客，也是当地居民寻求治愈的热门去处\n    特殊服务_龙伴:\n      - 若双方达成共识，允许与守卫巨龙进行性行为\n    餐饮:\n      - 自动贩卖机数量极多，餐厅种类丰富\n    赌场:\n      - 提供入浴后消遣用的乒乓球、麻将等轻度赌博\n    街娼:\n      - 仅限在较为开放的区域之中，搭讪也是相当容易的\n      - 拥有大量受雇的提供性服务的陪浴员工\n  origin_story:\n    - 因大恶魔阿斯塔罗斯（伊什塔尔的一面）与万魔殿的深厚关系而被招商引资至此\n    - 旨在将神魔智街改造为快乐都市，随街道性质变化而引入了大量淫乱要素\n",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -4912,7 +4909,12 @@
             "triggers": [],
             "displayIndex": 28,
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         }
     }
 }
