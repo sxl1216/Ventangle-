@@ -741,7 +741,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "15": {
             "uid": 15,
@@ -1736,7 +1741,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "35": {
             "uid": 35,
@@ -2231,7 +2241,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "45": {
             "uid": 45,
@@ -4626,7 +4641,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "93": {
             "uid": 93,
@@ -4671,7 +4691,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "94": {
             "uid": 94,
@@ -5587,54 +5612,6 @@
             "selectiveLogic": 0,
             "addMemo": true,
             "order": 201,
-            "position": 4,
-            "disable": false,
-            "ignoreBudget": false,
-            "excludeRecursion": false,
-            "preventRecursion": false,
-            "matchPersonaDescription": false,
-            "matchCharacterDescription": false,
-            "matchCharacterPersonality": false,
-            "matchCharacterDepthPrompt": false,
-            "matchScenario": false,
-            "matchCreatorNotes": false,
-            "delayUntilRecursion": false,
-            "probability": 100,
-            "useProbability": true,
-            "depth": 3,
-            "outletName": "",
-            "group": "",
-            "groupOverride": false,
-            "groupWeight": 100,
-            "scanDepth": null,
-            "caseSensitive": null,
-            "matchWholeWords": null,
-            "useGroupScoring": null,
-            "automationId": "",
-            "role": 0,
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
-        },
-        "114": {
-            "uid": 114,
-            "key": [],
-            "keysecondary": [],
-            "comment": "当前事件显示",
-            "content": "@@preprocessing\n<%_\nif (typeof currentEvent === 'undefined') var currentEvent = getvar('stat_data.事件系统.当前事件', { defaults: '' });\n_%>\n\n<%_ if (currentEvent !== '' && currentEvent !== '无') { _%>\n当前<%= currentEvent %>进行中\n<%_ } _%>",
-            "constant": true,
-            "vectorized": false,
-            "selective": true,
-            "selectiveLogic": 0,
-            "addMemo": true,
-            "order": 203,
             "position": 4,
             "disable": false,
             "ignoreBudget": false,

@@ -589,7 +589,7 @@
             ],
             "keysecondary": [],
             "comment": "追猎者屋",
-            "content": "追猎者屋:\n  type: 地点类型/专业中心\n  location: 外壁区下层\n  overview: 通常以酒吧形式存在的追猎者非官方行会与社交中心，是委托人与追猎者建立联系的主要枢纽\n  core_functions:\n    mission_brokerage:\n      process: 店主会亲自评估前来发布委托的客人与寻求工作的追猎者，然后进行双向介绍\n      value_proposition: 相比匿名的网络募集，这种基于店主信誉的中间人模式提供了更高的可靠性，至少能过滤掉明显不靠谱的委托或执行者\n    social_hub:\n      purpose: 作为追猎者之间日常交流、交换情报、组建临时团队的重要场所\n      opportunity: 被认为是与资深追猎者建立联系、学习经验的绝佳地点",
+            "content": "追猎者屋:\n  type: 地点类型\n  location: 外壁区下层\n  overview: 指代通常以酒吧形式存在的追猎者非官方行会与社交中心，是委托人与追猎者建立联系的主要枢纽\n  core_functions:\n    mission_brokerage:\n      process: 店主会亲自评估前来发布委托的客人与寻求工作的追猎者，然后进行双向介绍\n      value_proposition: 相比匿名的网络募集，这种基于店主信誉的中间人模式提供了更高的可靠性，至少能过滤掉明显不靠谱的委托或执行者\n    social_hub:\n      purpose: 作为追猎者之间日常交流、交换情报、组建临时团队的重要场所\n      opportunity: 被认为是与资深追猎者建立联系、学习经验的绝佳地点",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -626,12 +626,7 @@
             "displayIndex": 28,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "12": {
             "uid": 12,
@@ -3565,7 +3560,12 @@
             "displayIndex": 28,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "78": {
             "uid": 78,
@@ -4766,7 +4766,6 @@
                 "Nobullshit",
                 "地狱摇篮",
                 "最终审判",
-                "追猎者屋",
                 "咒术巷"
             ],
             "keysecondary": [],

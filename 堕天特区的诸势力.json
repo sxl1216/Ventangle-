@@ -958,7 +958,11 @@
         },
         "19": {
             "uid": 19,
-            "key": [],
+            "key": [
+                "神魔智",
+                "华阳达纪",
+                "电子图书馆"
+            ],
             "keysecondary": [],
             "comment": "神魔智学园",
             "content": "神魔智学园 :\n  定位: 位于神魔智街尽头，堕天特区最大规模的教育设施，也是神魔智街的中枢\n  领导者: 学园理事长是玉藻前的现人神、华阳达纪。\n  特点: 以风纪淫乱和过于自由的校风而闻名。拥有堕天特区规模最大的电子图书馆，凭借其信息优势在企业和教团中保持独立地位",
@@ -971,7 +975,7 @@
             "position": 1,
             "disable": false,
             "ignoreBudget": false,
-            "excludeRecursion": true,
+            "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
             "matchCharacterDescription": false,
@@ -997,12 +1001,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 23,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 23
         },
         "20": {
             "key": [],
@@ -1097,12 +1096,7 @@
             "displayIndex": 19,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "22": {
             "key": [
@@ -1529,7 +1523,7 @@
             "order": 5010,
             "position": 1,
             "disable": false,
-            "excludeRecursion": true,
+            "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
             "matchCharacterDescription": false,
@@ -1557,12 +1551,7 @@
             "displayIndex": 23,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "31": {
             "uid": 31,
@@ -2084,12 +2073,7 @@
             "displayIndex": 13,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "42": {
             "key": [
@@ -2137,12 +2121,7 @@
             "displayIndex": 8,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "43": {
             "key": [
@@ -2614,7 +2593,12 @@
             "displayIndex": 3,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "52": {
             "key": [
@@ -2761,12 +2745,7 @@
             "displayIndex": 23,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "56": {
             "uid": 56,
@@ -2776,7 +2755,7 @@
             ],
             "keysecondary": [],
             "comment": "对魔团",
-            "content": "对魔团:\n  定义与理念:\n    本质: 泛指那些呼吁驱逐魔法、妖精与神，以“取回人类文明应有姿态”为宗旨而集成的团体；在日本与堕天特区，通常自称“对魔团”\n    起源: 其思想的征兆自魔法出现之初便已存在，并在“大变革”后，随着妖精与神在世界各地大行其道而开始了大规模活动\n  现状与活动:\n    社会行动: 在日本与堕天特区反复进行示威活动，乃至多次对妖精与妖术师施以私刑，过去甚至会进行恐怖袭击，已成为一股无法忽视的力量；但在陷入半毁状态，又得到了援助重建之后，该组织方针转为以示威活动和煽动民众为主，但不知何时又会展开恐怖袭击\n    斗争前线: 将由诸神主导的神魔智街视为战争的最前线\n    内部分裂: 因内部微小的理念差异而始终无法团结，内外部斗争频发\n  战略与关系:\n    外部关系: 活动得以持续主要得益于各个“古血统”的强力支援，共同推进着讨伐众神与妖精的事业\n    敌对势力: 多次与神魔智街的支配者们发生冲突，据点也因此辗转流连，但其活动难以被彻底阻止；这场斗争恐怕将持续到某一方被彻底根绝为止\n    被分化策略: 永恒者们正利用其内部分裂的特点，意图通过分化策略实现温和的平息\n",
+            "content": "对魔团:\n  定义与理念:\n    本质: 泛指那些呼吁驱逐魔法、妖精与神，以“取回人类文明应有姿态”为宗旨而集成的团体；在日本与堕天特区，通常自称“对魔团”\n    起源: 其思想的征兆自魔法出现之初便已存在，并在“大变革”后，随着妖精与神在世界各地大行其道而开始了大规模活动\n  现状与活动:\n    社会行动: 在日本与堕天特区反复进行示威活动，乃至多次对妖精与妖术师施以私刑，过去甚至会进行恐怖袭击，已成为一股无法忽视的力量；但在陷入半毁状态，又得到了援助重建之后，该组织方针转为以示威活动和煽动民众为主，但不知何时又会展开恐怖袭击\n    斗争前线: 将由诸神主导的神魔智街视为战争的最前线\n    内部分裂: 因内部微小的理念差异而始终无法团结，内外部斗争频发\n  战略与关系:\n    外部关系: 活动得以持续主要得益于各个“古血统”，特别是八重家的强力支援，共同推进着讨伐众神与妖精的事业\n    敌对势力: 多次与神魔智街的支配者们发生冲突，据点也因此辗转流连，但其活动难以被彻底阻止；这场斗争恐怕将持续到某一方被彻底根绝为止\n    被分化策略: 永恒者们正利用其内部分裂的特点，意图通过分化策略实现温和的平息\n",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -2785,7 +2764,7 @@
             "order": 5010,
             "position": 1,
             "disable": false,
-            "excludeRecursion": true,
+            "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
             "matchCharacterDescription": false,
@@ -2812,12 +2791,7 @@
             "displayIndex": 23,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": "",
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "outletName": ""
         },
         "58": {
             "uid": 58,
