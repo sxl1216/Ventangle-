@@ -1001,7 +1001,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 23
+            "displayIndex": 23,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "20": {
             "key": [],
@@ -1096,7 +1101,12 @@
             "displayIndex": 19,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "22": {
             "key": [
@@ -1551,7 +1561,12 @@
             "displayIndex": 23,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "31": {
             "uid": 31,
@@ -2045,7 +2060,7 @@
             "order": 3010,
             "position": 1,
             "disable": false,
-            "excludeRecursion": true,
+            "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
             "matchCharacterDescription": false,
@@ -2121,7 +2136,12 @@
             "displayIndex": 8,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "43": {
             "key": [
@@ -2745,7 +2765,12 @@
             "displayIndex": 23,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "56": {
             "uid": 56,
@@ -2791,7 +2816,12 @@
             "displayIndex": 23,
             "triggers": [],
             "ignoreBudget": false,
-            "outletName": ""
+            "outletName": "",
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "58": {
             "uid": 58,

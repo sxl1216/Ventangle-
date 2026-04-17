@@ -55,7 +55,7 @@
             ],
             "keysecondary": [],
             "comment": "暗巷随机事件开头",
-            "content": "<RandomEvent>\n暗巷随机事件\nTrigger:\n  若当前{{user}}处于暗巷中且未处于其他事件中、也没有打算向其他区域移动时，如果下述预设随机事件适合当前状况触发，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
+            "content": "<RandomEvent>\n暗巷随机事件\nTrigger:\n  若当前{{user}}位于暗巷中且未处于其他事件中、也没有打算向其他区域移动时，如果下述预设随机事件适合当前状况触发，则参考下述预设随机事件信息生成一个合理的事件(不直接阐述下述内容，也拒绝生硬的照搬)：\nEvent:",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -105,7 +105,7 @@
             ],
             "keysecondary": [],
             "comment": "断头巷随机事件开头",
-            "content": "<RandomEvent>\n断头巷随机事件\nTrigger:\n  若当前{{user}}位于断头巷中且未处于其他事件中、也没有打算向其他区域移动时，如果下述预设随机事件适合当前状况触发，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
+            "content": "<RandomEvent>\n断头巷随机事件\nTrigger:\n  若当前{{user}}位于断头巷中且未处于其他事件中、也没有打算向其他区域移动时，如果下述预设随机事件适合当前状况触发，则参考下述预设随机事件信息生成一个合理的事件(不直接阐述下述内容，也拒绝生硬的照搬)：\nEvent:",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -155,7 +155,7 @@
             ],
             "keysecondary": [],
             "comment": "神魔智街随机事件开头",
-            "content": "<RandomEvent>\n神魔智街随机事件\nTrigger:\n  若当前{{user}}处于神魔智街街道中且未处于其他事件中、也没有打算向其他区域移动时，如果下述预设随机事件适合当前状况触发，则通过下述预设随机事件信息生成一个事件(不直接阐述下述内容)：\nEvent:",
+            "content": "<RandomEvent>\n神魔智街随机事件\nTrigger:\n  若当前{{user}}位于神魔智街的街道中且未处于其他事件中、也没有打算移动到别的地方时，如果下述预设随机事件适合当前状况触发，则参考下述预设随机事件信息生成一个合理的事件(不直接阐述下述内容，也拒绝生硬的照搬)：\nEvent:",
             "constant": false,
             "vectorized": false,
             "selective": true,
@@ -191,12 +191,7 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 0,
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "displayIndex": 0
         },
         "4": {
             "uid": 4,
